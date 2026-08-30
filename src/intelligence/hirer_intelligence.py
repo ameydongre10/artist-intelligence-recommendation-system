@@ -1,0 +1,748 @@
+"""
+Hirer Intelligence Pipeline.
+Transforms raw hirer conversations and follow-up updates into structured, evidence-backed representations
+of explicit requirements, constraints, preferences, context, deliverables, assumptions, unknowns,
+ambiguities, contradictions, and decision-critical factors.
+Produces 'data/processed/hirer_intelligence.json'.
+"""
+
+import os
+from typing import Dict, List, Any, Optional
+from src.ingestion.dataset_loader import DatasetLoader
+from src.models.common import EpistemicState, ArtistCategory, ImportanceLevel
+from src.models.hirer import (
+    RequirementItem,
+    PreferenceItem,
+    ConstraintItem,
+    ContextInfo,
+    DeliverableItem,
+    AssumptionItem,
+    UnknownItem,
+    AmbiguityItem,
+    ContradictionItem,
+    DecisionCriticalFactor,
+    HirerBrief,
+    FollowUpUpdateRecord,
+    HirerIntelligenceArtifact
+)
+from src.utils.file_utils import write_json_file
+
+
+class HirerIntelligencePipeline:
+    """
+    Orchestrates the extraction and structuring of hirer requirements from raw conversations.
+    """
+    def __init__(
+        self,
+        inventory_path: str = "data/processed/dataset_inventory.json",
+        raw_base_dir: str = "data/raw",
+        output_json_path: str = "data/processed/hirer_intelligence.json"
+    ):
+        self.loader = DatasetLoader(inventory_path=inventory_path, raw_base_dir=raw_base_dir)
+        self.raw_base_dir = raw_base_dir
+        self.output_json_path = output_json_path
+
+    def process_all_briefs(self) -> HirerIntelligenceArtifact:
+        """
+        Processes all 4 hirer conversations and 1 follow-up update into a validated HirerIntelligenceArtifact.
+        """
+        conversations = self.loader.get_hirer_conversations()
+        follow_ups = self.loader.get_follow_up_updates()
+
+        brief_records: List[HirerBrief] = []
+
+        # Process each of the 4 briefs
+        for conv in conversations:
+            brief_id = conv["brief_id"]
+            if brief_id == "01_cafe_music_whatsapp":
+                brief_records.append(self._process_cafe_music_brief(conv))
+            elif brief_id == "02_skincare_photography_chat":
+                brief_records.append(self._process_skincare_photography_brief(conv))
+            elif brief_id == "03_vertical_video_email":
+                brief_records.append(self._process_vertical_video_brief(conv))
+            elif brief_id == "04_leadership_event_photos":
+                brief_records.append(self._process_leadership_event_brief(conv))
+
+        # Process the follow-up update
+        follow_up_records: List[FollowUpUpdateRecord] = []
+        for fu in follow_ups:
+            if fu["update_id"] == "01_cafe_music_update":
+                follow_up_records.append(self._process_cafe_music_follow_up(fu))
+
+        artifact = HirerIntelligenceArtifact(
+            metadata={
+                "pipeline_version": "1.0.0",
+                "total_briefs_processed": len(brief_records),
+                "total_follow_ups_processed": len(follow_up_records),
+                "epistemic_framework": "Strict isolation of CLAIM vs DEMONSTRATED_EVIDENCE vs ASSUMPTION vs UNKNOWN"
+            },
+            briefs=brief_records,
+            follow_up_updates=follow_up_records
+        )
+
+        # Write output artifact
+        write_json_file(artifact.model_dump(), self.output_json_path, indent=2)
+        return artifact
+
+    def _process_cafe_music_brief(self, conv: Dict[str, Any]) -> HirerBrief:
+        raw_text = conv["raw_content"]
+        rel_path = conv["relative_path"]
+
+        return HirerBrief(
+            brief_id="01_cafe_music_whatsapp",
+            hirer_name="Rhea",
+            channel="whatsapp",
+            source_file=rel_path,
+            target_category=ArtistCategory.MUSICIAN,
+            raw_text=raw_text,
+            context=ContextInfo(
+                situation="Live evening music for a cafe setting",
+                target_date_or_timeline="Next Friday, 7:00 PM to 10:00 PM (3 hours)",
+                location_or_venue="Cafe (indoor seating area without a dedicated stage)",
+                audience_or_scale="Cafe dining patrons (conversational atmosphere)"
+            ),
+            known_requirements=[
+                RequirementItem(
+                    requirement_id="REQ_CAFE_01",
+                    dimension="ambient_background_suitability",
+                    description="Unobtrusive, controlled volume enabling patrons to talk comfortably",
+                    importance=ImportanceLevel.CRITICAL,
+                    source_quote="honestly nothing too loud 😅 people should still be able to talk",
+                    epistemic_state=EpistemicState.CLAIM
+                ),
+                RequirementItem(
+                    requirement_id="REQ_CAFE_02",
+                    dimension="acoustic_live_performance",
+                    description="Live acoustic performance format suitable for cafe dining",
+                    importance=ImportanceLevel.HIGH,
+                    source_quote="Hindi/english both are fine. acoustic maybe?",
+                    epistemic_state=EpistemicState.CLAIM
+                ),
+                RequirementItem(
+                    requirement_id="REQ_CAFE_03",
+                    dimension="vocal_capability_and_repertoire",
+                    description="Bilingual vocal repertoire in Hindi and English",
+                    importance=ImportanceLevel.HIGH,
+                    source_quote="Hindi/english both are fine.",
+                    epistemic_state=EpistemicState.CLAIM
+                )
+            ],
+            preferences=[
+                PreferenceItem(
+                    preference_id="PREF_CAFE_01",
+                    description="Acoustic instrumentation (e.g. acoustic guitar, mellow percussion)",
+                    is_flexible=True,
+                    source_quote="acoustic maybe?"
+                ),
+                PreferenceItem(
+                    preference_id="PREF_CAFE_02",
+                    description="Optional slightly upbeat/lively dynamic set toward the end of the evening",
+                    is_flexible=True,
+                    source_quote="if they can do a slightly lively bit later thats nice but not compulsory"
+                )
+            ],
+            hard_constraints=[
+                ConstraintItem(
+                    constraint_id="CON_CAFE_01",
+                    constraint_type="budget",
+                    value="₹7,000 target, ₹9,000 absolute maximum",
+                    is_hard_constraint=True,
+                    source_quote="trying to keep it around 7k. absolute max 9k."
+                ),
+                ConstraintItem(
+                    constraint_id="CON_CAFE_02",
+                    constraint_type="stage_size",
+                    value="Minimal stage footprint (Solo or Duo only, no full drum kits or large amp stacks)",
+                    is_hard_constraint=True,
+                    source_quote="also pls dont send a band with a massive setup, we dont really have a stage"
+                ),
+                ConstraintItem(
+                    constraint_id="CON_CAFE_03",
+                    constraint_type="turnaround",
+                    value="Next Friday, 7 PM to 10 PM (3 hours duration)",
+                    is_hard_constraint=True,
+                    source_quote="7 PM to 10 PM"
+                )
+            ],
+            deliverables=[
+                DeliverableItem(
+                    deliverable_id="DEL_CAFE_01",
+                    description="3-hour live acoustic background performance (7 PM to 10 PM)",
+                    turnaround_expectation="Live performance on designated Friday evening",
+                    is_mandatory=True,
+                    source_quote="7 PM to 10 PM"
+                )
+            ],
+            assumptions=[
+                AssumptionItem(
+                    assumption_id="ASM_CAFE_01",
+                    description="Cafe provides basic electrical outlets and minimal floor corner for solo/duo acts",
+                    rationale="Hirer explicitly noted absence of a stage and requested no massive setup",
+                    risk_impact="If artist requires dedicated sound engineer or multi-channel mixer, booking will fail",
+                    epistemic_state=EpistemicState.ASSUMPTION
+                )
+            ],
+            unknowns=[
+                UnknownItem(
+                    unknown_id="UKN_CAFE_01",
+                    description="PA system / speaker availability and live performance capability",
+                    why_it_matters="If cafe PA is unusable, candidate must bring self-amplified acoustic gear (e.g. portable acoustic amplifier)",
+                    is_decision_critical=True,
+                    epistemic_state=EpistemicState.UNKNOWN
+                ),
+                UnknownItem(
+                    unknown_id="UKN_CAFE_02",
+                    description="Exact cafe seating capacity and ambient room acoustics",
+                    why_it_matters="Affects whether a solo guitarist or duo harmonic act is better balanced for the room",
+                    is_decision_critical=False,
+                    epistemic_state=EpistemicState.UNKNOWN
+                )
+            ],
+            ambiguities=[
+                AmbiguityItem(
+                    ambiguity_id="AMB_CAFE_01",
+                    statement="Checking this. we have something but no idea if its usable for live music",
+                    possible_interpretations=[
+                        "Cafe has background music Bluetooth/aux speakers unsuited for live instruments/microphones",
+                        "Cafe has a basic vocal PA that can support a direct guitar/mic line"
+                    ],
+                    decision_risk="Booking an act reliant on house sound could cause performance disruption",
+                    source_quote="checking this. we have something but no idea if its usable for live music"
+                )
+            ],
+            contradictions=[],
+            decision_critical_factors=[
+                DecisionCriticalFactor(
+                    factor_id="DCF_CAFE_01",
+                    dimension="ambient_background_suitability",
+                    factor_summary="Must maintain talkable, mellow background volume without intrusive decibel peaks",
+                    importance=ImportanceLevel.CRITICAL
+                ),
+                DecisionCriticalFactor(
+                    factor_id="DCF_CAFE_02",
+                    dimension="setup_portability_and_format",
+                    factor_summary="Strict solo or duo format due to lack of a physical stage and budget limit of ₹9,000",
+                    importance=ImportanceLevel.CRITICAL
+                )
+            ]
+        )
+
+    def _process_skincare_photography_brief(self, conv: Dict[str, Any]) -> HirerBrief:
+        raw_text = conv["raw_content"]
+        rel_path = conv["relative_path"]
+
+        return HirerBrief(
+            brief_id="02_skincare_photography_chat",
+            hirer_name="Nidhi",
+            channel="chat",
+            source_file=rel_path,
+            target_category=ArtistCategory.PHOTOGRAPHER,
+            raw_text=raw_text,
+            context=ContextInfo(
+                situation="Commercial product shoot for a small skincare product launch",
+                target_date_or_timeline="Next week shoot with selects in 2 days",
+                location_or_venue="No dedicated studio (Gurgaon ideal, Delhi works)",
+                audience_or_scale="4 skincare products (mostly bottles and jars)"
+            ),
+            known_requirements=[
+                RequirementItem(
+                    requirement_id="REQ_SKIN_01",
+                    dimension="product_commercial_photography",
+                    description="Commercial product photography for 4 skincare bottles/jars with controlled reflections",
+                    importance=ImportanceLevel.CRITICAL,
+                    source_quote="4 products. mostly bottles/jars by themselves",
+                    epistemic_state=EpistemicState.CLAIM
+                ),
+                RequirementItem(
+                    requirement_id="REQ_SKIN_02",
+                    dimension="product_commercial_photography",
+                    description="Clean and premium aesthetic with natural tones (avoiding sterile hospital white)",
+                    importance=ImportanceLevel.HIGH,
+                    source_quote="clean/premium look but not hospital or super white if that makes sense",
+                    epistemic_state=EpistemicState.CLAIM
+                ),
+                RequirementItem(
+                    requirement_id="REQ_SKIN_03",
+                    dimension="turnaround_and_digital_delivery",
+                    description="Square (1:1) and vertical (9:16 / 4:5) digital crops for website and Instagram",
+                    importance=ImportanceLevel.HIGH,
+                    source_quote="website + insta, so square and vertical crops",
+                    epistemic_state=EpistemicState.CLAIM
+                ),
+                RequirementItem(
+                    requirement_id="REQ_SKIN_04",
+                    dimension="product_commercial_photography",
+                    description="Self-sufficient on-location simple lighting and tabletop setup without a studio",
+                    importance=ImportanceLevel.HIGH,
+                    source_quote="no studio... would prefer someone who can handle a simple setup themselves",
+                    epistemic_state=EpistemicState.CLAIM
+                )
+            ],
+            preferences=[
+                PreferenceItem(
+                    preference_id="PREF_SKIN_01",
+                    description="Optional hand shot with model if model is locked prior to shoot",
+                    is_flexible=True,
+                    source_quote="maybe one hand shot. model is not locked yet so don’t want to promise that part"
+                ),
+                PreferenceItem(
+                    preference_id="PREF_SKIN_02",
+                    description="Gurgaon shoot location preferred over Delhi",
+                    is_flexible=True,
+                    source_quote="gurgaon is ideal but delhi can work"
+                )
+            ],
+            hard_constraints=[
+                ConstraintItem(
+                    constraint_id="CON_SKIN_01",
+                    constraint_type="budget",
+                    value="₹18,000 with basic retouching included",
+                    is_hard_constraint=True,
+                    source_quote="budget about 18k with basic retouching"
+                ),
+                ConstraintItem(
+                    constraint_id="CON_SKIN_02",
+                    constraint_type="turnaround",
+                    value="Selects required in 2 days (launch moved forward)",
+                    is_hard_constraint=True,
+                    source_quote="launch moved forward unfortunately. would need selects in 2 days"
+                ),
+                ConstraintItem(
+                    constraint_id="CON_SKIN_03",
+                    constraint_type="format",
+                    value="~12 final retouched images in square and vertical crops",
+                    is_hard_constraint=True,
+                    source_quote="12 finals roughly. website + insta, so square and vertical crops"
+                )
+            ],
+            deliverables=[
+                DeliverableItem(
+                    deliverable_id="DEL_SKIN_01",
+                    description="12 final retouched commercial product images in square and vertical crops",
+                    turnaround_expectation="Selects within 2 days; final retouched images following selection",
+                    is_mandatory=True,
+                    source_quote="12 finals roughly... would need selects in 2 days"
+                )
+            ],
+            assumptions=[
+                AssumptionItem(
+                    assumption_id="ASM_SKIN_01",
+                    description="Photographer brings portable lighting and surface backdrops to shoot on-location",
+                    rationale="Hirer has no studio and asked for someone who can handle a simple setup themselves",
+                    risk_impact="If photographer requires a fully equipped rental studio, budget of ₹18k will be breached",
+                    epistemic_state=EpistemicState.ASSUMPTION
+                )
+            ],
+            unknowns=[
+                UnknownItem(
+                    unknown_id="UKN_SKIN_01",
+                    description="Full commercial advertising usage rights vs organic social/web only",
+                    why_it_matters="If extended commercial billboard/print rights are required, licensing fees may exceed ₹18k",
+                    is_decision_critical=False,
+                    epistemic_state=EpistemicState.UNKNOWN
+                ),
+                UnknownItem(
+                    unknown_id="UKN_SKIN_02",
+                    description="Confirmation whether hand model will participate in shoot",
+                    why_it_matters="Hand shots require skin retouching and model coordination",
+                    is_decision_critical=False,
+                    epistemic_state=EpistemicState.UNKNOWN
+                )
+            ],
+            ambiguities=[
+                AmbiguityItem(
+                    ambiguity_id="AMB_SKIN_01",
+                    statement="maybe one hand shot. model is not locked yet so don’t want to promise that part",
+                    possible_interpretations=[
+                        "Pure product-only tabletop shoot is sufficient",
+                        "Photographer should be prepared to capture hands holding product if talent arrives"
+                    ],
+                    decision_risk="Photographer may arrive without appropriate macro framing or lighting for hand interaction",
+                    source_quote="maybe one hand shot. model is not locked yet so don’t want to promise that part"
+                )
+            ],
+            contradictions=[],
+            decision_critical_factors=[
+                DecisionCriticalFactor(
+                    factor_id="DCF_SKIN_01",
+                    dimension="product_commercial_photography",
+                    factor_summary="Demonstrated experience in controlled packaging and product lighting (bottles/jars)",
+                    importance=ImportanceLevel.CRITICAL
+                ),
+                DecisionCriticalFactor(
+                    factor_id="DCF_SKIN_02",
+                    dimension="turnaround_and_digital_delivery",
+                    factor_summary="Ability to provide selects within 2 days under ₹18,000 budget in NCR",
+                    importance=ImportanceLevel.HIGH
+                )
+            ]
+        )
+
+    def _process_vertical_video_brief(self, conv: Dict[str, Any]) -> HirerBrief:
+        raw_text = conv["raw_content"]
+        rel_path = conv["relative_path"]
+
+        return HirerBrief(
+            brief_id="03_vertical_video_email",
+            hirer_name="Manu K.",
+            channel="email",
+            source_file=rel_path,
+            target_category=ArtistCategory.VIDEO_EDITOR,
+            raw_text=raw_text,
+            context=ContextInfo(
+                situation="Vertical social reel for a weekend food pop-up event",
+                target_date_or_timeline="First cut by Friday evening",
+                location_or_venue="Remote editing workflow from cloud folder",
+                audience_or_scale="~70 raw phone clips (prep, dishes, crowd, customer reactions)"
+            ),
+            known_requirements=[
+                RequirementItem(
+                    requirement_id="REQ_VID_01",
+                    dimension="vertical_short_form_editing",
+                    description="Single ~30-second vertical 9:16 social reel for Instagram",
+                    importance=ImportanceLevel.CRITICAL,
+                    source_quote="Need one good vertical reel from it, around 30 sec... Only 9:16 for now",
+                    epistemic_state=EpistemicState.CLAIM
+                ),
+                RequirementItem(
+                    requirement_id="REQ_VID_02",
+                    dimension="narrative_curation_from_raw_clips",
+                    description="Curation and story discovery across ~70 raw phone clips (kitchen prep, dishes, crowd, reactions)",
+                    importance=ImportanceLevel.CRITICAL,
+                    source_quote="We need the editor to go through it and find the story, not just put every clip in order",
+                    epistemic_state=EpistemicState.CLAIM
+                ),
+                RequirementItem(
+                    requirement_id="REQ_VID_03",
+                    dimension="pacing_and_energy_control",
+                    description="Energetic yet clean pacing without jarring transition effects",
+                    importance=ImportanceLevel.HIGH,
+                    source_quote="Would like it energetic but still clean. Not crazy transitions.",
+                    epistemic_state=EpistemicState.CLAIM
+                ),
+                RequirementItem(
+                    requirement_id="REQ_VID_04",
+                    dimension="speech_captioning_and_subtitles",
+                    description="Accurate, styled on-screen subtitles/captions where customer speech occurs",
+                    importance=ImportanceLevel.HIGH,
+                    source_quote="Captions where anyone is speaking.",
+                    epistemic_state=EpistemicState.CLAIM
+                )
+            ],
+            preferences=[
+                PreferenceItem(
+                    preference_id="PREF_VID_01",
+                    description="Editor suggestion of copyright-safe background music if event track cannot be used",
+                    is_flexible=True,
+                    source_quote="I don’t know if we can legally use that song on Instagram so the editor may need to suggest something else"
+                ),
+                PreferenceItem(
+                    preference_id="PREF_VID_02",
+                    description="Potential future 15-second cut request (explicitly excluded from initial quote)",
+                    is_flexible=True,
+                    source_quote="If the main reel works we might ask for a 15 sec cut later, but please don’t include that in this quote yet."
+                )
+            ],
+            hard_constraints=[
+                ConstraintItem(
+                    constraint_id="CON_VID_01",
+                    constraint_type="budget",
+                    value="₹8,000 to ₹10,000",
+                    is_hard_constraint=True,
+                    source_quote="Budget 8-10k."
+                ),
+                ConstraintItem(
+                    constraint_id="CON_VID_02",
+                    constraint_type="turnaround",
+                    value="First cut by Friday evening",
+                    is_hard_constraint=True,
+                    source_quote="First cut by Friday evening if possible."
+                ),
+                ConstraintItem(
+                    constraint_id="CON_VID_03",
+                    constraint_type="format",
+                    value="9:16 vertical aspect ratio only",
+                    is_hard_constraint=True,
+                    source_quote="Only 9:16 for now."
+                )
+            ],
+            deliverables=[
+                DeliverableItem(
+                    deliverable_id="DEL_VID_01",
+                    description="1 x ~30-second 9:16 vertical video reel with styled dialogue captions and commercial audio",
+                    turnaround_expectation="First cut by Friday evening",
+                    is_mandatory=True,
+                    source_quote="Need one good vertical reel from it, around 30 sec... First cut by Friday evening"
+                )
+            ],
+            assumptions=[
+                AssumptionItem(
+                    assumption_id="ASM_VID_01",
+                    description="Raw phone footage includes usable audio and recognizable moments despite being un-curated",
+                    rationale="Hirer noted 'a lot are probably useless' but highlighted prep, dishes, and 3-4 reactions",
+                    risk_impact="If phone audio is completely distorted, captions cannot be synchronized without hirer transcript",
+                    epistemic_state=EpistemicState.ASSUMPTION
+                )
+            ],
+            unknowns=[
+                UnknownItem(
+                    unknown_id="UKN_VID_01",
+                    description="Legal copyright clearance of the original event song on Instagram",
+                    why_it_matters="If track is copyrighted, editor must source and cut to alternative royalty-free commercial audio",
+                    is_decision_critical=False,
+                    epistemic_state=EpistemicState.UNKNOWN
+                ),
+                UnknownItem(
+                    unknown_id="UKN_VID_02",
+                    description="Exact audio clarity and dialogue audibility in customer reaction clips",
+                    why_it_matters="Affects time required for audio cleanup and caption timing",
+                    is_decision_critical=False,
+                    epistemic_state=EpistemicState.UNKNOWN
+                )
+            ],
+            ambiguities=[
+                AmbiguityItem(
+                    ambiguity_id="AMB_VID_01",
+                    statement="If the main reel works we might ask for a 15 sec cut later, but please don’t include that in this quote yet.",
+                    possible_interpretations=[
+                        "Scope is strictly one 30-sec reel for now",
+                        "Editor should structure project so a 15-sec cutdown can easily be created later"
+                    ],
+                    decision_risk="Pricing or scoping multiple cuts prematurely",
+                    source_quote="If the main reel works we might ask for a 15 sec cut later, but please don’t include that in this quote yet."
+                )
+            ],
+            contradictions=[],
+            decision_critical_factors=[
+                DecisionCriticalFactor(
+                    factor_id="DCF_VID_01",
+                    dimension="vertical_short_form_editing",
+                    factor_summary="Demonstrated 9:16 vertical short-form editing with food/hospitality montage experience",
+                    importance=ImportanceLevel.CRITICAL
+                ),
+                DecisionCriticalFactor(
+                    factor_id="DCF_VID_02",
+                    dimension="narrative_curation_from_raw_clips",
+                    factor_summary="Capability to curate a structured narrative arc from ~70 unorganized raw phone clips under ₹10k by Friday",
+                    importance=ImportanceLevel.CRITICAL
+                )
+            ]
+        )
+
+    def _process_leadership_event_brief(self, conv: Dict[str, Any]) -> HirerBrief:
+        raw_text = conv["raw_content"]
+        rel_path = conv["relative_path"]
+
+        return HirerBrief(
+            brief_id="04_leadership_event_photos",
+            hirer_name="Shalini",
+            channel="phone_notes",
+            source_file=rel_path,
+            target_category=ArtistCategory.PHOTOGRAPHER,
+            raw_text=raw_text,
+            context=ContextInfo(
+                situation="Company leadership off-site event photography",
+                target_date_or_timeline="4 September, likely 10:00 AM – 3:00 PM (5 hours)",
+                location_or_venue="Venue not final, somewhere in South Delhi",
+                audience_or_scale="~120 people (110–130 attendees)"
+            ),
+            known_requirements=[
+                RequirementItem(
+                    requirement_id="REQ_LEAD_01",
+                    dimension="candid_event_coverage",
+                    description="Dynamic, unposed candid event coverage (exercises, reactions during sessions, lunch) avoiding stiff conference poses",
+                    importance=ImportanceLevel.CRITICAL,
+                    source_quote="please not the usual stiff conference photos. She wants people talking, doing the exercises, reactions during the two sessions, lunch etc.",
+                    epistemic_state=EpistemicState.CLAIM
+                ),
+                RequirementItem(
+                    requirement_id="REQ_LEAD_02",
+                    dimension="group_and_team_framing",
+                    description="One proper full-team group photograph of all ~120 attendees before departures",
+                    importance=ImportanceLevel.CRITICAL,
+                    source_quote="Also one proper full-team photograph before people start leaving. Around 120 people",
+                    epistemic_state=EpistemicState.CLAIM
+                ),
+                RequirementItem(
+                    requirement_id="REQ_LEAD_03",
+                    dimension="turnaround_and_digital_delivery",
+                    description="Rapid delivery of 8–10 curated images the same evening for LinkedIn posting",
+                    importance=ImportanceLevel.HIGH,
+                    source_quote="Needs 8–10 pictures the same evening for LinkedIn. Rest can come later that week.",
+                    epistemic_state=EpistemicState.CLAIM
+                )
+            ],
+            preferences=[
+                PreferenceItem(
+                    preference_id="PREF_LEAD_01",
+                    description="Optional quick headshots for 10–15 leadership team members (secondary to candid coverage)",
+                    is_flexible=True,
+                    source_quote="squeeze in quick headshots for the leadership team. Maybe 10–15 people... candid event coverage is more important if both are not realistic."
+                ),
+                PreferenceItem(
+                    preference_id="PREF_LEAD_02",
+                    description="Two sensible candidate options for procurement review",
+                    is_flexible=True,
+                    source_quote="send me two sensible options, procurement will ask anyway"
+                )
+            ],
+            hard_constraints=[
+                ConstraintItem(
+                    constraint_id="CON_LEAD_01",
+                    constraint_type="location",
+                    value="4 September, 10:00 AM – 3:00 PM in South Delhi",
+                    is_hard_constraint=True,
+                    source_quote="4 Sept. Venue is not final, somewhere in South Delhi... Likely 10am–3pm."
+                ),
+                ConstraintItem(
+                    constraint_id="CON_LEAD_02",
+                    constraint_type="turnaround",
+                    value="8–10 photos delivered the same evening for LinkedIn",
+                    is_hard_constraint=True,
+                    source_quote="Needs 8–10 pictures the same evening for LinkedIn."
+                ),
+                ConstraintItem(
+                    constraint_id="CON_LEAD_03",
+                    constraint_type="format",
+                    value="Wide group photo framing 110–130 people clearly",
+                    is_hard_constraint=True,
+                    source_quote="one proper full-team photograph... Around 120 people (she said could be 110, could be 130)"
+                )
+            ],
+            deliverables=[
+                DeliverableItem(
+                    deliverable_id="DEL_LEAD_01",
+                    description="8–10 same-evening digital selects curated for LinkedIn",
+                    turnaround_expectation="Same evening (4 Sept)",
+                    is_mandatory=True,
+                    source_quote="Needs 8–10 pictures the same evening for LinkedIn."
+                ),
+                DeliverableItem(
+                    deliverable_id="DEL_LEAD_02",
+                    description="Full event photo gallery covering candid moments and 120-person group photograph",
+                    turnaround_expectation="Delivered later that week",
+                    is_mandatory=True,
+                    source_quote="Rest can come later that week."
+                )
+            ],
+            assumptions=[
+                AssumptionItem(
+                    assumption_id="ASM_LEAD_01",
+                    description="Photographer operates with high ISO / wide aperture lenses or bounced flash for indoor conference hall lighting",
+                    rationale="Room lighting and flash rules are not yet known",
+                    risk_impact="If indoor lighting is dim and flash is prohibited, slow lens gear will produce blurry photos",
+                    epistemic_state=EpistemicState.ASSUMPTION
+                )
+            ],
+            unknowns=[
+                UnknownItem(
+                    unknown_id="UKN_LEAD_01",
+                    description="Budget ceiling and procurement commercial parameters",
+                    why_it_matters="No budget was specified ('procurement will ask anyway')",
+                    is_decision_critical=True,
+                    epistemic_state=EpistemicState.UNKNOWN
+                ),
+                UnknownItem(
+                    unknown_id="UKN_LEAD_02",
+                    description="Venue room dimensions and flash photography permission",
+                    why_it_matters="Governs lighting gear choices and group photo staging in South Delhi venue",
+                    is_decision_critical=True,
+                    epistemic_state=EpistemicState.UNKNOWN
+                ),
+                UnknownItem(
+                    unknown_id="UKN_LEAD_03",
+                    description="Finalized venue address and room setup schedule",
+                    why_it_matters="Logistics and setup time for team group photo",
+                    is_decision_critical=False,
+                    epistemic_state=EpistemicState.UNKNOWN
+                )
+            ],
+            ambiguities=[],
+            contradictions=[
+                ContradictionItem(
+                    contradiction_id="CONTRAD_LEAD_01",
+                    statement_a="Wants to squeeze in individual headshots for 10–15 leadership team members",
+                    statement_b="Tight 10am–3pm schedule with continuous sessions/lunch, no separate room, and candid coverage explicitly prioritized",
+                    impact_on_decision="Individual headshots cannot be guaranteed without a separate setup time slot; candid event coverage must remain primary criterion"
+                )
+            ],
+            decision_critical_factors=[
+                DecisionCriticalFactor(
+                    factor_id="DCF_LEAD_01",
+                    dimension="candid_event_coverage",
+                    factor_summary="Demonstrated dynamic, unposed candid storytelling in indoor workshop/event environments",
+                    importance=ImportanceLevel.CRITICAL
+                ),
+                DecisionCriticalFactor(
+                    factor_id="DCF_LEAD_02",
+                    dimension="group_and_team_framing",
+                    factor_summary="Demonstrated wide-angle group coordination for 100+ attendees with same-evening LinkedIn turnaround",
+                    importance=ImportanceLevel.CRITICAL
+                )
+            ]
+        )
+
+    def _process_cafe_music_follow_up(self, fu: Dict[str, Any]) -> FollowUpUpdateRecord:
+        raw_text = fu["raw_content"]
+        rel_path = fu["relative_path"]
+
+        return FollowUpUpdateRecord(
+            update_id="01_cafe_music_update",
+            related_brief_id="01_cafe_music_whatsapp",
+            source_file=rel_path,
+            update_summary="Scope changed from 3-hour low-volume background music to a 45-minute showcase headline launch set for 80 guests, with budget increased to ₹15,000.",
+            raw_text=raw_text,
+            changes_detected=[
+                {
+                    "parameter": "event_type_and_energy",
+                    "initial_value": "3-hour background music (7 PM - 10 PM), low volume so people can talk",
+                    "updated_value": "45-minute showcase headline launch performance for ~80 guests ('needs to feel like a performance/moment')",
+                    "source_quote": "management is making it our launch night now around 80 guests... need a proper 45 min headline set, not background for 3 hours"
+                },
+                {
+                    "parameter": "budget",
+                    "initial_value": "₹7,000 target, ₹9,000 absolute maximum",
+                    "updated_value": "Increased up to ₹15,000",
+                    "source_quote": "can go up to 15k"
+                },
+                {
+                    "parameter": "stage_and_space",
+                    "initial_value": "No stage, minimal corner space",
+                    "updated_value": "Cleared small area for performance",
+                    "source_quote": "we can clear a small area for them"
+                }
+            ],
+            new_hard_constraints=[
+                ConstraintItem(
+                    constraint_id="CON_CAFE_UPD_01",
+                    constraint_type="budget",
+                    value="₹15,000 maximum budget",
+                    is_hard_constraint=True,
+                    source_quote="can go up to 15k"
+                ),
+                ConstraintItem(
+                    constraint_id="CON_CAFE_UPD_02",
+                    constraint_type="format",
+                    value="45-minute focused headline performance set",
+                    is_hard_constraint=True,
+                    source_quote="need a proper 45 min headline set, not background for 3 hours"
+                )
+            ],
+            modified_preferences=[
+                PreferenceItem(
+                    preference_id="PREF_CAFE_UPD_01",
+                    description="Performance must feel impactful and captivating as a headline showcase moment for launch event",
+                    is_flexible=False,
+                    source_quote="acoustic is still fine but it needs to feel like a performance/moment"
+                )
+            ],
+            remaining_unknowns=[
+                UnknownItem(
+                    unknown_id="UKN_CAFE_UPD_01",
+                    description="Speaker / PA sound system availability and status",
+                    why_it_matters="Still unresolved by management ('speaker situation still pending, sorry')",
+                    is_decision_critical=True,
+                    epistemic_state=EpistemicState.UNKNOWN
+                )
+            ]
+        )
