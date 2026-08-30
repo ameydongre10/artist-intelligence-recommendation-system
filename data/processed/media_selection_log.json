@@ -1,0 +1,246 @@
+{
+  "total_artists_processed": 15,
+  "selection_policy": "Representative sampling (max 4-6 assets per artist based on category heuristics)",
+  "artist_logs": [
+    {
+      "artist_id": "P01",
+      "source_folder_name": "P01_Aanya_Rao",
+      "category": "photographer",
+      "total_media_available": 9,
+      "selected_samples_count": 6,
+      "selected_files": [
+        "587772091_18388610977181645_5390859402103325237_n.jpg",
+        "588248682_18388610974181645_2768095694106311115_n.jpg",
+        "654876028_18440827159113295_420923875456327857_n.jpg",
+        "655181081_18440827168113295_5764439845250431447_n.jpg",
+        "655263876_18223863544312302_4251431796425398007_n.jpg",
+        "655871751_18118340938718334_6115286600173335271_n.jpg"
+      ],
+      "selection_rationale": "Selected top representative 6 assets prioritizing category-specific keywords and valid container metadata.",
+      "citations_generated": 6
+    },
+    {
+      "artist_id": "P02",
+      "source_folder_name": "P02_Kabir_Mehta",
+      "category": "photographer",
+      "total_media_available": 10,
+      "selected_samples_count": 6,
+      "selected_files": [
+        "581888523_18149152837419095_6510529012749050816_n.jpg",
+        "584395302_18193975549332430_7589282168204267782_n.jpg",
+        "589130604_18193975528332430_8271070466375639613_n.jpg",
+        "609878058_18084106841154787_5898780034346918704_n.webp",
+        "610850380_18084106811154787_2749123973287611292_n.webp",
+        "610905695_18084106829154787_7361777869458644219_n.webp"
+      ],
+      "selection_rationale": "Selected top representative 6 assets prioritizing category-specific keywords and valid container metadata.",
+      "citations_generated": 6
+    },
+    {
+      "artist_id": "P03",
+      "source_folder_name": "P03_Leena_Thomas",
+      "category": "photographer",
+      "total_media_available": 21,
+      "selected_samples_count": 6,
+      "selected_files": [
+        "472955981_18135833542377008_469825668246561939_n.jpg",
+        "474898919_18135833524377008_7619101935522501329_n.jpg",
+        "495094082_18480800233070732_5072622893058829221_n.jpg",
+        "495129960_18480800263070732_1441767438525505640_n.jpg",
+        "568535953_18048233270659994_1343407068267753818_n.jpg",
+        "568686047_18048233231659994_3453830850745898476_n.jpg"
+      ],
+      "selection_rationale": "Selected top representative 6 assets prioritizing category-specific keywords and valid container metadata.",
+      "citations_generated": 6
+    },
+    {
+      "artist_id": "PO4",
+      "source_folder_name": "PO4_Drift",
+      "category": "photographer",
+      "total_media_available": 4,
+      "selected_samples_count": 4,
+      "selected_files": [
+        "20250923T183847233ZUTCimage0.png",
+        "20250923T184357748ZUTCimage0.png",
+        "20250924T064005020ZUTCimage0.png",
+        "20250925T125803554ZUTCimage0.png"
+      ],
+      "selection_rationale": "Selected top representative 4 assets prioritizing category-specific keywords and valid container metadata.",
+      "citations_generated": 4
+    },
+    {
+      "artist_id": "PO5",
+      "source_folder_name": "PO5_Frames",
+      "category": "photographer",
+      "total_media_available": 8,
+      "selected_samples_count": 6,
+      "selected_files": [
+        "20250720T201756066ZUTC352c0d6f-7e85-44d6-968c-37c505a1ef4c.jpg",
+        "20250720T202151397ZUTCa86353ed-8705-4600-b7c0-d16ee62733c2.jpg",
+        "20250720T202449728ZUTC4f82bf1e-7884-45f5-8b42-608dde96b1db.jpg",
+        "20250811T215431642ZUTCf01f13d7-c534-4067-bb63-f24ba353158e.jpg",
+        "20250811T220343256ZUTC25f3203f-9b7a-4bc9-86b3-488e7efddcc9.jpg",
+        "20250813T161646030ZUTC6bcfaa33-a853-4464-959a-4d066856b159.jpg"
+      ],
+      "selection_rationale": "Selected top representative 6 assets prioritizing category-specific keywords and valid container metadata.",
+      "citations_generated": 6
+    },
+    {
+      "artist_id": "M01",
+      "source_folder_name": "M01_Meera_Arjun",
+      "category": "musician",
+      "total_media_available": 6,
+      "selected_samples_count": 5,
+      "selected_files": [
+        "MA_cafe_demo_take1.wav",
+        "35860-408654164.mp4",
+        "35863-408654169.mp4",
+        "35865-408654178.mp4",
+        "35868-408654193.mp4"
+      ],
+      "selection_rationale": "Selected top representative 5 assets prioritizing category-specific keywords and valid container metadata.",
+      "citations_generated": 5
+    },
+    {
+      "artist_id": "M02",
+      "source_folder_name": "M02_Neon_Junction",
+      "category": "musician",
+      "total_media_available": 4,
+      "selected_samples_count": 4,
+      "selected_files": [
+        "ahsleysnow-feel-like-home-523056.mp3",
+        "alex-morgan-downtempo-chill-electronic-528322.mp3",
+        "holodr3ams-pretty-when-i-fall-419712.mp3",
+        "sub_clair-electronic-586100.mp3"
+      ],
+      "selection_rationale": "Selected top representative 4 assets prioritizing category-specific keywords and valid container metadata.",
+      "citations_generated": 4
+    },
+    {
+      "artist_id": "M03",
+      "source_folder_name": "M03_Raghav_Sen",
+      "category": "musician",
+      "total_media_available": 3,
+      "selected_samples_count": 3,
+      "selected_files": [
+        "alanajordan-letting-go-342368.mp3",
+        "folk_acoustic-summer-walk-152722.mp3",
+        "swantwirls-quotthe-shared-moonquot-french-male-vocals-ballad-slow-489373.mp3"
+      ],
+      "selection_rationale": "Selected top representative 3 assets prioritizing category-specific keywords and valid container metadata.",
+      "citations_generated": 3
+    },
+    {
+      "artist_id": "M04",
+      "source_folder_name": "M04_KillRush",
+      "category": "musician",
+      "total_media_available": 5,
+      "selected_samples_count": 5,
+      "selected_files": [
+        "VID_20260820_214956_321.mp4",
+        "VID_20260820_215053_667.mp4",
+        "VID_20260820_215432_704.mp4",
+        "VID_20260820_215633_211.mp4",
+        "VID_20260820_215739_384.mp4"
+      ],
+      "selection_rationale": "Selected top representative 5 assets prioritizing category-specific keywords and valid container metadata.",
+      "citations_generated": 5
+    },
+    {
+      "artist_id": "M05",
+      "source_folder_name": "M05_Lunar_Noise",
+      "category": "musician",
+      "total_media_available": 7,
+      "selected_samples_count": 5,
+      "selected_files": [
+        "_storage_emulated_0_Movies_Instagram_VID_20260820_220359_022.mp4",
+        "VID_20260820_220500_334.mp4",
+        "VID_20260820_220534_412.mp4",
+        "VID_20260820_220933_637.mp4",
+        "VID_20260820_221016_264.mp4"
+      ],
+      "selection_rationale": "Selected top representative 5 assets prioritizing category-specific keywords and valid container metadata.",
+      "citations_generated": 5
+    },
+    {
+      "artist_id": "V01",
+      "source_folder_name": "V01_Nisha_Kapoor",
+      "category": "video_editor",
+      "total_media_available": 7,
+      "selected_samples_count": 5,
+      "selected_files": [
+        "Video-11391.mp4",
+        "Video-1382.mp4",
+        "Video-42290.mp4",
+        "Video-43513.mp4",
+        "Video-69962.mp4"
+      ],
+      "selection_rationale": "Selected top representative 5 assets prioritizing category-specific keywords and valid container metadata.",
+      "citations_generated": 5
+    },
+    {
+      "artist_id": "V02",
+      "source_folder_name": "V02_Rehman_Ali",
+      "category": "video_editor",
+      "total_media_available": 7,
+      "selected_samples_count": 5,
+      "selected_files": [
+        "Video-23970.mp4",
+        "Video-41797.mp4",
+        "Video-5523.mp4",
+        "Video-70182.mp4",
+        "Video-75516.mp4"
+      ],
+      "selection_rationale": "Selected top representative 5 assets prioritizing category-specific keywords and valid container metadata.",
+      "citations_generated": 5
+    },
+    {
+      "artist_id": "V03",
+      "source_folder_name": "V03_Rahul_Gupta",
+      "category": "video_editor",
+      "total_media_available": 12,
+      "selected_samples_count": 5,
+      "selected_files": [
+        "Video-12136.mp4",
+        "Video-15915.mp4",
+        "Video-28319.mp4",
+        "Video-32406.mp4",
+        "Video-32465.mp4"
+      ],
+      "selection_rationale": "Selected top representative 5 assets prioritizing category-specific keywords and valid container metadata.",
+      "citations_generated": 5
+    },
+    {
+      "artist_id": "VO4",
+      "source_folder_name": "VO4_Shivam_media",
+      "category": "video_editor",
+      "total_media_available": 9,
+      "selected_samples_count": 5,
+      "selected_files": [
+        "0df61083-dd4f-4133-923f-4d181237d13a_1000185779.jpg",
+        "1666cefa-0524-45b6-a064-20b461e1cb20_1000185783.jpg",
+        "9540acd8-653c-4df5-b65d-a43ef80d7eff_1000185780.jpg",
+        "a03e48d1-2e2c-4495-a100-51cf10da6505_1000185790.jpg",
+        "c31b5529-8290-4f38-9802-24ff9e7ff38d_1000185789.jpg"
+      ],
+      "selection_rationale": "Selected top representative 5 assets prioritizing category-specific keywords and valid container metadata.",
+      "citations_generated": 5
+    },
+    {
+      "artist_id": "VO5",
+      "source_folder_name": "VO5_Roshan",
+      "category": "video_editor",
+      "total_media_available": 8,
+      "selected_samples_count": 5,
+      "selected_files": [
+        "4320_Samsung_Event_Videography.mp4",
+        "4323_Cafe_videography.mov",
+        "4331_EDITING_WORK.mp4",
+        "4332_Mini_Vlog_edit.mov",
+        "_Music_Events.mp4"
+      ],
+      "selection_rationale": "Selected top representative 5 assets prioritizing category-specific keywords and valid container metadata.",
+      "citations_generated": 5
+    }
+  ]
+}

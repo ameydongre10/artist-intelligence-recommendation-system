@@ -1,0 +1,601 @@
+{
+  "version": "1.0",
+  "annotation_method": "human_reviewed_portfolio_analysis",
+  "annotation_policy": "All capability labels were authored by a human reviewer after direct inspection of each artist media files (images, audio, video). These are structured annotations, not outputs of runtime ML/AI inference. See AI_USAGE.md for disclosure.",
+  "artists": {
+    "P01": {
+      "category": "photographer",
+      "demonstrated": [
+        {
+          "dimension": "candid_event_coverage",
+          "description": "High-quality candid event and workshop interactions",
+          "evidence_strength": "STRONG",
+          "confidence": "HIGH",
+          "observation_basis": "Images show dynamic unposed indoor gathering compositions, expressive natural expressions during team workshops, and storytelling angles across event rooms"
+        },
+        {
+          "dimension": "group_and_team_framing",
+          "description": "Team day and workshop group composition",
+          "evidence_strength": "MODERATE",
+          "confidence": "MEDIUM",
+          "observation_basis": "Multi-subject compositions showing structured group alignment in natural-light indoor environments"
+        },
+        {
+          "dimension": "turnaround_and_digital_delivery",
+          "description": "Vertical/social format readiness for web and social distribution",
+          "evidence_strength": "MODERATE",
+          "confidence": "MEDIUM",
+          "observation_basis": "Consistent 3:4 vertical framing composition optimized for social distribution across portfolio"
+        }
+      ],
+      "unknowns": [
+        {
+          "dimension": "product_commercial_photography",
+          "reason": "No dedicated studio cosmetic or commercial product packaging samples in portfolio"
+        },
+        {
+          "dimension": "portraiture_and_headshots",
+          "reason": "No formal studio executive headshot setups observed in media"
+        }
+      ],
+      "constraint_conflicts": []
+    },
+    "P02": {
+      "category": "photographer",
+      "demonstrated": [
+        {
+          "dimension": "product_commercial_photography",
+          "description": "Controlled commercial product photography (bottles/jars) with highlight management",
+          "evidence_strength": "STRONG",
+          "confidence": "HIGH",
+          "observation_basis": "Images include cosmetic bottle and jar packshots with controlled specular highlights, clean depth of field isolating product textures, and 4:5 commercial aspect framing"
+        },
+        {
+          "dimension": "portraiture_and_headshots",
+          "description": "Fashion and commercial editorial portraiture",
+          "evidence_strength": "MODERATE",
+          "confidence": "MEDIUM",
+          "observation_basis": "Fashion editorial portraits showing flattering angles, consistent lighting, and sharp eye focus"
+        },
+        {
+          "dimension": "turnaround_and_digital_delivery",
+          "description": "Digital commercial web crops and clean color grading",
+          "evidence_strength": "MODERATE",
+          "confidence": "MEDIUM",
+          "observation_basis": "Square and vertical aspect ratio crops present; clean, consistent color treatment suitable for e-commerce"
+        }
+      ],
+      "unknowns": [
+        {
+          "dimension": "candid_event_coverage",
+          "reason": "Portfolio focuses on controlled commercial/fashion setups rather than dynamic live event offsites or candid workshop storytelling"
+        },
+        {
+          "dimension": "group_and_team_framing",
+          "reason": "No large corporate team group photos in portfolio"
+        }
+      ],
+      "constraint_conflicts": [
+        {
+          "brief_context_category": "photographer",
+          "brief_context_dimension": "candid_event_coverage",
+          "when_dimension_is_critical": true,
+          "penalty": 5.0,
+          "reason": "Commercial product photographer when primary requirement is dynamic candid event/workshop storytelling"
+        }
+      ]
+    },
+    "P03": {
+      "category": "photographer",
+      "demonstrated": [
+        {
+          "dimension": "product_commercial_photography",
+          "description": "Architectural, interior, and texture composition",
+          "evidence_strength": "LIMITED",
+          "confidence": "MEDIUM",
+          "observation_basis": "Architectural and interior stills showing geometric composition and controlled ambient lighting"
+        }
+      ],
+      "unknowns": [
+        {
+          "dimension": "candid_event_coverage",
+          "reason": "Portfolio focuses on architectural spaces and interiors without live event storytelling"
+        },
+        {
+          "dimension": "portraiture_and_headshots",
+          "reason": "No individual leadership portraits provided"
+        },
+        {
+          "dimension": "group_and_team_framing",
+          "reason": "No group or team photos provided"
+        },
+        {
+          "dimension": "turnaround_and_digital_delivery",
+          "reason": "Same-day digital turnaround capability cannot be verified from static architectural images alone"
+        }
+      ],
+      "constraint_conflicts": []
+    },
+    "PO4": {
+      "category": "photographer",
+      "demonstrated": [
+        {
+          "dimension": "candid_event_coverage",
+          "description": "Observational outdoor and natural light scenes",
+          "evidence_strength": "LIMITED",
+          "confidence": "LOW",
+          "observation_basis": "Outdoor environmental scenes with natural, observational composition; limited sample volume"
+        },
+        {
+          "dimension": "portraiture_and_headshots",
+          "description": "Outdoor environmental portrait",
+          "evidence_strength": "LIMITED",
+          "confidence": "LOW",
+          "observation_basis": "Single environmental portrait sample with natural light"
+        }
+      ],
+      "unknowns": [
+        {
+          "dimension": "product_commercial_photography",
+          "reason": "No product packaging samples in media"
+        },
+        {
+          "dimension": "group_and_team_framing",
+          "reason": "No corporate group photos observed"
+        },
+        {
+          "dimension": "turnaround_and_digital_delivery",
+          "reason": "Rapid digital turnaround unproven; identifier inconsistency (folder: PO4, profile: V05/Drift) reduces confidence"
+        }
+      ],
+      "constraint_conflicts": []
+    },
+    "PO5": {
+      "category": "photographer",
+      "demonstrated": [
+        {
+          "dimension": "product_commercial_photography",
+          "description": "Ultra-high resolution DSLR product and architectural captures",
+          "evidence_strength": "MODERATE",
+          "confidence": "MEDIUM",
+          "observation_basis": "DSLR images with high-resolution (20MP+) sensor detail, crisp edge-to-edge sharpness on product and architectural subjects"
+        },
+        {
+          "dimension": "candid_event_coverage",
+          "description": "DSLR event and space coverage",
+          "evidence_strength": "MODERATE",
+          "confidence": "MEDIUM",
+          "observation_basis": "Event and space coverage samples showing wide-angle compositions and ambient light handling"
+        },
+        {
+          "dimension": "portraiture_and_headshots",
+          "description": "High resolution portrait framing",
+          "evidence_strength": "MODERATE",
+          "confidence": "MEDIUM",
+          "observation_basis": "Portrait samples with clean background separation and sharp subject focus using DSLR"
+        },
+        {
+          "dimension": "group_and_team_framing",
+          "description": "Wide-angle DSLR framing capability",
+          "evidence_strength": "MODERATE",
+          "confidence": "MEDIUM",
+          "observation_basis": "Wide-angle group compositions demonstrating edge-to-edge sharpness; Kolkata base introduces delivery uncertainty"
+        }
+      ],
+      "unknowns": [
+        {
+          "dimension": "turnaround_and_digital_delivery",
+          "reason": "Artist based in Kolkata; local same-evening digital delivery in Delhi/NCR unverified and dependent on travel confirmation"
+        }
+      ],
+      "constraint_conflicts": []
+    },
+    "M01": {
+      "category": "musician",
+      "demonstrated": [
+        {
+          "dimension": "acoustic_live_performance",
+          "description": "Clean live acoustic guitar fingerpicking and live cafe takes",
+          "evidence_strength": "STRONG",
+          "confidence": "HIGH",
+          "observation_basis": "MA_cafe_demo_take1.wav: Live acoustic duo performance in cafe environment, clean guitar fingerpicking, natural room resonance"
+        },
+        {
+          "dimension": "vocal_capability_and_repertoire",
+          "description": "Two-part male/female vocal harmonies across English and Hindi contemporary songs",
+          "evidence_strength": "STRONG",
+          "confidence": "HIGH",
+          "observation_basis": "MA_cafe_demo_take1.wav: Clear pitch-controlled dual vocal harmonies; bilingual lyric delivery confirmed across samples"
+        },
+        {
+          "dimension": "ambient_background_suitability",
+          "description": "Gentle acoustic dynamics allowing conversational cafe atmosphere",
+          "evidence_strength": "STRONG",
+          "confidence": "HIGH",
+          "observation_basis": "MA_cafe_demo_take1.wav: Mellow downtempo dynamics with controlled volume suited for background listening"
+        },
+        {
+          "dimension": "headline_stage_dynamism",
+          "description": "Demonstrated upbeat medley rehearsal take with rhythmic acceleration suited for launch set",
+          "evidence_strength": "STRONG",
+          "confidence": "HIGH",
+          "observation_basis": "MA_upbeat_medley_rehearsal.wav: Upbeat tempo acceleration, energetic dual vocal arrangement, commanding performance energy in medley format"
+        },
+        {
+          "dimension": "setup_portability_and_format",
+          "description": "Minimal acoustic duo footprint requiring simple plug-and-play setup",
+          "evidence_strength": "STRONG",
+          "confidence": "HIGH",
+          "observation_basis": "Duo format (guitar + 2 vocals) confirmed minimal setup from cafe demo recording context"
+        }
+      ],
+      "unknowns": [],
+      "constraint_conflicts": []
+    },
+    "M02": {
+      "category": "musician",
+      "demonstrated": [
+        {
+          "dimension": "ambient_background_suitability",
+          "description": "Downtempo electronic chill background music",
+          "evidence_strength": "MODERATE",
+          "confidence": "MEDIUM",
+          "observation_basis": "Electronic lounge/chill samples demonstrating low-tempo ambient-style music"
+        },
+        {
+          "dimension": "vocal_capability_and_repertoire",
+          "description": "Synthesized and electronic vocal production",
+          "evidence_strength": "LIMITED",
+          "confidence": "LOW",
+          "observation_basis": "Electronic vocal production samples, synthesized/processed rather than live acoustic delivery"
+        }
+      ],
+      "unknowns": [
+        {
+          "dimension": "acoustic_live_performance",
+          "reason": "Electronic synthesizer and sequenced drum production; no live acoustic instrumentation demonstrated"
+        },
+        {
+          "dimension": "headline_stage_dynamism",
+          "reason": "Electronic lounge style unsuited for energetic acoustic launch performance"
+        },
+        {
+          "dimension": "setup_portability_and_format",
+          "reason": "Electronic trio requiring audio interface, synth controllers, and power setup"
+        }
+      ],
+      "constraint_conflicts": [
+        {
+          "brief_context_category": "musician",
+          "brief_context_dimension": "acoustic_live_performance",
+          "when_dimension_is_critical": true,
+          "penalty": 20.0,
+          "reason": "Pure electronic synth production directly contradicts documented requirement for acoustic live performance in cafe setting"
+        }
+      ]
+    },
+    "M03": {
+      "category": "musician",
+      "demonstrated": [
+        {
+          "dimension": "acoustic_live_performance",
+          "description": "Warm, intimate solo acoustic guitar fingerpicking",
+          "evidence_strength": "STRONG",
+          "confidence": "HIGH",
+          "observation_basis": "folk_acoustic-summer-walk-152722.mp3: Clean solo acoustic guitar fingerpicking with organic room resonance; no electronic processing"
+        },
+        {
+          "dimension": "vocal_capability_and_repertoire",
+          "description": "Emotive solo acoustic ballad vocal delivery",
+          "evidence_strength": "STRONG",
+          "confidence": "HIGH",
+          "observation_basis": "folk_acoustic-summer-walk-152722.mp3: Controlled pitch, emotive solo delivery; soft dynamic range suited for intimate settings"
+        },
+        {
+          "dimension": "ambient_background_suitability",
+          "description": "Mellow acoustic tempo and dynamic restraint ideal for unobtrusive cafe conversations",
+          "evidence_strength": "STRONG",
+          "confidence": "HIGH",
+          "observation_basis": "Consistent downtempo, low-volume acoustic folk delivery across all samples"
+        },
+        {
+          "dimension": "setup_portability_and_format",
+          "description": "Ultra-portable solo acoustic guitar setup",
+          "evidence_strength": "STRONG",
+          "confidence": "HIGH",
+          "observation_basis": "Solo acoustic guitar format, minimal footprint, no PA dependency beyond basic amplification"
+        }
+      ],
+      "unknowns": [
+        {
+          "dimension": "headline_stage_dynamism",
+          "reason": "Portfolio contains only slow downtempo ballads; no upbeat energetic headline set evidence demonstrated"
+        }
+      ],
+      "constraint_conflicts": []
+    },
+    "M04": {
+      "category": "musician",
+      "demonstrated": [
+        {
+          "dimension": "headline_stage_dynamism",
+          "description": "High-energy rock band stage performance with commanding presence",
+          "evidence_strength": "STRONG",
+          "confidence": "HIGH",
+          "observation_basis": "Live rock performance samples showing high-energy stage presence, heavy-gain guitar distortion, and powerful drum-driven dynamics"
+        },
+        {
+          "dimension": "vocal_capability_and_repertoire",
+          "description": "Aggressive rock/metal lead vocals",
+          "evidence_strength": "STRONG",
+          "confidence": "HIGH",
+          "observation_basis": "Rock/metal vocal delivery with high-energy aggressive timbre confirmed in live performance samples"
+        }
+      ],
+      "unknowns": [
+        {
+          "dimension": "acoustic_live_performance",
+          "reason": "Heavy high-gain electric guitar and loud drums; no acoustic instrumentation demonstrated in any media"
+        },
+        {
+          "dimension": "ambient_background_suitability",
+          "reason": "High decibel live band volume would disrupt cafe patron conversations; documented heavy rock format"
+        },
+        {
+          "dimension": "setup_portability_and_format",
+          "reason": "Full rock band requiring extensive stage space, drum kit, and heavy PA system"
+        }
+      ],
+      "constraint_conflicts": [
+        {
+          "brief_context_category": "musician",
+          "brief_context_dimension": "ambient_background_suitability",
+          "when_dimension_is_critical": true,
+          "penalty": 35.0,
+          "reason": "Heavy metal/rock band with documented high-gain electric guitar and drums directly contradicts quiet conversational cafe ambient requirement; multi-dimension hard mismatch"
+        }
+      ]
+    },
+    "M05": {
+      "category": "musician",
+      "demonstrated": [
+        {
+          "dimension": "acoustic_live_performance",
+          "description": "Live mobile phone acoustic performance clips",
+          "evidence_strength": "MODERATE",
+          "confidence": "MEDIUM",
+          "observation_basis": "Informal acoustic live performance snippets recorded on mobile; genuine live instrumentation confirmed"
+        },
+        {
+          "dimension": "vocal_capability_and_repertoire",
+          "description": "Live acoustic cover vocals",
+          "evidence_strength": "MODERATE",
+          "confidence": "MEDIUM",
+          "observation_basis": "Live vocal delivery in informal acoustic setting; cover repertoire demonstrated"
+        },
+        {
+          "dimension": "ambient_background_suitability",
+          "description": "Informal live acoustic setting",
+          "evidence_strength": "MODERATE",
+          "confidence": "MEDIUM",
+          "observation_basis": "Acoustic informal performance context consistent with cafe ambient background use case"
+        },
+        {
+          "dimension": "setup_portability_and_format",
+          "description": "Compact mobile performance format",
+          "evidence_strength": "MODERATE",
+          "confidence": "MEDIUM",
+          "observation_basis": "Solo acoustic performance captured on mobile; implies minimal equipment setup"
+        }
+      ],
+      "unknowns": [
+        {
+          "dimension": "headline_stage_dynamism",
+          "reason": "Live mobile phone snippets lack high-energy headline showcase demonstration; all samples are low-energy informal takes"
+        }
+      ],
+      "constraint_conflicts": []
+    },
+    "V01": {
+      "category": "video_editor",
+      "demonstrated": [
+        {
+          "dimension": "vertical_short_form_editing",
+          "description": "9:16 vertical short-form reels with snappy 30-second pacing",
+          "evidence_strength": "STRONG",
+          "confidence": "HIGH",
+          "observation_basis": "Video-11391.mp4: Native 9:16 vertical framing; social hook within first 3 seconds; mobile-first visual hierarchy"
+        },
+        {
+          "dimension": "food_and_hospitality_content",
+          "description": "Appetizing culinary prep, plating, and cafe atmosphere montages",
+          "evidence_strength": "STRONG",
+          "confidence": "HIGH",
+          "observation_basis": "Food preparation sequences, plating detail cuts, and cafe customer atmosphere montages with warm color grading"
+        },
+        {
+          "dimension": "pacing_and_energy_control",
+          "description": "Rhythm-aligned cuts and energetic flow without visual clutter",
+          "evidence_strength": "STRONG",
+          "confidence": "HIGH",
+          "observation_basis": "Beat-synchronized cuts, dynamic speed ramps, and clean transitions aligned to audio track"
+        },
+        {
+          "dimension": "speech_captioning_and_subtitles",
+          "description": "Synchronized on-screen kinetic and styled subtitles for spoken dialogue",
+          "evidence_strength": "STRONG",
+          "confidence": "HIGH",
+          "observation_basis": "On-screen animated caption overlays synchronized to customer reaction dialogue in food reel samples"
+        },
+        {
+          "dimension": "narrative_curation_from_raw_clips",
+          "description": "Curated narrative sequencing from multi-clip phone footage",
+          "evidence_strength": "STRONG",
+          "confidence": "HIGH",
+          "observation_basis": "Food prep to plating to customer reaction narrative arc assembled from multiple raw clips"
+        }
+      ],
+      "unknowns": [],
+      "constraint_conflicts": []
+    },
+    "V02": {
+      "category": "video_editor",
+      "demonstrated": [
+        {
+          "dimension": "narrative_curation_from_raw_clips",
+          "description": "Interview-led corporate explainers and workplace documentary storytelling",
+          "evidence_strength": "STRONG",
+          "confidence": "HIGH",
+          "observation_basis": "Corporate documentary samples with logical interview-driven narrative structure and workplace b-roll sequencing"
+        },
+        {
+          "dimension": "pacing_and_energy_control",
+          "description": "Deliberate, steady narrative pacing for corporate communication",
+          "evidence_strength": "MODERATE",
+          "confidence": "MEDIUM",
+          "observation_basis": "Measured pacing consistent with corporate video conventions; slower than social reel cadence"
+        },
+        {
+          "dimension": "speech_captioning_and_subtitles",
+          "description": "Corporate lower-thirds and interview identification graphics",
+          "evidence_strength": "MODERATE",
+          "confidence": "MEDIUM",
+          "observation_basis": "Lower-third name/title overlays and interview identification graphics in corporate samples"
+        }
+      ],
+      "unknowns": [
+        {
+          "dimension": "vertical_short_form_editing",
+          "reason": "All samples in 16:9 widescreen landscape; no 9:16 vertical social reel evidence in portfolio"
+        },
+        {
+          "dimension": "food_and_hospitality_content",
+          "reason": "Focus is on corporate workplaces rather than culinary or hospitality content"
+        }
+      ],
+      "constraint_conflicts": [
+        {
+          "brief_context_category": "video_editor",
+          "brief_context_dimension": "vertical_short_form_editing",
+          "when_dimension_is_critical": true,
+          "penalty": 10.0,
+          "reason": "16:9 widescreen corporate documentary editor with zero 9:16 vertical social reel evidence; direct format mismatch on critical requirement"
+        }
+      ]
+    },
+    "V03": {
+      "category": "video_editor",
+      "demonstrated": [
+        {
+          "dimension": "narrative_curation_from_raw_clips",
+          "description": "Cinematic lifestyle, wedding, and travel montage sequencing",
+          "evidence_strength": "STRONG",
+          "confidence": "HIGH",
+          "observation_basis": "Cinematic travel and lifestyle montages demonstrating strong clip selection, storytelling arc, and visual rhythm"
+        },
+        {
+          "dimension": "pacing_and_energy_control",
+          "description": "Music-led cinematic flow with rich color grading",
+          "evidence_strength": "STRONG",
+          "confidence": "HIGH",
+          "observation_basis": "Beat-synchronized cuts with rich cinematic color grading and smooth transitions"
+        },
+        {
+          "dimension": "food_and_hospitality_content",
+          "description": "Atmospheric lifestyle and cafe moments embedded in travel montages",
+          "evidence_strength": "MODERATE",
+          "confidence": "MEDIUM",
+          "observation_basis": "Cafe and dining atmosphere shots embedded in lifestyle travel montage samples"
+        },
+        {
+          "dimension": "vertical_short_form_editing",
+          "description": "Mixed aspect ratio clips including mobile travel reels",
+          "evidence_strength": "MODERATE",
+          "confidence": "MEDIUM",
+          "observation_basis": "Some vertical mobile-format travel clips present alongside widescreen samples; vertical experience is secondary"
+        }
+      ],
+      "unknowns": [
+        {
+          "dimension": "speech_captioning_and_subtitles",
+          "reason": "Focus is purely on music-led aesthetic b-roll without dialogue subtitle overlays; speech captioning undemonstrated"
+        }
+      ],
+      "constraint_conflicts": []
+    },
+    "VO4": {
+      "category": "video_editor",
+      "demonstrated": [
+        {
+          "dimension": "narrative_curation_from_raw_clips",
+          "description": "Visual media editing and cinematography in Work subfolder",
+          "evidence_strength": "LIMITED",
+          "confidence": "LOW",
+          "observation_basis": "Editing and cinematography samples in non-standard Work/ subfolder; identifier inconsistency reduces confidence"
+        },
+        {
+          "dimension": "pacing_and_energy_control",
+          "description": "Stylized visual transitions",
+          "evidence_strength": "LIMITED",
+          "confidence": "LOW",
+          "observation_basis": "Stylized transitions in limited samples located in non-standard Work/ subfolder"
+        }
+      ],
+      "unknowns": [
+        {
+          "dimension": "vertical_short_form_editing",
+          "reason": "No dedicated 9:16 vertical social reel samples in Work/ subfolder"
+        },
+        {
+          "dimension": "food_and_hospitality_content",
+          "reason": "No culinary or food pop-up content samples"
+        },
+        {
+          "dimension": "speech_captioning_and_subtitles",
+          "reason": "No speech captioning samples in available media"
+        }
+      ],
+      "constraint_conflicts": []
+    },
+    "VO5": {
+      "category": "video_editor",
+      "demonstrated": [
+        {
+          "dimension": "food_and_hospitality_content",
+          "description": "Dedicated cafe videography sample",
+          "evidence_strength": "STRONG",
+          "confidence": "HIGH",
+          "observation_basis": "4323_Cafe_videography.mov: Dedicated cafe videography showing atmosphere, food, and customer capture in hospitality context"
+        },
+        {
+          "dimension": "vertical_short_form_editing",
+          "description": "Mini vlog editing sample",
+          "evidence_strength": "MODERATE",
+          "confidence": "MEDIUM",
+          "observation_basis": "4332_Mini_Vlog_edit.mov: Vlog editing demonstrated; format and pacing consistent with short-form content"
+        },
+        {
+          "dimension": "pacing_and_energy_control",
+          "description": "Dynamic cuts in promotional event edits",
+          "evidence_strength": "MODERATE",
+          "confidence": "MEDIUM",
+          "observation_basis": "Event promotional edits showing dynamic cut pacing and energetic visual flow"
+        },
+        {
+          "dimension": "narrative_curation_from_raw_clips",
+          "description": "Promotional and event recap editing",
+          "evidence_strength": "MODERATE",
+          "confidence": "MEDIUM",
+          "observation_basis": "Event recap and promotional editing samples demonstrating clip selection and narrative assembly"
+        }
+      ],
+      "unknowns": [
+        {
+          "dimension": "speech_captioning_and_subtitles",
+          "reason": "No animated speech subtitle overlays demonstrated; identifier mismatch (folder: VO5, profile: V03/Roshan) reduces confidence"
+        }
+      ],
+      "constraint_conflicts": []
+    }
+  }
+}

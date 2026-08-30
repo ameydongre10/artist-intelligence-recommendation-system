@@ -1,0 +1,2276 @@
+{
+  "dataset_metadata": {
+    "name": "Sekeron AI Intern Practical Assessment Dataset",
+    "source_raw_dir": "C:/Users/HP/OneDrive/Documents/Desktop/artist-intelligence-recommendation-system/data/raw/Data set",
+    "scanner_version": "1.0.0",
+    "total_files_discovered": 149,
+    "total_size_bytes": 987612298,
+    "categories_discovered": [
+      "photographers",
+      "musicians",
+      "video_editors"
+    ],
+    "total_artists_discovered": 15,
+    "total_hirer_conversations": 4,
+    "total_follow_up_updates": 1
+  },
+  "hirer_conversations": [
+    {
+      "brief_id": "01_cafe_music_whatsapp",
+      "filename": "01_cafe_music_whatsapp.txt",
+      "relative_path": "Data set/hirer_conversations/01_cafe_music_whatsapp.txt",
+      "size_bytes": 1101,
+      "char_count": 1097,
+      "line_count": 17,
+      "raw_content": "Chat export: enquiry 081\nContact name: Rhea (number hidden)\n\n18/08/26, 6:41 pm - Rhea: hey, do you have anyone for live music next friday?\n18/08/26, 6:42 pm - Rhea: its for our cafe. evening time\n18/08/26, 6:44 pm - Neha: Hi Rhea. Yes, what kind of music are you looking for?\n18/08/26, 6:47 pm - Rhea: honestly nothing too loud 😅 people should still be able to talk\n18/08/26, 6:48 pm - Rhea: Hindi/english both are fine. acoustic maybe?\n18/08/26, 6:51 pm - Neha: Is it meant to be background music throughout, or a proper performance slot?\n18/08/26, 6:54 pm - Rhea: mostly background. if they can do a slightly lively bit later thats nice but not compulsory\n18/08/26, 6:55 pm - Rhea: 7 PM to 10 PM\n18/08/26, 6:58 pm - Neha: What budget should we work with?\n18/08/26, 7:03 pm - Rhea: trying to keep it around 7k. absolute max 9k.\n18/08/26, 7:04 pm - Rhea: also pls dont send a band with a massive setup, we dont really have a stage\n18/08/26, 7:06 pm - Neha: Do you have a PA/speakers at the café?\n18/08/26, 7:09 pm - Rhea: checking this. we have something but no idea if its usable for live music\n\n"
+    },
+    {
+      "brief_id": "02_skincare_photography_chat",
+      "filename": "02_skincare_photography_chat.txt",
+      "relative_path": "Data set/hirer_conversations/02_skincare_photography_chat.txt",
+      "size_bytes": 1103,
+      "char_count": 1101,
+      "line_count": 40,
+      "raw_content": "\n11:08  Nidhi\nhi, looking for a product photographer next week for a small skincare launch\n\n11:09  Nidhi\nclean/premium look but not hospital or super white if that makes sense\n\n11:16  Support\nHow many products are there? Is it product-only or with a model?\n\n11:21  Nidhi\n4 products. mostly bottles/jars by themselves\n\n11:22  Nidhi\nmaybe one hand shot. model is not locked yet so don’t want to promise that part\n\n11:24  Support\nDo you have a studio, shot list or props ready?\n\n11:30  Nidhi\nno studio. we have the products, logo and colour refs. basic props we can arrange but would prefer someone who can handle a simple setup themselves\n\n11:33  Support\nHow many final images do you need, and when?\n\n11:39  Nidhi\n12 finals roughly. website + insta, so square and vertical crops\n\n11:40  Nidhi\nlaunch moved forward unfortunately. would need selects in 2 days\n\n11:43  Nidhi\nbudget about 18k with basic retouching. gurgaon is ideal but delhi can work\n\n11:51  Support\nUnderstood. Are usage rights limited to your own website and social channels?\n\n11:58  Nidhi\nI think yes but let me confirm with marketing\n\n"
+    },
+    {
+      "brief_id": "03_vertical_video_email",
+      "filename": "03_vertical_video_email.txt",
+      "relative_path": "Data set/hirer_conversations/03_vertical_video_email.txt",
+      "size_bytes": 1137,
+      "char_count": 1131,
+      "line_count": 28,
+      "raw_content": "From: Manu K. <address removed>\nSent: Wednesday 9:12 AM\nTo: bookings@sekeron.example\nSubject: need reel editor by friday\n\nHi,\n\nBit of a last minute one. We had a food pop-up over the weekend and shot everything on phones. Need one good vertical reel from it, around 30 sec.\n\nThere are about 70 clips in the folder (a lot are probably useless). Mostly prep in the kitchen, close shots of dishes, people coming in, and 3-4 customer reactions. We need the editor to go through it and find the story, not just put every clip in order.\n\nWould like it energetic but still clean. Not crazy transitions. Captions where anyone is speaking. First cut by Friday evening if possible.\n\nBudget 8-10k.\n\nWe have a logo and the song that was playing at the event. I don’t know if we can legally use that song on Instagram so the editor may need to suggest something else.\n\nThanks\nManu\n\n----- reply, 9:36 AM -----\n\nHi Manu — do you need more than one aspect ratio or a shorter cut as well?\n\n----- reply, 10:02 AM -----\n\nOnly 9:16 for now. If the main reel works we might ask for a 15 sec cut later, but please don’t include that in this quote yet.\n\n"
+    },
+    {
+      "brief_id": "04_leadership_event_photos",
+      "filename": "04_leadership_event_photos.txt",
+      "relative_path": "Data set/hirer_conversations/04_leadership_event_photos.txt",
+      "size_bytes": 992,
+      "char_count": 976,
+      "line_count": 16,
+      "raw_content": "Phone enquiry notes / 19 Aug\nRef H-117\n\nShalini from the people team called about a photographer for their leadership off-site on 4 Sept. Venue is not final, somewhere in South Delhi.\n\nHer first ask was: “please not the usual stiff conference photos”. She wants people talking, doing the exercises, reactions during the two sessions, lunch etc. Also one proper full-team photograph before people start leaving.\n\nAround 120 people (she said could be 110, could be 130).\nLikely 10am–3pm.\n\nShe then asked whether the photographer could squeeze in quick headshots for the leadership team. Maybe 10–15 people. I told her this might need a separate setup/time, and she said candid event coverage is more important if both are not realistic.\n\nNeeds 8–10 pictures the same evening for LinkedIn. Rest can come later that week.\n\nNo fixed budget shared. Her words were “send me two sensible options, procurement will ask anyway”. We don’t know the room or whether flash is allowed yet.\n\n"
+    }
+  ],
+  "follow_up_updates": [
+    {
+      "update_id": "01_cafe_music_update",
+      "filename": "01_cafe_music_update.txt",
+      "relative_path": "Data set/follow_up_update/01_cafe_music_update.txt",
+      "size_bytes": 574,
+      "char_count": 565,
+      "line_count": 10,
+      "raw_content": "New messages on enquiry 081\nReceived after initial shortlist\n\n20/08/26, 12:14 pm - Rhea: sorry, change of plan on this one\n20/08/26, 12:14 pm - Rhea: management is making it our launch night now 🤦‍♀️ around 80 guests\n20/08/26, 12:15 pm - Rhea: so we actually need a proper 45 min headline set, not background for 3 hours\n20/08/26, 12:16 pm - Rhea: can go up to 15k\n20/08/26, 12:17 pm - Rhea: acoustic is still fine but it needs to feel like a performance/moment\n20/08/26, 12:19 pm - Rhea: we can clear a small area for them. speaker situation still pending, sorry\n\n"
+    }
+  ],
+  "artist_profiles": {
+    "photographers": [
+      {
+        "source_folder_name": "P01_Aanya_Rao",
+        "category": "photographer",
+        "folder_inferred_id": "P01",
+        "profile_declared_id": "P01",
+        "canonical_id": null,
+        "identifier_status": "CONSISTENT",
+        "folder_declared_name": "Aanya_Rao",
+        "profile_declared_name": "Aanya Rao",
+        "profile_document": {
+          "filename": "profile.docx",
+          "relative_path": "Data set/artist_profiles/photographers/P01_Aanya_Rao/profile.docx",
+          "size_bytes": 7058,
+          "integrity_status": "OK",
+          "char_count": 284,
+          "raw_text": "P01 / Aanya Rao Category: Photographer  Location: Delhi / NCR  Work preference: Travel available Bio:  Photographer working in events, cafés, workshops, team days and small business photography. Portfolio:  Community literature evening  Co-working team day  Neighbourhood café content",
+          "parsed_fields": {
+            "raw_text": "P01 / Aanya Rao Category: Photographer  Location: Delhi / NCR  Work preference: Travel available Bio:  Photographer working in events, cafés, workshops, team days and small business photography. Portfolio:  Community literature evening  Co-working team day  Neighbourhood café content",
+            "declared_id": "P01",
+            "declared_name": "Aanya Rao",
+            "declared_category": "Photographer",
+            "declared_location": "Delhi / NCR",
+            "declared_work_preference": null,
+            "declared_bio": "Photographer working in events, cafés, workshops, team days and small business photography.",
+            "declared_portfolio_refs": [
+              "Community literature evening",
+              "Co-working team day",
+              "Neighbourhood café content"
+            ]
+          }
+        },
+        "media_summary": {
+          "media_subfolder": "media",
+          "total_media_count": 9,
+          "image_count": 9,
+          "video_count": 0,
+          "audio_count": 0,
+          "system_files_count": 1,
+          "media_files": [
+            {
+              "filename": "587772091_18388610977181645_5390859402103325237_n.jpg",
+              "relative_path": "Data set/artist_profiles/photographers/P01_Aanya_Rao/media/587772091_18388610977181645_5390859402103325237_n.jpg",
+              "extension": ".jpg",
+              "file_type": "image",
+              "size_bytes": 333257,
+              "integrity_status": "VALID",
+              "details": {
+                "format": "JPEG",
+                "mode": "RGB",
+                "width": 1080,
+                "height": 1440
+              }
+            },
+            {
+              "filename": "588248682_18388610974181645_2768095694106311115_n.jpg",
+              "relative_path": "Data set/artist_profiles/photographers/P01_Aanya_Rao/media/588248682_18388610974181645_2768095694106311115_n.jpg",
+              "extension": ".jpg",
+              "file_type": "image",
+              "size_bytes": 402702,
+              "integrity_status": "VALID",
+              "details": {
+                "format": "JPEG",
+                "mode": "RGB",
+                "width": 1080,
+                "height": 1440
+              }
+            },
+            {
+              "filename": "654876028_18440827159113295_420923875456327857_n.jpg",
+              "relative_path": "Data set/artist_profiles/photographers/P01_Aanya_Rao/media/654876028_18440827159113295_420923875456327857_n.jpg",
+              "extension": ".jpg",
+              "file_type": "image",
+              "size_bytes": 1201136,
+              "integrity_status": "VALID",
+              "details": {
+                "format": "JPEG",
+                "mode": "RGB",
+                "width": 1440,
+                "height": 1920
+              }
+            },
+            {
+              "filename": "655181081_18440827168113295_5764439845250431447_n.jpg",
+              "relative_path": "Data set/artist_profiles/photographers/P01_Aanya_Rao/media/655181081_18440827168113295_5764439845250431447_n.jpg",
+              "extension": ".jpg",
+              "file_type": "image",
+              "size_bytes": 343842,
+              "integrity_status": "VALID",
+              "details": {
+                "format": "JPEG",
+                "mode": "RGB",
+                "width": 1440,
+                "height": 1916
+              }
+            },
+            {
+              "filename": "655263876_18223863544312302_4251431796425398007_n.jpg",
+              "relative_path": "Data set/artist_profiles/photographers/P01_Aanya_Rao/media/655263876_18223863544312302_4251431796425398007_n.jpg",
+              "extension": ".jpg",
+              "file_type": "image",
+              "size_bytes": 96689,
+              "integrity_status": "VALID",
+              "details": {
+                "format": "JPEG",
+                "mode": "RGB",
+                "width": 720,
+                "height": 960
+              }
+            },
+            {
+              "filename": "655871751_18118340938718334_6115286600173335271_n.jpg",
+              "relative_path": "Data set/artist_profiles/photographers/P01_Aanya_Rao/media/655871751_18118340938718334_6115286600173335271_n.jpg",
+              "extension": ".jpg",
+              "file_type": "image",
+              "size_bytes": 229350,
+              "integrity_status": "VALID",
+              "details": {
+                "format": "JPEG",
+                "mode": "RGB",
+                "width": 1440,
+                "height": 1800
+              }
+            },
+            {
+              "filename": "655967139_18223863535312302_3072422796630024834_n.jpg",
+              "relative_path": "Data set/artist_profiles/photographers/P01_Aanya_Rao/media/655967139_18223863535312302_3072422796630024834_n.jpg",
+              "extension": ".jpg",
+              "file_type": "image",
+              "size_bytes": 64557,
+              "integrity_status": "VALID",
+              "details": {
+                "format": "JPEG",
+                "mode": "RGB",
+                "width": 720,
+                "height": 959
+              }
+            },
+            {
+              "filename": "655967441_18440827258113295_1893808236507166776_n.jpg",
+              "relative_path": "Data set/artist_profiles/photographers/P01_Aanya_Rao/media/655967441_18440827258113295_1893808236507166776_n.jpg",
+              "extension": ".jpg",
+              "file_type": "image",
+              "size_bytes": 121564,
+              "integrity_status": "VALID",
+              "details": {
+                "format": "JPEG",
+                "mode": "RGB",
+                "width": 720,
+                "height": 960
+              }
+            },
+            {
+              "filename": "675457826_18371412484203219_8002499830836553801_n.jpeg",
+              "relative_path": "Data set/artist_profiles/photographers/P01_Aanya_Rao/media/675457826_18371412484203219_8002499830836553801_n.jpeg",
+              "extension": ".jpeg",
+              "file_type": "image",
+              "size_bytes": 138318,
+              "integrity_status": "VALID",
+              "details": {
+                "format": "JPEG",
+                "mode": "RGB",
+                "width": 720,
+                "height": 900
+              }
+            }
+          ]
+        },
+        "artist_anomalies": []
+      },
+      {
+        "source_folder_name": "P02_Kabir_Mehta",
+        "category": "photographer",
+        "folder_inferred_id": "P02",
+        "profile_declared_id": "P02",
+        "canonical_id": null,
+        "identifier_status": "CONSISTENT",
+        "folder_declared_name": "Kabir_Mehta",
+        "profile_declared_name": "Kabir Mehta",
+        "profile_document": {
+          "filename": "profile.docx",
+          "relative_path": "Data set/artist_profiles/photographers/P02_Kabir_Mehta/profile.docx",
+          "size_bytes": 6975,
+          "integrity_status": "OK",
+          "char_count": 177,
+          "raw_text": "P02 / Kabir Mehta Category: Photographer  Location: Gurugram  Work preference: Commercial projects Bio:  Photographer working in product, food, fashion and portrait photography.",
+          "parsed_fields": {
+            "raw_text": "P02 / Kabir Mehta Category: Photographer  Location: Gurugram  Work preference: Commercial projects Bio:  Photographer working in product, food, fashion and portrait photography.",
+            "declared_id": "P02",
+            "declared_name": "Kabir Mehta",
+            "declared_category": "Photographer",
+            "declared_location": "Gurugram",
+            "declared_work_preference": "Commercial projects",
+            "declared_bio": "Photographer working in product, food, fashion and portrait photography.",
+            "declared_portfolio_refs": []
+          }
+        },
+        "media_summary": {
+          "media_subfolder": "media",
+          "total_media_count": 10,
+          "image_count": 10,
+          "video_count": 0,
+          "audio_count": 0,
+          "system_files_count": 1,
+          "media_files": [
+            {
+              "filename": "581888523_18149152837419095_6510529012749050816_n.jpg",
+              "relative_path": "Data set/artist_profiles/photographers/P02_Kabir_Mehta/media/581888523_18149152837419095_6510529012749050816_n.jpg",
+              "extension": ".jpg",
+              "file_type": "image",
+              "size_bytes": 454858,
+              "integrity_status": "VALID",
+              "details": {
+                "format": "JPEG",
+                "mode": "RGB",
+                "width": 1440,
+                "height": 1800
+              }
+            },
+            {
+              "filename": "584395302_18193975549332430_7589282168204267782_n.jpg",
+              "relative_path": "Data set/artist_profiles/photographers/P02_Kabir_Mehta/media/584395302_18193975549332430_7589282168204267782_n.jpg",
+              "extension": ".jpg",
+              "file_type": "image",
+              "size_bytes": 35140,
+              "integrity_status": "VALID",
+              "details": {
+                "format": "JPEG",
+                "mode": "RGB",
+                "width": 720,
+                "height": 960
+              }
+            },
+            {
+              "filename": "589130604_18193975528332430_8271070466375639613_n.jpg",
+              "relative_path": "Data set/artist_profiles/photographers/P02_Kabir_Mehta/media/589130604_18193975528332430_8271070466375639613_n.jpg",
+              "extension": ".jpg",
+              "file_type": "image",
+              "size_bytes": 92068,
+              "integrity_status": "VALID",
+              "details": {
+                "format": "JPEG",
+                "mode": "RGB",
+                "width": 1440,
+                "height": 1920
+              }
+            },
+            {
+              "filename": "609878058_18084106841154787_5898780034346918704_n.webp",
+              "relative_path": "Data set/artist_profiles/photographers/P02_Kabir_Mehta/media/609878058_18084106841154787_5898780034346918704_n.webp",
+              "extension": ".webp",
+              "file_type": "image",
+              "size_bytes": 78014,
+              "integrity_status": "VALID",
+              "details": {
+                "format": "WEBP",
+                "mode": "RGB",
+                "width": 720,
+                "height": 960
+              }
+            },
+            {
+              "filename": "610850380_18084106811154787_2749123973287611292_n.webp",
+              "relative_path": "Data set/artist_profiles/photographers/P02_Kabir_Mehta/media/610850380_18084106811154787_2749123973287611292_n.webp",
+              "extension": ".webp",
+              "file_type": "image",
+              "size_bytes": 153366,
+              "integrity_status": "VALID",
+              "details": {
+                "format": "WEBP",
+                "mode": "RGB",
+                "width": 1440,
+                "height": 1920
+              }
+            },
+            {
+              "filename": "610905695_18084106829154787_7361777869458644219_n.webp",
+              "relative_path": "Data set/artist_profiles/photographers/P02_Kabir_Mehta/media/610905695_18084106829154787_7361777869458644219_n.webp",
+              "extension": ".webp",
+              "file_type": "image",
+              "size_bytes": 61332,
+              "integrity_status": "VALID",
+              "details": {
+                "format": "WEBP",
+                "mode": "RGB",
+                "width": 1440,
+                "height": 1920
+              }
+            },
+            {
+              "filename": "613639637_18553028863065157_8205418550002430739_n.jpg",
+              "relative_path": "Data set/artist_profiles/photographers/P02_Kabir_Mehta/media/613639637_18553028863065157_8205418550002430739_n.jpg",
+              "extension": ".jpg",
+              "file_type": "image",
+              "size_bytes": 47695,
+              "integrity_status": "VALID",
+              "details": {
+                "format": "JPEG",
+                "mode": "RGB",
+                "width": 720,
+                "height": 900
+              }
+            },
+            {
+              "filename": "639869357_17932048743192375_4392999254381444166_n.jpg",
+              "relative_path": "Data set/artist_profiles/photographers/P02_Kabir_Mehta/media/639869357_17932048743192375_4392999254381444166_n.jpg",
+              "extension": ".jpg",
+              "file_type": "image",
+              "size_bytes": 41295,
+              "integrity_status": "VALID",
+              "details": {
+                "format": "JPEG",
+                "mode": "RGB",
+                "width": 720,
+                "height": 960
+              }
+            },
+            {
+              "filename": "736198656_17935296702298321_4359188965840404264_n.webp",
+              "relative_path": "Data set/artist_profiles/photographers/P02_Kabir_Mehta/media/736198656_17935296702298321_4359188965840404264_n.webp",
+              "extension": ".webp",
+              "file_type": "image",
+              "size_bytes": 76094,
+              "integrity_status": "VALID",
+              "details": {
+                "format": "WEBP",
+                "mode": "RGB",
+                "width": 1440,
+                "height": 1440
+              }
+            },
+            {
+              "filename": "740611437_17935296723298321_4282121541708096718_n.webp",
+              "relative_path": "Data set/artist_profiles/photographers/P02_Kabir_Mehta/media/740611437_17935296723298321_4282121541708096718_n.webp",
+              "extension": ".webp",
+              "file_type": "image",
+              "size_bytes": 29808,
+              "integrity_status": "VALID",
+              "details": {
+                "format": "WEBP",
+                "mode": "RGB",
+                "width": 1440,
+                "height": 1440
+              }
+            }
+          ]
+        },
+        "artist_anomalies": []
+      },
+      {
+        "source_folder_name": "P03_Leena_Thomas",
+        "category": "photographer",
+        "folder_inferred_id": "P03",
+        "profile_declared_id": "P03",
+        "canonical_id": null,
+        "identifier_status": "CONSISTENT",
+        "folder_declared_name": "Leena_Thomas",
+        "profile_declared_name": "Leena Thomas",
+        "profile_document": {
+          "filename": "profile.docx",
+          "relative_path": "Data set/artist_profiles/photographers/P03_Leena_Thomas/profile.docx",
+          "size_bytes": 6937,
+          "integrity_status": "OK",
+          "char_count": 184,
+          "raw_text": "P03 / Leena Thomas Category: Photographer  Location: Noida  Work preference: Travel available Bio:  Photographer working in architecture, interiors, hospitality and travel photography.",
+          "parsed_fields": {
+            "raw_text": "P03 / Leena Thomas Category: Photographer  Location: Noida  Work preference: Travel available Bio:  Photographer working in architecture, interiors, hospitality and travel photography.",
+            "declared_id": "P03",
+            "declared_name": "Leena Thomas",
+            "declared_category": "Photographer",
+            "declared_location": "Noida",
+            "declared_work_preference": null,
+            "declared_bio": "Photographer working in architecture, interiors, hospitality and travel photography.",
+            "declared_portfolio_refs": []
+          }
+        },
+        "media_summary": {
+          "media_subfolder": "media",
+          "total_media_count": 21,
+          "image_count": 21,
+          "video_count": 0,
+          "audio_count": 0,
+          "system_files_count": 1,
+          "media_files": [
+            {
+              "filename": "472955981_18135833542377008_469825668246561939_n.jpg",
+              "relative_path": "Data set/artist_profiles/photographers/P03_Leena_Thomas/media/472955981_18135833542377008_469825668246561939_n.jpg",
+              "extension": ".jpg",
+              "file_type": "image",
+              "size_bytes": 447587,
+              "integrity_status": "VALID",
+              "details": {
+                "format": "JPEG",
+                "mode": "RGB",
+                "width": 1440,
+                "height": 1440
+              }
+            },
+            {
+              "filename": "474898919_18135833524377008_7619101935522501329_n.jpg",
+              "relative_path": "Data set/artist_profiles/photographers/P03_Leena_Thomas/media/474898919_18135833524377008_7619101935522501329_n.jpg",
+              "extension": ".jpg",
+              "file_type": "image",
+              "size_bytes": 446653,
+              "integrity_status": "VALID",
+              "details": {
+                "format": "JPEG",
+                "mode": "RGB",
+                "width": 1440,
+                "height": 1440
+              }
+            },
+            {
+              "filename": "495094082_18480800233070732_5072622893058829221_n.jpg",
+              "relative_path": "Data set/artist_profiles/photographers/P03_Leena_Thomas/media/495094082_18480800233070732_5072622893058829221_n.jpg",
+              "extension": ".jpg",
+              "file_type": "image",
+              "size_bytes": 102175,
+              "integrity_status": "VALID",
+              "details": {
+                "format": "JPEG",
+                "mode": "RGB",
+                "width": 720,
+                "height": 900
+              }
+            },
+            {
+              "filename": "495129960_18480800263070732_1441767438525505640_n.jpg",
+              "relative_path": "Data set/artist_profiles/photographers/P03_Leena_Thomas/media/495129960_18480800263070732_1441767438525505640_n.jpg",
+              "extension": ".jpg",
+              "file_type": "image",
+              "size_bytes": 127716,
+              "integrity_status": "VALID",
+              "details": {
+                "format": "JPEG",
+                "mode": "RGB",
+                "width": 720,
+                "height": 900
+              }
+            },
+            {
+              "filename": "568535953_18048233270659994_1343407068267753818_n.jpg",
+              "relative_path": "Data set/artist_profiles/photographers/P03_Leena_Thomas/media/568535953_18048233270659994_1343407068267753818_n.jpg",
+              "extension": ".jpg",
+              "file_type": "image",
+              "size_bytes": 57399,
+              "integrity_status": "VALID",
+              "details": {
+                "format": "JPEG",
+                "mode": "RGB",
+                "width": 720,
+                "height": 405
+              }
+            },
+            {
+              "filename": "568686047_18048233231659994_3453830850745898476_n.jpg",
+              "relative_path": "Data set/artist_profiles/photographers/P03_Leena_Thomas/media/568686047_18048233231659994_3453830850745898476_n.jpg",
+              "extension": ".jpg",
+              "file_type": "image",
+              "size_bytes": 113295,
+              "integrity_status": "VALID",
+              "details": {
+                "format": "JPEG",
+                "mode": "RGB",
+                "width": 720,
+                "height": 900
+              }
+            },
+            {
+              "filename": "588015115_18384570037150306_6415235776310417168_n.jpg",
+              "relative_path": "Data set/artist_profiles/photographers/P03_Leena_Thomas/media/588015115_18384570037150306_6415235776310417168_n.jpg",
+              "extension": ".jpg",
+              "file_type": "image",
+              "size_bytes": 206719,
+              "integrity_status": "VALID",
+              "details": {
+                "format": "JPEG",
+                "mode": "RGB",
+                "width": 1080,
+                "height": 1346
+              }
+            },
+            {
+              "filename": "588875732_18384570010150306_5108195024455140251_n.jpg",
+              "relative_path": "Data set/artist_profiles/photographers/P03_Leena_Thomas/media/588875732_18384570010150306_5108195024455140251_n.jpg",
+              "extension": ".jpg",
+              "file_type": "image",
+              "size_bytes": 354449,
+              "integrity_status": "VALID",
+              "details": {
+                "format": "JPEG",
+                "mode": "RGB",
+                "width": 1080,
+                "height": 1346
+              }
+            },
+            {
+              "filename": "591146619_18384570076150306_6294007189183836383_n.jpg",
+              "relative_path": "Data set/artist_profiles/photographers/P03_Leena_Thomas/media/591146619_18384570076150306_6294007189183836383_n.jpg",
+              "extension": ".jpg",
+              "file_type": "image",
+              "size_bytes": 387022,
+              "integrity_status": "VALID",
+              "details": {
+                "format": "JPEG",
+                "mode": "RGB",
+                "width": 1080,
+                "height": 1346
+              }
+            },
+            {
+              "filename": "618633014_18053520836690799_1299306511778703052_n.jpg",
+              "relative_path": "Data set/artist_profiles/photographers/P03_Leena_Thomas/media/618633014_18053520836690799_1299306511778703052_n.jpg",
+              "extension": ".jpg",
+              "file_type": "image",
+              "size_bytes": 224787,
+              "integrity_status": "VALID",
+              "details": {
+                "format": "JPEG",
+                "mode": "RGB",
+                "width": 1024,
+                "height": 1024
+              }
+            },
+            {
+              "filename": "619268337_18053520857690799_6505388170890118659_n.jpg",
+              "relative_path": "Data set/artist_profiles/photographers/P03_Leena_Thomas/media/619268337_18053520857690799_6505388170890118659_n.jpg",
+              "extension": ".jpg",
+              "file_type": "image",
+              "size_bytes": 358429,
+              "integrity_status": "VALID",
+              "details": {
+                "format": "JPEG",
+                "mode": "RGB",
+                "width": 1440,
+                "height": 1440
+              }
+            },
+            {
+              "filename": "629021163_18423227311136512_2126157066924389219_n.jpg",
+              "relative_path": "Data set/artist_profiles/photographers/P03_Leena_Thomas/media/629021163_18423227311136512_2126157066924389219_n.jpg",
+              "extension": ".jpg",
+              "file_type": "image",
+              "size_bytes": 73403,
+              "integrity_status": "VALID",
+              "details": {
+                "format": "JPEG",
+                "mode": "RGB",
+                "width": 720,
+                "height": 900
+              }
+            },
+            {
+              "filename": "642493804_18423227320136512_5463720996443682399_n.jpg",
+              "relative_path": "Data set/artist_profiles/photographers/P03_Leena_Thomas/media/642493804_18423227320136512_5463720996443682399_n.jpg",
+              "extension": ".jpg",
+              "file_type": "image",
+              "size_bytes": 254520,
+              "integrity_status": "VALID",
+              "details": {
+                "format": "JPEG",
+                "mode": "RGB",
+                "width": 960,
+                "height": 1200
+              }
+            },
+            {
+              "filename": "649227877_18042522989768372_5990373176719744775_n.jpeg",
+              "relative_path": "Data set/artist_profiles/photographers/P03_Leena_Thomas/media/649227877_18042522989768372_5990373176719744775_n.jpeg",
+              "extension": ".jpeg",
+              "file_type": "image",
+              "size_bytes": 296871,
+              "integrity_status": "VALID",
+              "details": {
+                "format": "JPEG",
+                "mode": "RGB",
+                "width": 1440,
+                "height": 1440
+              }
+            },
+            {
+              "filename": "650059065_18041748788754101_1209241736054735372_n.jpg",
+              "relative_path": "Data set/artist_profiles/photographers/P03_Leena_Thomas/media/650059065_18041748788754101_1209241736054735372_n.jpg",
+              "extension": ".jpg",
+              "file_type": "image",
+              "size_bytes": 79564,
+              "integrity_status": "VALID",
+              "details": {
+                "format": "JPEG",
+                "mode": "RGB",
+                "width": 720,
+                "height": 898
+              }
+            },
+            {
+              "filename": "650705980_18035810165785669_4607825306108029841_n.jpg",
+              "relative_path": "Data set/artist_profiles/photographers/P03_Leena_Thomas/media/650705980_18035810165785669_4607825306108029841_n.jpg",
+              "extension": ".jpg",
+              "file_type": "image",
+              "size_bytes": 253951,
+              "integrity_status": "VALID",
+              "details": {
+                "format": "JPEG",
+                "mode": "RGB",
+                "width": 1440,
+                "height": 1795
+              }
+            },
+            {
+              "filename": "659570145_18344121970246912_2217014772362720485_n.jpg",
+              "relative_path": "Data set/artist_profiles/photographers/P03_Leena_Thomas/media/659570145_18344121970246912_2217014772362720485_n.jpg",
+              "extension": ".jpg",
+              "file_type": "image",
+              "size_bytes": 67039,
+              "integrity_status": "VALID",
+              "details": {
+                "format": "JPEG",
+                "mode": "RGB",
+                "width": 720,
+                "height": 898
+              }
+            },
+            {
+              "filename": "669846967_18582977938049031_939833814684061084_n.jpg",
+              "relative_path": "Data set/artist_profiles/photographers/P03_Leena_Thomas/media/669846967_18582977938049031_939833814684061084_n.jpg",
+              "extension": ".jpg",
+              "file_type": "image",
+              "size_bytes": 49036,
+              "integrity_status": "VALID",
+              "details": {
+                "format": "JPEG",
+                "mode": "RGB",
+                "width": 720,
+                "height": 960
+              }
+            },
+            {
+              "filename": "670407402_18582978019049031_2721621531588605481_n.jpg",
+              "relative_path": "Data set/artist_profiles/photographers/P03_Leena_Thomas/media/670407402_18582978019049031_2721621531588605481_n.jpg",
+              "extension": ".jpg",
+              "file_type": "image",
+              "size_bytes": 40138,
+              "integrity_status": "VALID",
+              "details": {
+                "format": "JPEG",
+                "mode": "RGB",
+                "width": 720,
+                "height": 960
+              }
+            },
+            {
+              "filename": "671859657_17867330172668192_6491356872221587879_n.jpg",
+              "relative_path": "Data set/artist_profiles/photographers/P03_Leena_Thomas/media/671859657_17867330172668192_6491356872221587879_n.jpg",
+              "extension": ".jpg",
+              "file_type": "image",
+              "size_bytes": 66430,
+              "integrity_status": "VALID",
+              "details": {
+                "format": "JPEG",
+                "mode": "RGB",
+                "width": 720,
+                "height": 960
+              }
+            },
+            {
+              "filename": "672410974_18458332354102359_8802881131142943485_n.jpg",
+              "relative_path": "Data set/artist_profiles/photographers/P03_Leena_Thomas/media/672410974_18458332354102359_8802881131142943485_n.jpg",
+              "extension": ".jpg",
+              "file_type": "image",
+              "size_bytes": 77749,
+              "integrity_status": "VALID",
+              "details": {
+                "format": "JPEG",
+                "mode": "RGB",
+                "width": 720,
+                "height": 960
+              }
+            }
+          ]
+        },
+        "artist_anomalies": []
+      },
+      {
+        "source_folder_name": "PO4_Drift",
+        "category": "photographer",
+        "folder_inferred_id": "PO4",
+        "profile_declared_id": "V05",
+        "canonical_id": null,
+        "identifier_status": "INCONSISTENT",
+        "folder_declared_name": "Drift",
+        "profile_declared_name": "Drift",
+        "profile_document": {
+          "filename": "Drift_Artist_Profile.docx",
+          "relative_path": "Data set/artist_profiles/photographers/PO4_Drift/Drift_Artist_Profile.docx",
+          "size_bytes": 19753,
+          "integrity_status": "OK",
+          "char_count": 190,
+          "raw_text": "V05 / Drift Category: Photographer Location: Ghaziabad, Uttar Pradesh Work preference: Freelance / Collaborations Bio: Photographer working in portrait, event, travel and nature photography.",
+          "parsed_fields": {
+            "raw_text": "V05 / Drift Category: Photographer Location: Ghaziabad, Uttar Pradesh Work preference: Freelance / Collaborations Bio: Photographer working in portrait, event, travel and nature photography.",
+            "declared_id": "V05",
+            "declared_name": "Drift",
+            "declared_category": "Photographer",
+            "declared_location": "Ghaziabad, Uttar Pradesh",
+            "declared_work_preference": null,
+            "declared_bio": "Photographer working in portrait, event, travel and nature photography.",
+            "declared_portfolio_refs": []
+          }
+        },
+        "media_summary": {
+          "media_subfolder": "media",
+          "total_media_count": 4,
+          "image_count": 4,
+          "video_count": 0,
+          "audio_count": 0,
+          "system_files_count": 0,
+          "media_files": [
+            {
+              "filename": "20250923T183847233ZUTCimage0.png",
+              "relative_path": "Data set/artist_profiles/photographers/PO4_Drift/media/20250923T183847233ZUTCimage0.png",
+              "extension": ".png",
+              "file_type": "image",
+              "size_bytes": 91426,
+              "integrity_status": "VALID",
+              "details": {
+                "format": "JPEG",
+                "mode": "RGB",
+                "width": 637,
+                "height": 800
+              }
+            },
+            {
+              "filename": "20250923T184357748ZUTCimage0.png",
+              "relative_path": "Data set/artist_profiles/photographers/PO4_Drift/media/20250923T184357748ZUTCimage0.png",
+              "extension": ".png",
+              "file_type": "image",
+              "size_bytes": 109114,
+              "integrity_status": "VALID",
+              "details": {
+                "format": "JPEG",
+                "mode": "RGB",
+                "width": 800,
+                "height": 638
+              }
+            },
+            {
+              "filename": "20250924T064005020ZUTCimage0.png",
+              "relative_path": "Data set/artist_profiles/photographers/PO4_Drift/media/20250924T064005020ZUTCimage0.png",
+              "extension": ".png",
+              "file_type": "image",
+              "size_bytes": 250279,
+              "integrity_status": "VALID",
+              "details": {
+                "format": "JPEG",
+                "mode": "RGB",
+                "width": 776,
+                "height": 800
+              }
+            },
+            {
+              "filename": "20250925T125803554ZUTCimage0.png",
+              "relative_path": "Data set/artist_profiles/photographers/PO4_Drift/media/20250925T125803554ZUTCimage0.png",
+              "extension": ".png",
+              "file_type": "image",
+              "size_bytes": 103124,
+              "integrity_status": "VALID",
+              "details": {
+                "format": "JPEG",
+                "mode": "RGB",
+                "width": 800,
+                "height": 800
+              }
+            }
+          ]
+        },
+        "artist_anomalies": [
+          "Folder uses letter 'O' instead of digit '0' in identifier 'PO4'",
+          "ID Mismatch: Folder indicates 'PO4' but profile docx declares 'V05'",
+          "Profile docx declares 'V05 / Drift' (Video editor prefix for a photographer)"
+        ]
+      },
+      {
+        "source_folder_name": "PO5_Frames",
+        "category": "photographer",
+        "folder_inferred_id": "PO5",
+        "profile_declared_id": "P04",
+        "canonical_id": null,
+        "identifier_status": "INCONSISTENT",
+        "folder_declared_name": "Frames",
+        "profile_declared_name": "Frames",
+        "profile_document": {
+          "filename": "Frame_Artist_Profile.docx",
+          "relative_path": "Data set/artist_profiles/photographers/PO5_Frames/Frame_Artist_Profile.docx",
+          "size_bytes": 150665,
+          "integrity_status": "OK",
+          "char_count": 235,
+          "raw_text": "P04 /Frames Category: Photographer / Cinematographer Location: Kolkata Work preference: Photography & Videography projects Bio: Photographer and cinematographer working in architecture, product, fashion, portrait and event photography.",
+          "parsed_fields": {
+            "raw_text": "P04 /Frames Category: Photographer / Cinematographer Location: Kolkata Work preference: Photography & Videography projects Bio: Photographer and cinematographer working in architecture, product, fashion, portrait and event photography.",
+            "declared_id": "P04",
+            "declared_name": "Frames",
+            "declared_category": "Photographer / Cinematographer",
+            "declared_location": "Kolkata",
+            "declared_work_preference": "Photography & Videography projects",
+            "declared_bio": "Photographer and cinematographer working in architecture, product, fashion, portrait and event photography.",
+            "declared_portfolio_refs": []
+          }
+        },
+        "media_summary": {
+          "media_subfolder": "media",
+          "total_media_count": 8,
+          "image_count": 8,
+          "video_count": 0,
+          "audio_count": 0,
+          "system_files_count": 0,
+          "media_files": [
+            {
+              "filename": "20250720T201756066ZUTC352c0d6f-7e85-44d6-968c-37c505a1ef4c.jpg",
+              "relative_path": "Data set/artist_profiles/photographers/PO5_Frames/media/20250720T201756066ZUTC352c0d6f-7e85-44d6-968c-37c505a1ef4c.jpg",
+              "extension": ".jpg",
+              "file_type": "image",
+              "size_bytes": 575144,
+              "integrity_status": "VALID",
+              "details": {
+                "format": "JPEG",
+                "mode": "RGB",
+                "width": 3859,
+                "height": 2894
+              }
+            },
+            {
+              "filename": "20250720T202151397ZUTCa86353ed-8705-4600-b7c0-d16ee62733c2.jpg",
+              "relative_path": "Data set/artist_profiles/photographers/PO5_Frames/media/20250720T202151397ZUTCa86353ed-8705-4600-b7c0-d16ee62733c2.jpg",
+              "extension": ".jpg",
+              "file_type": "image",
+              "size_bytes": 1237021,
+              "integrity_status": "VALID",
+              "details": {
+                "format": "JPEG",
+                "mode": "RGB",
+                "width": 5568,
+                "height": 3712
+              }
+            },
+            {
+              "filename": "20250720T202449728ZUTC4f82bf1e-7884-45f5-8b42-608dde96b1db.jpg",
+              "relative_path": "Data set/artist_profiles/photographers/PO5_Frames/media/20250720T202449728ZUTC4f82bf1e-7884-45f5-8b42-608dde96b1db.jpg",
+              "extension": ".jpg",
+              "file_type": "image",
+              "size_bytes": 209235,
+              "integrity_status": "VALID",
+              "details": {
+                "format": "JPEG",
+                "mode": "RGB",
+                "width": 4096,
+                "height": 3072
+              }
+            },
+            {
+              "filename": "20250811T215431642ZUTCf01f13d7-c534-4067-bb63-f24ba353158e.jpg",
+              "relative_path": "Data set/artist_profiles/photographers/PO5_Frames/media/20250811T215431642ZUTCf01f13d7-c534-4067-bb63-f24ba353158e.jpg",
+              "extension": ".jpg",
+              "file_type": "image",
+              "size_bytes": 922438,
+              "integrity_status": "VALID",
+              "details": {
+                "format": "JPEG",
+                "mode": "RGB",
+                "width": 2725,
+                "height": 3631
+              }
+            },
+            {
+              "filename": "20250811T220343256ZUTC25f3203f-9b7a-4bc9-86b3-488e7efddcc9.jpg",
+              "relative_path": "Data set/artist_profiles/photographers/PO5_Frames/media/20250811T220343256ZUTC25f3203f-9b7a-4bc9-86b3-488e7efddcc9.jpg",
+              "extension": ".jpg",
+              "file_type": "image",
+              "size_bytes": 92066,
+              "integrity_status": "VALID",
+              "details": {
+                "format": "JPEG",
+                "mode": "RGB",
+                "width": 2476,
+                "height": 1652
+              }
+            },
+            {
+              "filename": "20250813T161646030ZUTC6bcfaa33-a853-4464-959a-4d066856b159.jpg",
+              "relative_path": "Data set/artist_profiles/photographers/PO5_Frames/media/20250813T161646030ZUTC6bcfaa33-a853-4464-959a-4d066856b159.jpg",
+              "extension": ".jpg",
+              "file_type": "image",
+              "size_bytes": 3369423,
+              "integrity_status": "VALID",
+              "details": {
+                "format": "JPEG",
+                "mode": "RGB",
+                "width": 5568,
+                "height": 3712
+              }
+            },
+            {
+              "filename": "36c2003b-aa0f-4e10-8950-facba57cd706Sunflower_20251227040241.jpeg",
+              "relative_path": "Data set/artist_profiles/photographers/PO5_Frames/media/36c2003b-aa0f-4e10-8950-facba57cd706Sunflower_20251227040241.jpeg",
+              "extension": ".jpeg",
+              "file_type": "image",
+              "size_bytes": 57495,
+              "integrity_status": "VALID",
+              "details": {
+                "format": "JPEG",
+                "mode": "RGB",
+                "width": 809,
+                "height": 1080
+              }
+            },
+            {
+              "filename": "875ac26c-f559-4a85-8fad-6bd4d5dae2e504_Two_Worlds_One_Smile_Monojit_Dutta-1_20251227033830.jpg",
+              "relative_path": "Data set/artist_profiles/photographers/PO5_Frames/media/875ac26c-f559-4a85-8fad-6bd4d5dae2e504_Two_Worlds_One_Smile_Monojit_Dutta-1_20251227033830.jpg",
+              "extension": ".jpg",
+              "file_type": "image",
+              "size_bytes": 97118,
+              "integrity_status": "VALID",
+              "details": {
+                "format": "JPEG",
+                "mode": "RGB",
+                "width": 810,
+                "height": 1080
+              }
+            }
+          ]
+        },
+        "artist_anomalies": [
+          "Folder uses letter 'O' instead of digit '0' in identifier 'PO5'",
+          "ID Mismatch: Folder indicates 'PO5' but profile docx declares 'P04'",
+          "Profile docx declares 'P04 /Frames' (ID collision with P04)"
+        ]
+      }
+    ],
+    "musicians": [
+      {
+        "source_folder_name": "M01_Meera_Arjun",
+        "category": "musician",
+        "folder_inferred_id": "M01",
+        "profile_declared_id": "M01",
+        "canonical_id": null,
+        "identifier_status": "CONSISTENT",
+        "folder_declared_name": "Meera_Arjun",
+        "profile_declared_name": "Meera & Arjun Acoustic duo | Delhi NCR",
+        "profile_document": {
+          "filename": "profile.docx",
+          "relative_path": "Data set/artist_profiles/musicians/M01_Meera_Arjun/profile.docx",
+          "size_bytes": 7103,
+          "integrity_status": "OK",
+          "char_count": 182,
+          "raw_text": "M01 — Meera & Arjun Acoustic duo | Delhi NCR Category vocalist and Guitarist Location Delhi NCR, India Work Preference-Onsite Bio Meera & Arjun is an acoustic duo based in Delhi NCR.",
+          "parsed_fields": {
+            "raw_text": "M01 — Meera & Arjun Acoustic duo | Delhi NCR Category vocalist and Guitarist Location Delhi NCR, India Work Preference-Onsite Bio Meera & Arjun is an acoustic duo based in Delhi NCR.",
+            "declared_id": "M01",
+            "declared_name": "Meera & Arjun Acoustic duo | Delhi NCR",
+            "declared_category": null,
+            "declared_location": "Delhi NCR, India",
+            "declared_work_preference": "Onsite",
+            "declared_bio": "Meera & Arjun is an acoustic duo based in Delhi NCR.",
+            "declared_portfolio_refs": []
+          }
+        },
+        "media_summary": {
+          "media_subfolder": "media",
+          "total_media_count": 6,
+          "image_count": 0,
+          "video_count": 4,
+          "audio_count": 2,
+          "system_files_count": 1,
+          "media_files": [
+            {
+              "filename": "35860-408654164.mp4",
+              "relative_path": "Data set/artist_profiles/musicians/M01_Meera_Arjun/media/35860-408654164.mp4",
+              "extension": ".mp4",
+              "file_type": "video",
+              "size_bytes": 15135033,
+              "integrity_status": "VALID",
+              "details": {
+                "has_iso_base_atom": true
+              }
+            },
+            {
+              "filename": "35863-408654169.mp4",
+              "relative_path": "Data set/artist_profiles/musicians/M01_Meera_Arjun/media/35863-408654169.mp4",
+              "extension": ".mp4",
+              "file_type": "video",
+              "size_bytes": 21707169,
+              "integrity_status": "VALID",
+              "details": {
+                "has_iso_base_atom": true
+              }
+            },
+            {
+              "filename": "35865-408654178.mp4",
+              "relative_path": "Data set/artist_profiles/musicians/M01_Meera_Arjun/media/35865-408654178.mp4",
+              "extension": ".mp4",
+              "file_type": "video",
+              "size_bytes": 15155963,
+              "integrity_status": "VALID",
+              "details": {
+                "has_iso_base_atom": true
+              }
+            },
+            {
+              "filename": "35868-408654193.mp4",
+              "relative_path": "Data set/artist_profiles/musicians/M01_Meera_Arjun/media/35868-408654193.mp4",
+              "extension": ".mp4",
+              "file_type": "video",
+              "size_bytes": 15335830,
+              "integrity_status": "VALID",
+              "details": {
+                "has_iso_base_atom": true
+              }
+            },
+            {
+              "filename": "MA_cafe_demo_take1.wav",
+              "relative_path": "Data set/artist_profiles/musicians/M01_Meera_Arjun/media/MA_cafe_demo_take1.wav",
+              "extension": ".wav",
+              "file_type": "audio",
+              "size_bytes": 2593246,
+              "integrity_status": "VALID",
+              "details": {
+                "header_magic": "RIFF"
+              }
+            },
+            {
+              "filename": "MA_upbeat_medley_rehearsal.wav",
+              "relative_path": "Data set/artist_profiles/musicians/M01_Meera_Arjun/media/MA_upbeat_medley_rehearsal.wav",
+              "extension": ".wav",
+              "file_type": "audio",
+              "size_bytes": 2646168,
+              "integrity_status": "VALID",
+              "details": {
+                "header_magic": "RIFF"
+              }
+            }
+          ]
+        },
+        "artist_anomalies": []
+      },
+      {
+        "source_folder_name": "M02_Neon_Junction",
+        "category": "musician",
+        "folder_inferred_id": "M02",
+        "profile_declared_id": "M02",
+        "canonical_id": null,
+        "identifier_status": "CONSISTENT",
+        "folder_declared_name": "Neon_Junction",
+        "profile_declared_name": "NEON JUNCTION",
+        "profile_document": {
+          "filename": "profile.docx",
+          "relative_path": "Data set/artist_profiles/musicians/M02_Neon_Junction/profile.docx",
+          "size_bytes": 7127,
+          "integrity_status": "OK",
+          "char_count": 183,
+          "raw_text": "NEON JUNCTION Artist ID M02 Category Electronic Live Act  &  Vocals Location Delhi NCR,  Work Preference- Onsite Bio Neon Junction is a 3-piece live electronic act based in Delhi NCR.",
+          "parsed_fields": {
+            "raw_text": "NEON JUNCTION Artist ID M02 Category Electronic Live Act  &  Vocals Location Delhi NCR,  Work Preference- Onsite Bio Neon Junction is a 3-piece live electronic act based in Delhi NCR.",
+            "declared_id": "M02",
+            "declared_name": "NEON JUNCTION",
+            "declared_category": null,
+            "declared_location": "Delhi NCR,",
+            "declared_work_preference": "Onsite",
+            "declared_bio": "Neon Junction is a 3-piece live electronic act based in Delhi NCR.",
+            "declared_portfolio_refs": []
+          }
+        },
+        "media_summary": {
+          "media_subfolder": "media",
+          "total_media_count": 4,
+          "image_count": 0,
+          "video_count": 0,
+          "audio_count": 4,
+          "system_files_count": 1,
+          "media_files": [
+            {
+              "filename": "ahsleysnow-feel-like-home-523056.mp3",
+              "relative_path": "Data set/artist_profiles/musicians/M02_Neon_Junction/media/ahsleysnow-feel-like-home-523056.mp3",
+              "extension": ".mp3",
+              "file_type": "audio",
+              "size_bytes": 5643264,
+              "integrity_status": "VALID",
+              "details": {
+                "header_magic": "ÿûÔ"
+              }
+            },
+            {
+              "filename": "alex-morgan-downtempo-chill-electronic-528322.mp3",
+              "relative_path": "Data set/artist_profiles/musicians/M02_Neon_Junction/media/alex-morgan-downtempo-chill-electronic-528322.mp3",
+              "extension": ".mp3",
+              "file_type": "audio",
+              "size_bytes": 6361344,
+              "integrity_status": "VALID",
+              "details": {
+                "header_magic": "ÿûÔ"
+              }
+            },
+            {
+              "filename": "holodr3ams-pretty-when-i-fall-419712.mp3",
+              "relative_path": "Data set/artist_profiles/musicians/M02_Neon_Junction/media/holodr3ams-pretty-when-i-fall-419712.mp3",
+              "extension": ".mp3",
+              "file_type": "audio",
+              "size_bytes": 5660928,
+              "integrity_status": "VALID",
+              "details": {
+                "header_magic": "ÿûÔ"
+              }
+            },
+            {
+              "filename": "sub_clair-electronic-586100.mp3",
+              "relative_path": "Data set/artist_profiles/musicians/M02_Neon_Junction/media/sub_clair-electronic-586100.mp3",
+              "extension": ".mp3",
+              "file_type": "audio",
+              "size_bytes": 5410560,
+              "integrity_status": "VALID",
+              "details": {
+                "header_magic": "ÿûÔ"
+              }
+            }
+          ]
+        },
+        "artist_anomalies": []
+      },
+      {
+        "source_folder_name": "M03_Raghav_Sen",
+        "category": "musician",
+        "folder_inferred_id": "M03",
+        "profile_declared_id": "M03",
+        "canonical_id": null,
+        "identifier_status": "CONSISTENT",
+        "folder_declared_name": "Raghav_Sen",
+        "profile_declared_name": "Raghav Sen",
+        "profile_document": {
+          "filename": "profile.docx",
+          "relative_path": "Data set/artist_profiles/musicians/M03_Raghav_Sen/profile.docx",
+          "size_bytes": 7095,
+          "integrity_status": "OK",
+          "char_count": 190,
+          "raw_text": "Raghav Sen (M03) Category Vocalist &  Guitarist Location Noida / Delhi NCR, Uttar Pradesh, India Work Preference-Onsite Bio Raghav Sen is a solo singer and acoustic guitarist based in Noida.",
+          "parsed_fields": {
+            "raw_text": "Raghav Sen (M03) Category Vocalist &  Guitarist Location Noida / Delhi NCR, Uttar Pradesh, India Work Preference-Onsite Bio Raghav Sen is a solo singer and acoustic guitarist based in Noida.",
+            "declared_id": "M03",
+            "declared_name": "Raghav Sen",
+            "declared_category": null,
+            "declared_location": "Noida / Delhi NCR, Uttar Pradesh, India",
+            "declared_work_preference": "Onsite",
+            "declared_bio": "Raghav Sen is a solo singer and acoustic guitarist based in Noida.",
+            "declared_portfolio_refs": []
+          }
+        },
+        "media_summary": {
+          "media_subfolder": "media",
+          "total_media_count": 3,
+          "image_count": 0,
+          "video_count": 0,
+          "audio_count": 3,
+          "system_files_count": 0,
+          "media_files": [
+            {
+              "filename": "alanajordan-letting-go-342368.mp3",
+              "relative_path": "Data set/artist_profiles/musicians/M03_Raghav_Sen/media/alanajordan-letting-go-342368.mp3",
+              "extension": ".mp3",
+              "file_type": "audio",
+              "size_bytes": 6673136,
+              "integrity_status": "VALID",
+              "details": {
+                "header_magic": "ÿûÐ"
+              }
+            },
+            {
+              "filename": "folk_acoustic-summer-walk-152722.mp3",
+              "relative_path": "Data set/artist_profiles/musicians/M03_Raghav_Sen/media/folk_acoustic-summer-walk-152722.mp3",
+              "extension": ".mp3",
+              "file_type": "audio",
+              "size_bytes": 6325394,
+              "integrity_status": "VALID",
+              "details": {
+                "header_magic": "ÿûÐ"
+              }
+            },
+            {
+              "filename": "swantwirls-quotthe-shared-moonquot-french-male-vocals-ballad-slow-489373.mp3",
+              "relative_path": "Data set/artist_profiles/musicians/M03_Raghav_Sen/media/swantwirls-quotthe-shared-moonquot-french-male-vocals-ballad-slow-489373.mp3",
+              "extension": ".mp3",
+              "file_type": "audio",
+              "size_bytes": 5336064,
+              "integrity_status": "VALID",
+              "details": {
+                "header_magic": "ÿûÔ"
+              }
+            }
+          ]
+        },
+        "artist_anomalies": []
+      },
+      {
+        "source_folder_name": "M04_KillRush",
+        "category": "musician",
+        "folder_inferred_id": "M04",
+        "profile_declared_id": "M04",
+        "canonical_id": null,
+        "identifier_status": "CONSISTENT",
+        "folder_declared_name": "KillRush",
+        "profile_declared_name": "Ki llRush",
+        "profile_document": {
+          "filename": "profile.docx",
+          "relative_path": "Data set/artist_profiles/musicians/M04_KillRush/profile.docx",
+          "size_bytes": 7093,
+          "integrity_status": "OK",
+          "char_count": 179,
+          "raw_text": "M04_Ki llRush Category Vocals & Guitars Location Noida / Delhi NCR, Uttar Pradesh, India Work Preference- Onsite Bio Kill  Rush  is a live acoustic band based in Noida / Delhi NCR",
+          "parsed_fields": {
+            "raw_text": "M04_Ki llRush Category Vocals & Guitars Location Noida / Delhi NCR, Uttar Pradesh, India Work Preference- Onsite Bio Kill  Rush  is a live acoustic band based in Noida / Delhi NCR",
+            "declared_id": "M04",
+            "declared_name": "Ki llRush",
+            "declared_category": null,
+            "declared_location": "Noida / Delhi NCR, Uttar Pradesh, India",
+            "declared_work_preference": "Onsite",
+            "declared_bio": "Kill  Rush  is a live acoustic band based in Noida / Delhi NCR",
+            "declared_portfolio_refs": []
+          }
+        },
+        "media_summary": {
+          "media_subfolder": "media",
+          "total_media_count": 5,
+          "image_count": 0,
+          "video_count": 5,
+          "audio_count": 0,
+          "system_files_count": 0,
+          "media_files": [
+            {
+              "filename": "VID_20260820_214956_321.mp4",
+              "relative_path": "Data set/artist_profiles/musicians/M04_KillRush/media/VID_20260820_214956_321.mp4",
+              "extension": ".mp4",
+              "file_type": "video",
+              "size_bytes": 55606282,
+              "integrity_status": "VALID",
+              "details": {
+                "has_iso_base_atom": true
+              }
+            },
+            {
+              "filename": "VID_20260820_215053_667.mp4",
+              "relative_path": "Data set/artist_profiles/musicians/M04_KillRush/media/VID_20260820_215053_667.mp4",
+              "extension": ".mp4",
+              "file_type": "video",
+              "size_bytes": 15150002,
+              "integrity_status": "VALID",
+              "details": {
+                "has_iso_base_atom": true
+              }
+            },
+            {
+              "filename": "VID_20260820_215432_704.mp4",
+              "relative_path": "Data set/artist_profiles/musicians/M04_KillRush/media/VID_20260820_215432_704.mp4",
+              "extension": ".mp4",
+              "file_type": "video",
+              "size_bytes": 19387353,
+              "integrity_status": "VALID",
+              "details": {
+                "has_iso_base_atom": true
+              }
+            },
+            {
+              "filename": "VID_20260820_215633_211.mp4",
+              "relative_path": "Data set/artist_profiles/musicians/M04_KillRush/media/VID_20260820_215633_211.mp4",
+              "extension": ".mp4",
+              "file_type": "video",
+              "size_bytes": 42233138,
+              "integrity_status": "VALID",
+              "details": {
+                "has_iso_base_atom": true
+              }
+            },
+            {
+              "filename": "VID_20260820_215739_384.mp4",
+              "relative_path": "Data set/artist_profiles/musicians/M04_KillRush/media/VID_20260820_215739_384.mp4",
+              "extension": ".mp4",
+              "file_type": "video",
+              "size_bytes": 20867200,
+              "integrity_status": "VALID",
+              "details": {
+                "has_iso_base_atom": true
+              }
+            }
+          ]
+        },
+        "artist_anomalies": []
+      },
+      {
+        "source_folder_name": "M05_Lunar_Noise",
+        "category": "musician",
+        "folder_inferred_id": "M05",
+        "profile_declared_id": "M05",
+        "canonical_id": null,
+        "identifier_status": "CONSISTENT",
+        "folder_declared_name": "Lunar_Noise",
+        "profile_declared_name": "Lunar Noise Artist Name -Abhay  Sharma",
+        "profile_document": {
+          "filename": "profile.docx",
+          "relative_path": "Data set/artist_profiles/musicians/M05_Lunar_Noise/profile.docx",
+          "size_bytes": 7165,
+          "integrity_status": "OK",
+          "char_count": 238,
+          "raw_text": "M05_ Lunar Noise Artist Name -Abhay  Sharma Category :  Vocalist and guitarist Location Agra, Uttar Pradesh, India Work Preference- Onsite Bio Lunar Noise  is a live vocalist and practicing legal professional based in Agra, Uttar Pradesh.",
+          "parsed_fields": {
+            "raw_text": "M05_ Lunar Noise Artist Name -Abhay  Sharma Category :  Vocalist and guitarist Location Agra, Uttar Pradesh, India Work Preference- Onsite Bio Lunar Noise  is a live vocalist and practicing legal professional based in Agra, Uttar Pradesh.",
+            "declared_id": "M05",
+            "declared_name": "Lunar Noise Artist Name -Abhay  Sharma",
+            "declared_category": null,
+            "declared_location": "Agra, Uttar Pradesh, India",
+            "declared_work_preference": "Onsite",
+            "declared_bio": "Lunar Noise  is a live vocalist and practicing legal professional based in Agra, Uttar Pradesh.",
+            "declared_portfolio_refs": []
+          }
+        },
+        "media_summary": {
+          "media_subfolder": "media",
+          "total_media_count": 7,
+          "image_count": 0,
+          "video_count": 7,
+          "audio_count": 0,
+          "system_files_count": 0,
+          "media_files": [
+            {
+              "filename": "_storage_emulated_0_Movies_Instagram_VID_20260820_220359_022.mp4",
+              "relative_path": "Data set/artist_profiles/musicians/M05_Lunar_Noise/media/_storage_emulated_0_Movies_Instagram_VID_20260820_220359_022.mp4",
+              "extension": ".mp4",
+              "file_type": "video",
+              "size_bytes": 15704433,
+              "integrity_status": "VALID",
+              "details": {
+                "has_iso_base_atom": true
+              }
+            },
+            {
+              "filename": "VID_20260820_220500_334.mp4",
+              "relative_path": "Data set/artist_profiles/musicians/M05_Lunar_Noise/media/VID_20260820_220500_334.mp4",
+              "extension": ".mp4",
+              "file_type": "video",
+              "size_bytes": 4847757,
+              "integrity_status": "VALID",
+              "details": {
+                "has_iso_base_atom": true
+              }
+            },
+            {
+              "filename": "VID_20260820_220534_412.mp4",
+              "relative_path": "Data set/artist_profiles/musicians/M05_Lunar_Noise/media/VID_20260820_220534_412.mp4",
+              "extension": ".mp4",
+              "file_type": "video",
+              "size_bytes": 7304377,
+              "integrity_status": "VALID",
+              "details": {
+                "has_iso_base_atom": true
+              }
+            },
+            {
+              "filename": "VID_20260820_220736_918.mp4",
+              "relative_path": "Data set/artist_profiles/musicians/M05_Lunar_Noise/media/VID_20260820_220736_918.mp4",
+              "extension": ".mp4",
+              "file_type": "video",
+              "size_bytes": 30162183,
+              "integrity_status": "VALID",
+              "details": {
+                "has_iso_base_atom": true
+              }
+            },
+            {
+              "filename": "VID_20260820_220933_637.mp4",
+              "relative_path": "Data set/artist_profiles/musicians/M05_Lunar_Noise/media/VID_20260820_220933_637.mp4",
+              "extension": ".mp4",
+              "file_type": "video",
+              "size_bytes": 5956673,
+              "integrity_status": "VALID",
+              "details": {
+                "has_iso_base_atom": true
+              }
+            },
+            {
+              "filename": "VID_20260820_221016_264.mp4",
+              "relative_path": "Data set/artist_profiles/musicians/M05_Lunar_Noise/media/VID_20260820_221016_264.mp4",
+              "extension": ".mp4",
+              "file_type": "video",
+              "size_bytes": 7751354,
+              "integrity_status": "VALID",
+              "details": {
+                "has_iso_base_atom": true
+              }
+            },
+            {
+              "filename": "VID_20260820_221046_879.mp4",
+              "relative_path": "Data set/artist_profiles/musicians/M05_Lunar_Noise/media/VID_20260820_221046_879.mp4",
+              "extension": ".mp4",
+              "file_type": "video",
+              "size_bytes": 8193081,
+              "integrity_status": "VALID",
+              "details": {
+                "has_iso_base_atom": true
+              }
+            }
+          ]
+        },
+        "artist_anomalies": [
+          "Profile bio states artist is a practicing legal professional based in Agra"
+        ]
+      }
+    ],
+    "video_editors": [
+      {
+        "source_folder_name": "V01_Nisha_Kapoor",
+        "category": "video_editor",
+        "folder_inferred_id": "V01",
+        "profile_declared_id": "V01",
+        "canonical_id": null,
+        "identifier_status": "CONSISTENT",
+        "folder_declared_name": "Nisha_Kapoor",
+        "profile_declared_name": "Nisha Kapoor",
+        "profile_document": {
+          "filename": "profile.docx",
+          "relative_path": "Data set/artist_profiles/video_editors/V01_Nisha_Kapoor/profile.docx",
+          "size_bytes": 7007,
+          "integrity_status": "OK",
+          "char_count": 244,
+          "raw_text": "V01 / Nisha Kapoor Category: Video Editor  Location: Delhi NCR  Work preference: Remote Bio:  Video editor creating short-form social videos, food videos, event recaps and creator content. Portfolio:  NK_food_reel_v3.mp4  NK_event_recap_cut.mp4",
+          "parsed_fields": {
+            "raw_text": "V01 / Nisha Kapoor Category: Video Editor  Location: Delhi NCR  Work preference: Remote Bio:  Video editor creating short-form social videos, food videos, event recaps and creator content. Portfolio:  NK_food_reel_v3.mp4  NK_event_recap_cut.mp4",
+            "declared_id": "V01",
+            "declared_name": "Nisha Kapoor",
+            "declared_category": "Video Editor",
+            "declared_location": "Delhi NCR",
+            "declared_work_preference": "Remote",
+            "declared_bio": "Video editor creating short-form social videos, food videos, event recaps and creator content.",
+            "declared_portfolio_refs": [
+              "NK_food_reel_v3.mp4",
+              "NK_event_recap_cut.mp4"
+            ]
+          }
+        },
+        "media_summary": {
+          "media_subfolder": "media",
+          "total_media_count": 7,
+          "image_count": 0,
+          "video_count": 7,
+          "audio_count": 0,
+          "system_files_count": 1,
+          "media_files": [
+            {
+              "filename": "Video-11391.mp4",
+              "relative_path": "Data set/artist_profiles/video_editors/V01_Nisha_Kapoor/media/Video-11391.mp4",
+              "extension": ".mp4",
+              "file_type": "video",
+              "size_bytes": 5154372,
+              "integrity_status": "VALID",
+              "details": {
+                "has_iso_base_atom": true
+              }
+            },
+            {
+              "filename": "Video-1382.mp4",
+              "relative_path": "Data set/artist_profiles/video_editors/V01_Nisha_Kapoor/media/Video-1382.mp4",
+              "extension": ".mp4",
+              "file_type": "video",
+              "size_bytes": 19010178,
+              "integrity_status": "VALID",
+              "details": {
+                "has_iso_base_atom": true
+              }
+            },
+            {
+              "filename": "Video-42290.mp4",
+              "relative_path": "Data set/artist_profiles/video_editors/V01_Nisha_Kapoor/media/Video-42290.mp4",
+              "extension": ".mp4",
+              "file_type": "video",
+              "size_bytes": 8010871,
+              "integrity_status": "VALID",
+              "details": {
+                "has_iso_base_atom": true
+              }
+            },
+            {
+              "filename": "Video-43513.mp4",
+              "relative_path": "Data set/artist_profiles/video_editors/V01_Nisha_Kapoor/media/Video-43513.mp4",
+              "extension": ".mp4",
+              "file_type": "video",
+              "size_bytes": 1834474,
+              "integrity_status": "VALID",
+              "details": {
+                "has_iso_base_atom": true
+              }
+            },
+            {
+              "filename": "Video-69962.mp4",
+              "relative_path": "Data set/artist_profiles/video_editors/V01_Nisha_Kapoor/media/Video-69962.mp4",
+              "extension": ".mp4",
+              "file_type": "video",
+              "size_bytes": 3813001,
+              "integrity_status": "VALID",
+              "details": {
+                "has_iso_base_atom": true
+              }
+            },
+            {
+              "filename": "Video-82861.mp4",
+              "relative_path": "Data set/artist_profiles/video_editors/V01_Nisha_Kapoor/media/Video-82861.mp4",
+              "extension": ".mp4",
+              "file_type": "video",
+              "size_bytes": 10811207,
+              "integrity_status": "VALID",
+              "details": {
+                "has_iso_base_atom": true
+              }
+            },
+            {
+              "filename": "Video-84802.mp4",
+              "relative_path": "Data set/artist_profiles/video_editors/V01_Nisha_Kapoor/media/Video-84802.mp4",
+              "extension": ".mp4",
+              "file_type": "video",
+              "size_bytes": 1389028,
+              "integrity_status": "VALID",
+              "details": {
+                "has_iso_base_atom": true
+              }
+            }
+          ]
+        },
+        "artist_anomalies": []
+      },
+      {
+        "source_folder_name": "V02_Rehman_Ali",
+        "category": "video_editor",
+        "folder_inferred_id": "V02",
+        "profile_declared_id": null,
+        "canonical_id": null,
+        "identifier_status": "INCONSISTENT",
+        "folder_declared_name": "Rehman_Ali",
+        "profile_declared_name": null,
+        "profile_document": {
+          "filename": "profile.docx",
+          "relative_path": "Data set/artist_profiles/video_editors/V02_Rehman_Ali/profile.docx",
+          "size_bytes": 6988,
+          "integrity_status": "OK",
+          "char_count": 218,
+          "raw_text": "Category: Video Editor  Location: Gurugram  Work preference: Remote Bio:  Video editor working on interview-led films, explainers and company videos. Portfolio:  OA_maker_profile_excerpt.mp4  OA_workplace_explainer.mp4",
+          "parsed_fields": {
+            "raw_text": "Category: Video Editor  Location: Gurugram  Work preference: Remote Bio:  Video editor working on interview-led films, explainers and company videos. Portfolio:  OA_maker_profile_excerpt.mp4  OA_workplace_explainer.mp4",
+            "declared_id": null,
+            "declared_name": null,
+            "declared_category": "Video Editor",
+            "declared_location": "Gurugram",
+            "declared_work_preference": "Remote",
+            "declared_bio": "Video editor working on interview-led films, explainers and company videos.",
+            "declared_portfolio_refs": [
+              "OA_maker_profile_excerpt.mp4",
+              "OA_workplace_explainer.mp4"
+            ]
+          }
+        },
+        "media_summary": {
+          "media_subfolder": "media",
+          "total_media_count": 7,
+          "image_count": 0,
+          "video_count": 7,
+          "audio_count": 0,
+          "system_files_count": 1,
+          "media_files": [
+            {
+              "filename": "Video-23970.mp4",
+              "relative_path": "Data set/artist_profiles/video_editors/V02_Rehman_Ali/media/Video-23970.mp4",
+              "extension": ".mp4",
+              "file_type": "video",
+              "size_bytes": 1186258,
+              "integrity_status": "VALID",
+              "details": {
+                "has_iso_base_atom": true
+              }
+            },
+            {
+              "filename": "Video-41797.mp4",
+              "relative_path": "Data set/artist_profiles/video_editors/V02_Rehman_Ali/media/Video-41797.mp4",
+              "extension": ".mp4",
+              "file_type": "video",
+              "size_bytes": 7525983,
+              "integrity_status": "VALID",
+              "details": {
+                "has_iso_base_atom": true
+              }
+            },
+            {
+              "filename": "Video-5523.mp4",
+              "relative_path": "Data set/artist_profiles/video_editors/V02_Rehman_Ali/media/Video-5523.mp4",
+              "extension": ".mp4",
+              "file_type": "video",
+              "size_bytes": 16121967,
+              "integrity_status": "VALID",
+              "details": {
+                "has_iso_base_atom": true
+              }
+            },
+            {
+              "filename": "Video-70182.mp4",
+              "relative_path": "Data set/artist_profiles/video_editors/V02_Rehman_Ali/media/Video-70182.mp4",
+              "extension": ".mp4",
+              "file_type": "video",
+              "size_bytes": 1615054,
+              "integrity_status": "VALID",
+              "details": {
+                "has_iso_base_atom": true
+              }
+            },
+            {
+              "filename": "Video-75516.mp4",
+              "relative_path": "Data set/artist_profiles/video_editors/V02_Rehman_Ali/media/Video-75516.mp4",
+              "extension": ".mp4",
+              "file_type": "video",
+              "size_bytes": 4887259,
+              "integrity_status": "VALID",
+              "details": {
+                "has_iso_base_atom": true
+              }
+            },
+            {
+              "filename": "Video-77734.mp4",
+              "relative_path": "Data set/artist_profiles/video_editors/V02_Rehman_Ali/media/Video-77734.mp4",
+              "extension": ".mp4",
+              "file_type": "video",
+              "size_bytes": 5543343,
+              "integrity_status": "VALID",
+              "details": {
+                "has_iso_base_atom": true
+              }
+            },
+            {
+              "filename": "Video-9403.mp4",
+              "relative_path": "Data set/artist_profiles/video_editors/V02_Rehman_Ali/media/Video-9403.mp4",
+              "extension": ".mp4",
+              "file_type": "video",
+              "size_bytes": 20326276,
+              "integrity_status": "VALID",
+              "details": {
+                "has_iso_base_atom": true
+              }
+            }
+          ]
+        },
+        "artist_anomalies": [
+          "Profile docx lacks explicit standard artist ID header",
+          "Profile docx has no artist ID/name header; starts directly with 'Category: Video Editor'"
+        ]
+      },
+      {
+        "source_folder_name": "V03_Rahul_Gupta",
+        "category": "video_editor",
+        "folder_inferred_id": "V03",
+        "profile_declared_id": "V03",
+        "canonical_id": null,
+        "identifier_status": "CONSISTENT",
+        "folder_declared_name": "Rahul_Gupta",
+        "profile_declared_name": "Tara D'Souza",
+        "profile_document": {
+          "filename": "profile.docx",
+          "relative_path": "Data set/artist_profiles/video_editors/V03_Rahul_Gupta/profile.docx",
+          "size_bytes": 7026,
+          "integrity_status": "OK",
+          "char_count": 158,
+          "raw_text": "V03 / Tara D'Souza Category: Video Editor Location: Mumbai Work preference: Remote Bio: Cinematic travel, wedding and hospitality films with music-led pacing.",
+          "parsed_fields": {
+            "raw_text": "V03 / Tara D'Souza Category: Video Editor Location: Mumbai Work preference: Remote Bio: Cinematic travel, wedding and hospitality films with music-led pacing.",
+            "declared_id": "V03",
+            "declared_name": "Tara D'Souza",
+            "declared_category": "Video Editor",
+            "declared_location": "Mumbai",
+            "declared_work_preference": "Remote",
+            "declared_bio": "Cinematic travel, wedding and hospitality films with music-led pacing.",
+            "declared_portfolio_refs": []
+          }
+        },
+        "media_summary": {
+          "media_subfolder": "media",
+          "total_media_count": 12,
+          "image_count": 0,
+          "video_count": 12,
+          "audio_count": 0,
+          "system_files_count": 1,
+          "media_files": [
+            {
+              "filename": "Video-12136.mp4",
+              "relative_path": "Data set/artist_profiles/video_editors/V03_Rahul_Gupta/media/Video-12136.mp4",
+              "extension": ".mp4",
+              "file_type": "video",
+              "size_bytes": 3999720,
+              "integrity_status": "VALID",
+              "details": {
+                "has_iso_base_atom": true
+              }
+            },
+            {
+              "filename": "Video-15915.mp4",
+              "relative_path": "Data set/artist_profiles/video_editors/V03_Rahul_Gupta/media/Video-15915.mp4",
+              "extension": ".mp4",
+              "file_type": "video",
+              "size_bytes": 1688749,
+              "integrity_status": "VALID",
+              "details": {
+                "has_iso_base_atom": true
+              }
+            },
+            {
+              "filename": "Video-28319.mp4",
+              "relative_path": "Data set/artist_profiles/video_editors/V03_Rahul_Gupta/media/Video-28319.mp4",
+              "extension": ".mp4",
+              "file_type": "video",
+              "size_bytes": 2440183,
+              "integrity_status": "VALID",
+              "details": {
+                "has_iso_base_atom": true
+              }
+            },
+            {
+              "filename": "Video-32406.mp4",
+              "relative_path": "Data set/artist_profiles/video_editors/V03_Rahul_Gupta/media/Video-32406.mp4",
+              "extension": ".mp4",
+              "file_type": "video",
+              "size_bytes": 4507484,
+              "integrity_status": "VALID",
+              "details": {
+                "has_iso_base_atom": true
+              }
+            },
+            {
+              "filename": "Video-32465.mp4",
+              "relative_path": "Data set/artist_profiles/video_editors/V03_Rahul_Gupta/media/Video-32465.mp4",
+              "extension": ".mp4",
+              "file_type": "video",
+              "size_bytes": 3999720,
+              "integrity_status": "VALID",
+              "details": {
+                "has_iso_base_atom": true
+              }
+            },
+            {
+              "filename": "Video-33770.mp4",
+              "relative_path": "Data set/artist_profiles/video_editors/V03_Rahul_Gupta/media/Video-33770.mp4",
+              "extension": ".mp4",
+              "file_type": "video",
+              "size_bytes": 2739837,
+              "integrity_status": "VALID",
+              "details": {
+                "has_iso_base_atom": true
+              }
+            },
+            {
+              "filename": "Video-45937.mp4",
+              "relative_path": "Data set/artist_profiles/video_editors/V03_Rahul_Gupta/media/Video-45937.mp4",
+              "extension": ".mp4",
+              "file_type": "video",
+              "size_bytes": 11919156,
+              "integrity_status": "VALID",
+              "details": {
+                "has_iso_base_atom": true
+              }
+            },
+            {
+              "filename": "Video-66106.mp4",
+              "relative_path": "Data set/artist_profiles/video_editors/V03_Rahul_Gupta/media/Video-66106.mp4",
+              "extension": ".mp4",
+              "file_type": "video",
+              "size_bytes": 5418631,
+              "integrity_status": "VALID",
+              "details": {
+                "has_iso_base_atom": true
+              }
+            },
+            {
+              "filename": "Video-70591.mp4",
+              "relative_path": "Data set/artist_profiles/video_editors/V03_Rahul_Gupta/media/Video-70591.mp4",
+              "extension": ".mp4",
+              "file_type": "video",
+              "size_bytes": 1288368,
+              "integrity_status": "VALID",
+              "details": {
+                "has_iso_base_atom": true
+              }
+            },
+            {
+              "filename": "Video-73044.mp4",
+              "relative_path": "Data set/artist_profiles/video_editors/V03_Rahul_Gupta/media/Video-73044.mp4",
+              "extension": ".mp4",
+              "file_type": "video",
+              "size_bytes": 7735837,
+              "integrity_status": "VALID",
+              "details": {
+                "has_iso_base_atom": true
+              }
+            },
+            {
+              "filename": "Video-82620.mp4",
+              "relative_path": "Data set/artist_profiles/video_editors/V03_Rahul_Gupta/media/Video-82620.mp4",
+              "extension": ".mp4",
+              "file_type": "video",
+              "size_bytes": 11751746,
+              "integrity_status": "VALID",
+              "details": {
+                "has_iso_base_atom": true
+              }
+            },
+            {
+              "filename": "Video-93517.mp4",
+              "relative_path": "Data set/artist_profiles/video_editors/V03_Rahul_Gupta/media/Video-93517.mp4",
+              "extension": ".mp4",
+              "file_type": "video",
+              "size_bytes": 4792095,
+              "integrity_status": "VALID",
+              "details": {
+                "has_iso_base_atom": true
+              }
+            }
+          ]
+        },
+        "artist_anomalies": [
+          "Profile docx declares 'V03 / Tara D'Souza' (Name mismatch with folder 'Rahul_Gupta')"
+        ]
+      },
+      {
+        "source_folder_name": "VO4_Shivam_media",
+        "category": "video_editor",
+        "folder_inferred_id": "VO4",
+        "profile_declared_id": "V04",
+        "canonical_id": null,
+        "identifier_status": "INCONSISTENT",
+        "folder_declared_name": "Shivam_media",
+        "profile_declared_name": "Shivam",
+        "profile_document": {
+          "filename": "Shivam_Artist_Profile.docx",
+          "relative_path": "Data set/artist_profiles/video_editors/VO4_Shivam_media/Shivam_Artist_Profile.docx",
+          "size_bytes": 19770,
+          "integrity_status": "OK",
+          "char_count": 229,
+          "raw_text": "V04 / Shivam Category: Visual Artist Location: Delhi, India Work preference: Not specified Bio: Visual artist working in portrait photography, cinematography, videography and video editing. Portfolio: Not provided in the profile.",
+          "parsed_fields": {
+            "raw_text": "V04 / Shivam Category: Visual Artist Location: Delhi, India Work preference: Not specified Bio: Visual artist working in portrait photography, cinematography, videography and video editing. Portfolio: Not provided in the profile.",
+            "declared_id": "V04",
+            "declared_name": "Shivam",
+            "declared_category": null,
+            "declared_location": "Delhi, India",
+            "declared_work_preference": "Not specified",
+            "declared_bio": "Visual artist working in portrait photography, cinematography, videography and video editing.",
+            "declared_portfolio_refs": [
+              "Not provided in the profile."
+            ]
+          }
+        },
+        "media_summary": {
+          "media_subfolder": "Work",
+          "total_media_count": 9,
+          "image_count": 5,
+          "video_count": 4,
+          "audio_count": 0,
+          "system_files_count": 0,
+          "media_files": [
+            {
+              "filename": "0df61083-dd4f-4133-923f-4d181237d13a_1000185779.jpg",
+              "relative_path": "Data set/artist_profiles/video_editors/VO4_Shivam_media/Work/0df61083-dd4f-4133-923f-4d181237d13a_1000185779.jpg",
+              "extension": ".jpg",
+              "file_type": "image",
+              "size_bytes": 60704,
+              "integrity_status": "VALID",
+              "details": {
+                "format": "JPEG",
+                "mode": "RGB",
+                "width": 720,
+                "height": 1080
+              }
+            },
+            {
+              "filename": "1666cefa-0524-45b6-a064-20b461e1cb20_1000185783.jpg",
+              "relative_path": "Data set/artist_profiles/video_editors/VO4_Shivam_media/Work/1666cefa-0524-45b6-a064-20b461e1cb20_1000185783.jpg",
+              "extension": ".jpg",
+              "file_type": "image",
+              "size_bytes": 55326,
+              "integrity_status": "VALID",
+              "details": {
+                "format": "JPEG",
+                "mode": "RGB",
+                "width": 720,
+                "height": 1080
+              }
+            },
+            {
+              "filename": "88816920-09ae-4f8a-be19-a53a38079314_1000074641.mp4",
+              "relative_path": "Data set/artist_profiles/video_editors/VO4_Shivam_media/Work/88816920-09ae-4f8a-be19-a53a38079314_1000074641.mp4",
+              "extension": ".mp4",
+              "file_type": "video",
+              "size_bytes": 89799513,
+              "integrity_status": "VALID",
+              "details": {
+                "has_iso_base_atom": true
+              }
+            },
+            {
+              "filename": "9540acd8-653c-4df5-b65d-a43ef80d7eff_1000185780.jpg",
+              "relative_path": "Data set/artist_profiles/video_editors/VO4_Shivam_media/Work/9540acd8-653c-4df5-b65d-a43ef80d7eff_1000185780.jpg",
+              "extension": ".jpg",
+              "file_type": "image",
+              "size_bytes": 69873,
+              "integrity_status": "VALID",
+              "details": {
+                "format": "JPEG",
+                "mode": "RGB",
+                "width": 720,
+                "height": 1080
+              }
+            },
+            {
+              "filename": "a03e48d1-2e2c-4495-a100-51cf10da6505_1000185790.jpg",
+              "relative_path": "Data set/artist_profiles/video_editors/VO4_Shivam_media/Work/a03e48d1-2e2c-4495-a100-51cf10da6505_1000185790.jpg",
+              "extension": ".jpg",
+              "file_type": "image",
+              "size_bytes": 28582,
+              "integrity_status": "VALID",
+              "details": {
+                "format": "JPEG",
+                "mode": "RGB",
+                "width": 720,
+                "height": 1080
+              }
+            },
+            {
+              "filename": "c31b5529-8290-4f38-9802-24ff9e7ff38d_1000185789.jpg",
+              "relative_path": "Data set/artist_profiles/video_editors/VO4_Shivam_media/Work/c31b5529-8290-4f38-9802-24ff9e7ff38d_1000185789.jpg",
+              "extension": ".jpg",
+              "file_type": "image",
+              "size_bytes": 31484,
+              "integrity_status": "VALID",
+              "details": {
+                "format": "JPEG",
+                "mode": "RGB",
+                "width": 1080,
+                "height": 720
+              }
+            },
+            {
+              "filename": "d6eaed46-e96b-45d6-a93c-118258b35503_1000181677.mp4",
+              "relative_path": "Data set/artist_profiles/video_editors/VO4_Shivam_media/Work/d6eaed46-e96b-45d6-a93c-118258b35503_1000181677.mp4",
+              "extension": ".mp4",
+              "file_type": "video",
+              "size_bytes": 54165224,
+              "integrity_status": "VALID",
+              "details": {
+                "has_iso_base_atom": true
+              }
+            },
+            {
+              "filename": "dabdcb72-81e8-4980-b4b2-47e883bed011_1000184725.mp4",
+              "relative_path": "Data set/artist_profiles/video_editors/VO4_Shivam_media/Work/dabdcb72-81e8-4980-b4b2-47e883bed011_1000184725.mp4",
+              "extension": ".mp4",
+              "file_type": "video",
+              "size_bytes": 47709395,
+              "integrity_status": "VALID",
+              "details": {
+                "has_iso_base_atom": true
+              }
+            },
+            {
+              "filename": "e0d42ba4-a2ef-4f51-804c-ab55ee6335b2_1000167312.mp4",
+              "relative_path": "Data set/artist_profiles/video_editors/VO4_Shivam_media/Work/e0d42ba4-a2ef-4f51-804c-ab55ee6335b2_1000167312.mp4",
+              "extension": ".mp4",
+              "file_type": "video",
+              "size_bytes": 41270560,
+              "integrity_status": "VALID",
+              "details": {
+                "has_iso_base_atom": true
+              }
+            }
+          ]
+        },
+        "artist_anomalies": [
+          "Non-standard media subfolder name: 'Work' instead of 'media'",
+          "Folder uses letter 'O' instead of digit '0' in identifier 'VO4'",
+          "Profile declares 'Portfolio: Not provided in the profile' but 9 work files exist in 'Work/'"
+        ]
+      },
+      {
+        "source_folder_name": "VO5_Roshan",
+        "category": "video_editor",
+        "folder_inferred_id": "VO5",
+        "profile_declared_id": "V03",
+        "canonical_id": null,
+        "identifier_status": "INCONSISTENT",
+        "folder_declared_name": "Roshan",
+        "profile_declared_name": "Roshan",
+        "profile_document": {
+          "filename": "Roshan_Artist_Profile.docx",
+          "relative_path": "Data set/artist_profiles/video_editors/VO5_Roshan/Roshan_Artist_Profile.docx",
+          "size_bytes": 150434,
+          "integrity_status": "OK",
+          "char_count": 208,
+          "raw_text": "V03 / Roshan Category: Video Creator  Location: Delhi NCR  Work preference: Projects & Collaborations Bio:  Video creator working across cinematography, videography, video editing, sound design and direction.",
+          "parsed_fields": {
+            "raw_text": "V03 / Roshan Category: Video Creator  Location: Delhi NCR  Work preference: Projects & Collaborations Bio:  Video creator working across cinematography, videography, video editing, sound design and direction.",
+            "declared_id": "V03",
+            "declared_name": "Roshan",
+            "declared_category": "Video Creator",
+            "declared_location": "Delhi NCR",
+            "declared_work_preference": null,
+            "declared_bio": "Video creator working across cinematography, videography, video editing, sound design and direction.",
+            "declared_portfolio_refs": []
+          }
+        },
+        "media_summary": {
+          "media_subfolder": "media",
+          "total_media_count": 8,
+          "image_count": 0,
+          "video_count": 8,
+          "audio_count": 0,
+          "system_files_count": 0,
+          "media_files": [
+            {
+              "filename": "4320_Samsung_Event_Videography.mp4",
+              "relative_path": "Data set/artist_profiles/video_editors/VO5_Roshan/media/4320_Samsung_Event_Videography.mp4",
+              "extension": ".mp4",
+              "file_type": "video",
+              "size_bytes": 16447919,
+              "integrity_status": "VALID",
+              "details": {
+                "has_iso_base_atom": true
+              }
+            },
+            {
+              "filename": "4321_Gym_Videography.mov",
+              "relative_path": "Data set/artist_profiles/video_editors/VO5_Roshan/media/4321_Gym_Videography.mov",
+              "extension": ".mov",
+              "file_type": "video",
+              "size_bytes": 94671648,
+              "integrity_status": "VALID",
+              "details": {
+                "has_iso_base_atom": true
+              }
+            },
+            {
+              "filename": "4322_Music_Video.mov",
+              "relative_path": "Data set/artist_profiles/video_editors/VO5_Roshan/media/4322_Music_Video.mov",
+              "extension": ".mov",
+              "file_type": "video",
+              "size_bytes": 55638499,
+              "integrity_status": "VALID",
+              "details": {
+                "has_iso_base_atom": true
+              }
+            },
+            {
+              "filename": "4323_Cafe_videography.mov",
+              "relative_path": "Data set/artist_profiles/video_editors/VO5_Roshan/media/4323_Cafe_videography.mov",
+              "extension": ".mov",
+              "file_type": "video",
+              "size_bytes": 7477122,
+              "integrity_status": "VALID",
+              "details": {
+                "has_iso_base_atom": true
+              }
+            },
+            {
+              "filename": "4331_EDITING_WORK.mp4",
+              "relative_path": "Data set/artist_profiles/video_editors/VO5_Roshan/media/4331_EDITING_WORK.mp4",
+              "extension": ".mp4",
+              "file_type": "video",
+              "size_bytes": 3168797,
+              "integrity_status": "VALID",
+              "details": {
+                "has_iso_base_atom": true
+              }
+            },
+            {
+              "filename": "4332_Mini_Vlog_edit.mov",
+              "relative_path": "Data set/artist_profiles/video_editors/VO5_Roshan/media/4332_Mini_Vlog_edit.mov",
+              "extension": ".mov",
+              "file_type": "video",
+              "size_bytes": 16948597,
+              "integrity_status": "VALID",
+              "details": {
+                "has_iso_base_atom": true
+              }
+            },
+            {
+              "filename": "4345_BTS_MODI_JI.mp4",
+              "relative_path": "Data set/artist_profiles/video_editors/VO5_Roshan/media/4345_BTS_MODI_JI.mp4",
+              "extension": ".mp4",
+              "file_type": "video",
+              "size_bytes": 12170213,
+              "integrity_status": "VALID",
+              "details": {
+                "has_iso_base_atom": true
+              }
+            },
+            {
+              "filename": "_Music_Events.mp4",
+              "relative_path": "Data set/artist_profiles/video_editors/VO5_Roshan/media/_Music_Events.mp4",
+              "extension": ".mp4",
+              "file_type": "video",
+              "size_bytes": 15549490,
+              "integrity_status": "VALID",
+              "details": {
+                "has_iso_base_atom": true
+              }
+            }
+          ]
+        },
+        "artist_anomalies": [
+          "Folder uses letter 'O' instead of digit '0' in identifier 'VO5'",
+          "ID Mismatch: Folder indicates 'VO5' but profile docx declares 'V03'",
+          "Profile docx declares 'V03 / Roshan' (ID collision with V03)"
+        ]
+      }
+    ]
+  },
+  "file_type_distribution": {
+    "": 9,
+    ".docx": 15,
+    ".mp4": 50,
+    ".wav": 2,
+    ".mp3": 7,
+    ".jpg": 45,
+    ".jpeg": 3,
+    ".webp": 5,
+    ".png": 4,
+    ".mov": 4,
+    ".txt": 5
+  },
+  "system_files": [
+    "Data set/.DS_Store",
+    "Data set/artist_profiles/musicians/M01_Meera_Arjun/media/.DS_Store",
+    "Data set/artist_profiles/musicians/M02_Neon_Junction/media/.DS_Store",
+    "Data set/artist_profiles/photographers/P01_Aanya_Rao/media/.DS_Store",
+    "Data set/artist_profiles/photographers/P02_Kabir_Mehta/media/.DS_Store",
+    "Data set/artist_profiles/photographers/P03_Leena_Thomas/media/.DS_Store",
+    "Data set/artist_profiles/video_editors/V01_Nisha_Kapoor/media/.DS_Store",
+    "Data set/artist_profiles/video_editors/V02_Rehman_Ali/media/.DS_Store",
+    "Data set/artist_profiles/video_editors/V03_Rahul_Gupta/media/.DS_Store"
+  ],
+  "dataset_anomalies": [
+    {
+      "artist_folder": "PO4_Drift",
+      "category": "photographers",
+      "anomalies": [
+        "Folder uses letter 'O' instead of digit '0' in identifier 'PO4'",
+        "ID Mismatch: Folder indicates 'PO4' but profile docx declares 'V05'",
+        "Profile docx declares 'V05 / Drift' (Video editor prefix for a photographer)"
+      ]
+    },
+    {
+      "artist_folder": "PO5_Frames",
+      "category": "photographers",
+      "anomalies": [
+        "Folder uses letter 'O' instead of digit '0' in identifier 'PO5'",
+        "ID Mismatch: Folder indicates 'PO5' but profile docx declares 'P04'",
+        "Profile docx declares 'P04 /Frames' (ID collision with P04)"
+      ]
+    },
+    {
+      "artist_folder": "M05_Lunar_Noise",
+      "category": "musicians",
+      "anomalies": [
+        "Profile bio states artist is a practicing legal professional based in Agra"
+      ]
+    },
+    {
+      "artist_folder": "V02_Rehman_Ali",
+      "category": "video_editors",
+      "anomalies": [
+        "Profile docx lacks explicit standard artist ID header",
+        "Profile docx has no artist ID/name header; starts directly with 'Category: Video Editor'"
+      ]
+    },
+    {
+      "artist_folder": "V03_Rahul_Gupta",
+      "category": "video_editors",
+      "anomalies": [
+        "Profile docx declares 'V03 / Tara D'Souza' (Name mismatch with folder 'Rahul_Gupta')"
+      ]
+    },
+    {
+      "artist_folder": "VO4_Shivam_media",
+      "category": "video_editors",
+      "anomalies": [
+        "Non-standard media subfolder name: 'Work' instead of 'media'",
+        "Folder uses letter 'O' instead of digit '0' in identifier 'VO4'",
+        "Profile declares 'Portfolio: Not provided in the profile' but 9 work files exist in 'Work/'"
+      ]
+    },
+    {
+      "artist_folder": "VO5_Roshan",
+      "category": "video_editors",
+      "anomalies": [
+        "Folder uses letter 'O' instead of digit '0' in identifier 'VO5'",
+        "ID Mismatch: Folder indicates 'VO5' but profile docx declares 'V03'",
+        "Profile docx declares 'V03 / Roshan' (ID collision with V03)"
+      ]
+    }
+  ],
+  "integrity_summary": {
+    "total_checked": 149,
+    "valid_files": 140,
+    "corrupt_files": 0,
+    "empty_files": 0,
+    "system_files_count": 9
+  }
+}

@@ -1,0 +1,758 @@
+{
+  "metadata": {
+    "pipeline_version": "1.0.0",
+    "original_brief_id": "01_cafe_music_whatsapp",
+    "follow_up_update_id": "01_cafe_music_update",
+    "re_ranking_framework": "Comparative before-and-after requirement analysis"
+  },
+  "reranking": {
+    "brief_id": "01_cafe_music_whatsapp",
+    "follow_up_update_id": "01_cafe_music_update",
+    "follow_up_summary": "Scope changed from 3-hour low-volume background music to a 45-minute showcase headline launch set for 80 guests, with budget increased to ₹15,000.",
+    "initial_top_two": [
+      {
+        "rank": 1,
+        "artist_id": "M01",
+        "artist_name": "Meera & Arjun Acoustic duo | Delhi NCR",
+        "category": "musician",
+        "fit_reason": "Meera & Arjun Acoustic duo | Delhi NCR ranks #1 — Demonstrated capability in: ambient background suitability, acoustic live performance, vocal capability and repertoire. (Score: 88.0/100, Confidence: HIGH). Match Score 88.0/100 [Req Fit: 50.0/50, Evidence: 18.0/30, Constraints: 20.0/20, Penalty: 0.0]. Demonstrated 3 requirements, 0 dimensions UNKNOWN.",
+        "matched_requirements": [
+          {
+            "requirement_id": "REQ_CAFE_01",
+            "dimension": "ambient_background_suitability",
+            "artist_capability_id": "CAP_AMBIENT_BACKGROUND_SUITABILITY",
+            "match_status": "STRONG_MATCH",
+            "fit_explanation": "Demonstrated: Gentle acoustic dynamics allowing conversational cafe atmosphere",
+            "supporting_evidence": [
+              {
+                "evidence_id": "EV_M01_AUDIO_1",
+                "file_name": "MA_cafe_demo_take1.wav",
+                "relative_path": "Data set/artist_profiles/musicians/M01_Meera_Arjun/media/MA_cafe_demo_take1.wav",
+                "media_type": "audio",
+                "timestamp_or_frame": "0:00 - 1:45 (Live Cafe Demo)",
+                "observed_features": [
+                  "Format: Acoustic Duo (Guitar & Dual Vocals)",
+                  "Genre/Style: Acoustic Folk / Contemporary Ballads / Upbeat Medleys",
+                  "Clean acoustic guitar fingerpicking and rhythm",
+                  "Harmonized dual male/female lead vocals",
+                  "Demonstrated live cafe environment suitability",
+                  "Demonstrated upbeat tempo acceleration in rehearsal medley"
+                ],
+                "citation_text": "Asset 'MA_cafe_demo_take1.wav' (Acoustic Duo (Guitar & Dual Vocals)): Live acoustic duo performance featuring un-synthesized acoustic guitar and clean two-part vocal harmonies. Observed: Clean acoustic guitar fingerpicking and rhythm, Harmonized dual male/female lead vocals."
+              },
+              {
+                "evidence_id": "EV_M01_AUDIO_2",
+                "file_name": "35860-408654164.mp4",
+                "relative_path": "Data set/artist_profiles/musicians/M01_Meera_Arjun/media/35860-408654164.mp4",
+                "media_type": "video",
+                "timestamp_or_frame": "Full take",
+                "observed_features": [
+                  "Format: Acoustic Duo (Guitar & Dual Vocals)",
+                  "Genre/Style: Acoustic Folk / Contemporary Ballads / Upbeat Medleys",
+                  "Clean acoustic guitar fingerpicking and rhythm",
+                  "Harmonized dual male/female lead vocals",
+                  "Demonstrated live cafe environment suitability",
+                  "Demonstrated upbeat tempo acceleration in rehearsal medley"
+                ],
+                "citation_text": "Asset '35860-408654164.mp4' (Acoustic Duo (Guitar & Dual Vocals)): Live acoustic duo performance featuring un-synthesized acoustic guitar and clean two-part vocal harmonies. Observed: Clean acoustic guitar fingerpicking and rhythm, Harmonized dual male/female lead vocals."
+              }
+            ]
+          },
+          {
+            "requirement_id": "REQ_CAFE_02",
+            "dimension": "acoustic_live_performance",
+            "artist_capability_id": "CAP_ACOUSTIC_LIVE_PERFORMANCE",
+            "match_status": "STRONG_MATCH",
+            "fit_explanation": "Demonstrated: Clean live acoustic guitar fingerpicking and live cafe takes",
+            "supporting_evidence": [
+              {
+                "evidence_id": "EV_M01_AUDIO_1",
+                "file_name": "MA_cafe_demo_take1.wav",
+                "relative_path": "Data set/artist_profiles/musicians/M01_Meera_Arjun/media/MA_cafe_demo_take1.wav",
+                "media_type": "audio",
+                "timestamp_or_frame": "0:00 - 1:45 (Live Cafe Demo)",
+                "observed_features": [
+                  "Format: Acoustic Duo (Guitar & Dual Vocals)",
+                  "Genre/Style: Acoustic Folk / Contemporary Ballads / Upbeat Medleys",
+                  "Clean acoustic guitar fingerpicking and rhythm",
+                  "Harmonized dual male/female lead vocals",
+                  "Demonstrated live cafe environment suitability",
+                  "Demonstrated upbeat tempo acceleration in rehearsal medley"
+                ],
+                "citation_text": "Asset 'MA_cafe_demo_take1.wav' (Acoustic Duo (Guitar & Dual Vocals)): Live acoustic duo performance featuring un-synthesized acoustic guitar and clean two-part vocal harmonies. Observed: Clean acoustic guitar fingerpicking and rhythm, Harmonized dual male/female lead vocals."
+              },
+              {
+                "evidence_id": "EV_M01_AUDIO_2",
+                "file_name": "35860-408654164.mp4",
+                "relative_path": "Data set/artist_profiles/musicians/M01_Meera_Arjun/media/35860-408654164.mp4",
+                "media_type": "video",
+                "timestamp_or_frame": "Full take",
+                "observed_features": [
+                  "Format: Acoustic Duo (Guitar & Dual Vocals)",
+                  "Genre/Style: Acoustic Folk / Contemporary Ballads / Upbeat Medleys",
+                  "Clean acoustic guitar fingerpicking and rhythm",
+                  "Harmonized dual male/female lead vocals",
+                  "Demonstrated live cafe environment suitability",
+                  "Demonstrated upbeat tempo acceleration in rehearsal medley"
+                ],
+                "citation_text": "Asset '35860-408654164.mp4' (Acoustic Duo (Guitar & Dual Vocals)): Live acoustic duo performance featuring un-synthesized acoustic guitar and clean two-part vocal harmonies. Observed: Clean acoustic guitar fingerpicking and rhythm, Harmonized dual male/female lead vocals."
+              }
+            ]
+          },
+          {
+            "requirement_id": "REQ_CAFE_03",
+            "dimension": "vocal_capability_and_repertoire",
+            "artist_capability_id": "CAP_VOCAL_CAPABILITY_AND_REPERTOIRE",
+            "match_status": "STRONG_MATCH",
+            "fit_explanation": "Demonstrated: Two-part male/female vocal harmonies across English and Hindi contemporary songs",
+            "supporting_evidence": [
+              {
+                "evidence_id": "EV_M01_AUDIO_1",
+                "file_name": "MA_cafe_demo_take1.wav",
+                "relative_path": "Data set/artist_profiles/musicians/M01_Meera_Arjun/media/MA_cafe_demo_take1.wav",
+                "media_type": "audio",
+                "timestamp_or_frame": "0:00 - 1:45 (Live Cafe Demo)",
+                "observed_features": [
+                  "Format: Acoustic Duo (Guitar & Dual Vocals)",
+                  "Genre/Style: Acoustic Folk / Contemporary Ballads / Upbeat Medleys",
+                  "Clean acoustic guitar fingerpicking and rhythm",
+                  "Harmonized dual male/female lead vocals",
+                  "Demonstrated live cafe environment suitability",
+                  "Demonstrated upbeat tempo acceleration in rehearsal medley"
+                ],
+                "citation_text": "Asset 'MA_cafe_demo_take1.wav' (Acoustic Duo (Guitar & Dual Vocals)): Live acoustic duo performance featuring un-synthesized acoustic guitar and clean two-part vocal harmonies. Observed: Clean acoustic guitar fingerpicking and rhythm, Harmonized dual male/female lead vocals."
+              },
+              {
+                "evidence_id": "EV_M01_AUDIO_2",
+                "file_name": "35860-408654164.mp4",
+                "relative_path": "Data set/artist_profiles/musicians/M01_Meera_Arjun/media/35860-408654164.mp4",
+                "media_type": "video",
+                "timestamp_or_frame": "Full take",
+                "observed_features": [
+                  "Format: Acoustic Duo (Guitar & Dual Vocals)",
+                  "Genre/Style: Acoustic Folk / Contemporary Ballads / Upbeat Medleys",
+                  "Clean acoustic guitar fingerpicking and rhythm",
+                  "Harmonized dual male/female lead vocals",
+                  "Demonstrated live cafe environment suitability",
+                  "Demonstrated upbeat tempo acceleration in rehearsal medley"
+                ],
+                "citation_text": "Asset '35860-408654164.mp4' (Acoustic Duo (Guitar & Dual Vocals)): Live acoustic duo performance featuring un-synthesized acoustic guitar and clean two-part vocal harmonies. Observed: Clean acoustic guitar fingerpicking and rhythm, Harmonized dual male/female lead vocals."
+              }
+            ]
+          }
+        ],
+        "supporting_evidence": [
+          {
+            "evidence_id": "EV_M01_AUDIO_1",
+            "file_name": "MA_cafe_demo_take1.wav",
+            "relative_path": "Data set/artist_profiles/musicians/M01_Meera_Arjun/media/MA_cafe_demo_take1.wav",
+            "media_type": "audio",
+            "timestamp_or_frame": "0:00 - 1:45 (Live Cafe Demo)",
+            "observed_features": [
+              "Format: Acoustic Duo (Guitar & Dual Vocals)",
+              "Genre/Style: Acoustic Folk / Contemporary Ballads / Upbeat Medleys",
+              "Clean acoustic guitar fingerpicking and rhythm",
+              "Harmonized dual male/female lead vocals",
+              "Demonstrated live cafe environment suitability",
+              "Demonstrated upbeat tempo acceleration in rehearsal medley"
+            ],
+            "citation_text": "Asset 'MA_cafe_demo_take1.wav' (Acoustic Duo (Guitar & Dual Vocals)): Live acoustic duo performance featuring un-synthesized acoustic guitar and clean two-part vocal harmonies. Observed: Clean acoustic guitar fingerpicking and rhythm, Harmonized dual male/female lead vocals."
+          },
+          {
+            "evidence_id": "EV_M01_AUDIO_2",
+            "file_name": "35860-408654164.mp4",
+            "relative_path": "Data set/artist_profiles/musicians/M01_Meera_Arjun/media/35860-408654164.mp4",
+            "media_type": "video",
+            "timestamp_or_frame": "Full take",
+            "observed_features": [
+              "Format: Acoustic Duo (Guitar & Dual Vocals)",
+              "Genre/Style: Acoustic Folk / Contemporary Ballads / Upbeat Medleys",
+              "Clean acoustic guitar fingerpicking and rhythm",
+              "Harmonized dual male/female lead vocals",
+              "Demonstrated live cafe environment suitability",
+              "Demonstrated upbeat tempo acceleration in rehearsal medley"
+            ],
+            "citation_text": "Asset '35860-408654164.mp4' (Acoustic Duo (Guitar & Dual Vocals)): Live acoustic duo performance featuring un-synthesized acoustic guitar and clean two-part vocal harmonies. Observed: Clean acoustic guitar fingerpicking and rhythm, Harmonized dual male/female lead vocals."
+          }
+        ],
+        "confidence": "HIGH",
+        "trade_offs": [
+          "Evidence confidence: HIGH"
+        ],
+        "uncertainty_and_limitations": []
+      },
+      {
+        "rank": 2,
+        "artist_id": "M03",
+        "artist_name": "Raghav Sen",
+        "category": "musician",
+        "fit_reason": "Raghav Sen ranks #2 — Demonstrated capability in: ambient background suitability, acoustic live performance, vocal capability and repertoire. (Score: 88.0/100, Confidence: HIGH). Match Score 88.0/100 [Req Fit: 50.0/50, Evidence: 18.0/30, Constraints: 20.0/20, Penalty: 0.0]. Demonstrated 3 requirements, 0 dimensions UNKNOWN.",
+        "matched_requirements": [
+          {
+            "requirement_id": "REQ_CAFE_01",
+            "dimension": "ambient_background_suitability",
+            "artist_capability_id": "CAP_AMBIENT_BACKGROUND_SUITABILITY",
+            "match_status": "STRONG_MATCH",
+            "fit_explanation": "Demonstrated: Mellow acoustic tempo and dynamic restraint ideal for unobtrusive cafe conversations",
+            "supporting_evidence": [
+              {
+                "evidence_id": "EV_M03_AUDIO_1",
+                "file_name": "alanajordan-letting-go-342368.mp3",
+                "relative_path": "Data set/artist_profiles/musicians/M03_Raghav_Sen/media/alanajordan-letting-go-342368.mp3",
+                "media_type": "audio",
+                "timestamp_or_frame": "0:00 - 1:30",
+                "observed_features": [
+                  "Format: Solo Singer-Songwriter (Acoustic Guitar & Vocals)",
+                  "Genre/Style: Folk Acoustic / Slow Ballads / Indie",
+                  "Intimate solo acoustic guitar accompaniment",
+                  "Soft, mellow male vocal storytelling with minimal dynamic peaks",
+                  "Talkable low-volume ambient atmosphere suitability"
+                ],
+                "citation_text": "Asset 'alanajordan-letting-go-342368.mp3' (Solo Singer-Songwriter (Acoustic Guitar & Vocals)): Solo acoustic singer-songwriter performance with warm acoustic guitar and gentle vocal phrasing. Observed: Intimate solo acoustic guitar accompaniment, Soft, mellow male vocal storytelling with minimal dynamic peaks."
+              },
+              {
+                "evidence_id": "EV_M03_AUDIO_2",
+                "file_name": "folk_acoustic-summer-walk-152722.mp3",
+                "relative_path": "Data set/artist_profiles/musicians/M03_Raghav_Sen/media/folk_acoustic-summer-walk-152722.mp3",
+                "media_type": "audio",
+                "timestamp_or_frame": "0:00 - 1:30",
+                "observed_features": [
+                  "Format: Solo Singer-Songwriter (Acoustic Guitar & Vocals)",
+                  "Genre/Style: Folk Acoustic / Slow Ballads / Indie",
+                  "Intimate solo acoustic guitar accompaniment",
+                  "Soft, mellow male vocal storytelling with minimal dynamic peaks",
+                  "Talkable low-volume ambient atmosphere suitability"
+                ],
+                "citation_text": "Asset 'folk_acoustic-summer-walk-152722.mp3' (Solo Singer-Songwriter (Acoustic Guitar & Vocals)): Solo acoustic singer-songwriter performance with warm acoustic guitar and gentle vocal phrasing. Observed: Intimate solo acoustic guitar accompaniment, Soft, mellow male vocal storytelling with minimal dynamic peaks."
+              }
+            ]
+          },
+          {
+            "requirement_id": "REQ_CAFE_02",
+            "dimension": "acoustic_live_performance",
+            "artist_capability_id": "CAP_ACOUSTIC_LIVE_PERFORMANCE",
+            "match_status": "STRONG_MATCH",
+            "fit_explanation": "Demonstrated: Warm, intimate solo acoustic guitar fingerpicking",
+            "supporting_evidence": [
+              {
+                "evidence_id": "EV_M03_AUDIO_1",
+                "file_name": "alanajordan-letting-go-342368.mp3",
+                "relative_path": "Data set/artist_profiles/musicians/M03_Raghav_Sen/media/alanajordan-letting-go-342368.mp3",
+                "media_type": "audio",
+                "timestamp_or_frame": "0:00 - 1:30",
+                "observed_features": [
+                  "Format: Solo Singer-Songwriter (Acoustic Guitar & Vocals)",
+                  "Genre/Style: Folk Acoustic / Slow Ballads / Indie",
+                  "Intimate solo acoustic guitar accompaniment",
+                  "Soft, mellow male vocal storytelling with minimal dynamic peaks",
+                  "Talkable low-volume ambient atmosphere suitability"
+                ],
+                "citation_text": "Asset 'alanajordan-letting-go-342368.mp3' (Solo Singer-Songwriter (Acoustic Guitar & Vocals)): Solo acoustic singer-songwriter performance with warm acoustic guitar and gentle vocal phrasing. Observed: Intimate solo acoustic guitar accompaniment, Soft, mellow male vocal storytelling with minimal dynamic peaks."
+              },
+              {
+                "evidence_id": "EV_M03_AUDIO_2",
+                "file_name": "folk_acoustic-summer-walk-152722.mp3",
+                "relative_path": "Data set/artist_profiles/musicians/M03_Raghav_Sen/media/folk_acoustic-summer-walk-152722.mp3",
+                "media_type": "audio",
+                "timestamp_or_frame": "0:00 - 1:30",
+                "observed_features": [
+                  "Format: Solo Singer-Songwriter (Acoustic Guitar & Vocals)",
+                  "Genre/Style: Folk Acoustic / Slow Ballads / Indie",
+                  "Intimate solo acoustic guitar accompaniment",
+                  "Soft, mellow male vocal storytelling with minimal dynamic peaks",
+                  "Talkable low-volume ambient atmosphere suitability"
+                ],
+                "citation_text": "Asset 'folk_acoustic-summer-walk-152722.mp3' (Solo Singer-Songwriter (Acoustic Guitar & Vocals)): Solo acoustic singer-songwriter performance with warm acoustic guitar and gentle vocal phrasing. Observed: Intimate solo acoustic guitar accompaniment, Soft, mellow male vocal storytelling with minimal dynamic peaks."
+              }
+            ]
+          },
+          {
+            "requirement_id": "REQ_CAFE_03",
+            "dimension": "vocal_capability_and_repertoire",
+            "artist_capability_id": "CAP_VOCAL_CAPABILITY_AND_REPERTOIRE",
+            "match_status": "STRONG_MATCH",
+            "fit_explanation": "Demonstrated: Emotive solo acoustic ballad vocal delivery",
+            "supporting_evidence": [
+              {
+                "evidence_id": "EV_M03_AUDIO_1",
+                "file_name": "alanajordan-letting-go-342368.mp3",
+                "relative_path": "Data set/artist_profiles/musicians/M03_Raghav_Sen/media/alanajordan-letting-go-342368.mp3",
+                "media_type": "audio",
+                "timestamp_or_frame": "0:00 - 1:30",
+                "observed_features": [
+                  "Format: Solo Singer-Songwriter (Acoustic Guitar & Vocals)",
+                  "Genre/Style: Folk Acoustic / Slow Ballads / Indie",
+                  "Intimate solo acoustic guitar accompaniment",
+                  "Soft, mellow male vocal storytelling with minimal dynamic peaks",
+                  "Talkable low-volume ambient atmosphere suitability"
+                ],
+                "citation_text": "Asset 'alanajordan-letting-go-342368.mp3' (Solo Singer-Songwriter (Acoustic Guitar & Vocals)): Solo acoustic singer-songwriter performance with warm acoustic guitar and gentle vocal phrasing. Observed: Intimate solo acoustic guitar accompaniment, Soft, mellow male vocal storytelling with minimal dynamic peaks."
+              },
+              {
+                "evidence_id": "EV_M03_AUDIO_2",
+                "file_name": "folk_acoustic-summer-walk-152722.mp3",
+                "relative_path": "Data set/artist_profiles/musicians/M03_Raghav_Sen/media/folk_acoustic-summer-walk-152722.mp3",
+                "media_type": "audio",
+                "timestamp_or_frame": "0:00 - 1:30",
+                "observed_features": [
+                  "Format: Solo Singer-Songwriter (Acoustic Guitar & Vocals)",
+                  "Genre/Style: Folk Acoustic / Slow Ballads / Indie",
+                  "Intimate solo acoustic guitar accompaniment",
+                  "Soft, mellow male vocal storytelling with minimal dynamic peaks",
+                  "Talkable low-volume ambient atmosphere suitability"
+                ],
+                "citation_text": "Asset 'folk_acoustic-summer-walk-152722.mp3' (Solo Singer-Songwriter (Acoustic Guitar & Vocals)): Solo acoustic singer-songwriter performance with warm acoustic guitar and gentle vocal phrasing. Observed: Intimate solo acoustic guitar accompaniment, Soft, mellow male vocal storytelling with minimal dynamic peaks."
+              }
+            ]
+          }
+        ],
+        "supporting_evidence": [
+          {
+            "evidence_id": "EV_M03_AUDIO_1",
+            "file_name": "alanajordan-letting-go-342368.mp3",
+            "relative_path": "Data set/artist_profiles/musicians/M03_Raghav_Sen/media/alanajordan-letting-go-342368.mp3",
+            "media_type": "audio",
+            "timestamp_or_frame": "0:00 - 1:30",
+            "observed_features": [
+              "Format: Solo Singer-Songwriter (Acoustic Guitar & Vocals)",
+              "Genre/Style: Folk Acoustic / Slow Ballads / Indie",
+              "Intimate solo acoustic guitar accompaniment",
+              "Soft, mellow male vocal storytelling with minimal dynamic peaks",
+              "Talkable low-volume ambient atmosphere suitability"
+            ],
+            "citation_text": "Asset 'alanajordan-letting-go-342368.mp3' (Solo Singer-Songwriter (Acoustic Guitar & Vocals)): Solo acoustic singer-songwriter performance with warm acoustic guitar and gentle vocal phrasing. Observed: Intimate solo acoustic guitar accompaniment, Soft, mellow male vocal storytelling with minimal dynamic peaks."
+          },
+          {
+            "evidence_id": "EV_M03_AUDIO_2",
+            "file_name": "folk_acoustic-summer-walk-152722.mp3",
+            "relative_path": "Data set/artist_profiles/musicians/M03_Raghav_Sen/media/folk_acoustic-summer-walk-152722.mp3",
+            "media_type": "audio",
+            "timestamp_or_frame": "0:00 - 1:30",
+            "observed_features": [
+              "Format: Solo Singer-Songwriter (Acoustic Guitar & Vocals)",
+              "Genre/Style: Folk Acoustic / Slow Ballads / Indie",
+              "Intimate solo acoustic guitar accompaniment",
+              "Soft, mellow male vocal storytelling with minimal dynamic peaks",
+              "Talkable low-volume ambient atmosphere suitability"
+            ],
+            "citation_text": "Asset 'folk_acoustic-summer-walk-152722.mp3' (Solo Singer-Songwriter (Acoustic Guitar & Vocals)): Solo acoustic singer-songwriter performance with warm acoustic guitar and gentle vocal phrasing. Observed: Intimate solo acoustic guitar accompaniment, Soft, mellow male vocal storytelling with minimal dynamic peaks."
+          }
+        ],
+        "confidence": "HIGH",
+        "trade_offs": [
+          "Evidence confidence: HIGH"
+        ],
+        "uncertainty_and_limitations": [
+          "Portfolio contains only slow downtempo ballads; no upbeat energetic headline set evidence demonstrated"
+        ]
+      }
+    ],
+    "updated_top_two": [
+      {
+        "rank": 1,
+        "artist_id": "M01",
+        "artist_name": "Meera & Arjun Acoustic duo | Delhi NCR",
+        "category": "musician",
+        "fit_reason": "Meera & Arjun Acoustic duo | Delhi NCR ranks #1 — Demonstrated capability in: ambient background suitability, acoustic live performance, vocal capability and repertoire. (Score: 94.0/100, Confidence: HIGH). Match Score 94.0/100 [Req Fit: 50.0/50, Evidence: 24.0/30, Constraints: 20.0/20, Penalty: 0.0]. Demonstrated 4 requirements, 0 dimensions UNKNOWN.",
+        "matched_requirements": [
+          {
+            "requirement_id": "REQ_CAFE_01",
+            "dimension": "ambient_background_suitability",
+            "artist_capability_id": "CAP_AMBIENT_BACKGROUND_SUITABILITY",
+            "match_status": "STRONG_MATCH",
+            "fit_explanation": "Demonstrated: Gentle acoustic dynamics allowing conversational cafe atmosphere",
+            "supporting_evidence": [
+              {
+                "evidence_id": "EV_M01_AUDIO_1",
+                "file_name": "MA_cafe_demo_take1.wav",
+                "relative_path": "Data set/artist_profiles/musicians/M01_Meera_Arjun/media/MA_cafe_demo_take1.wav",
+                "media_type": "audio",
+                "timestamp_or_frame": "0:00 - 1:45 (Live Cafe Demo)",
+                "observed_features": [
+                  "Format: Acoustic Duo (Guitar & Dual Vocals)",
+                  "Genre/Style: Acoustic Folk / Contemporary Ballads / Upbeat Medleys",
+                  "Clean acoustic guitar fingerpicking and rhythm",
+                  "Harmonized dual male/female lead vocals",
+                  "Demonstrated live cafe environment suitability",
+                  "Demonstrated upbeat tempo acceleration in rehearsal medley"
+                ],
+                "citation_text": "Asset 'MA_cafe_demo_take1.wav' (Acoustic Duo (Guitar & Dual Vocals)): Live acoustic duo performance featuring un-synthesized acoustic guitar and clean two-part vocal harmonies. Observed: Clean acoustic guitar fingerpicking and rhythm, Harmonized dual male/female lead vocals."
+              },
+              {
+                "evidence_id": "EV_M01_AUDIO_2",
+                "file_name": "35860-408654164.mp4",
+                "relative_path": "Data set/artist_profiles/musicians/M01_Meera_Arjun/media/35860-408654164.mp4",
+                "media_type": "video",
+                "timestamp_or_frame": "Full take",
+                "observed_features": [
+                  "Format: Acoustic Duo (Guitar & Dual Vocals)",
+                  "Genre/Style: Acoustic Folk / Contemporary Ballads / Upbeat Medleys",
+                  "Clean acoustic guitar fingerpicking and rhythm",
+                  "Harmonized dual male/female lead vocals",
+                  "Demonstrated live cafe environment suitability",
+                  "Demonstrated upbeat tempo acceleration in rehearsal medley"
+                ],
+                "citation_text": "Asset '35860-408654164.mp4' (Acoustic Duo (Guitar & Dual Vocals)): Live acoustic duo performance featuring un-synthesized acoustic guitar and clean two-part vocal harmonies. Observed: Clean acoustic guitar fingerpicking and rhythm, Harmonized dual male/female lead vocals."
+              }
+            ]
+          },
+          {
+            "requirement_id": "REQ_CAFE_02",
+            "dimension": "acoustic_live_performance",
+            "artist_capability_id": "CAP_ACOUSTIC_LIVE_PERFORMANCE",
+            "match_status": "STRONG_MATCH",
+            "fit_explanation": "Demonstrated: Clean live acoustic guitar fingerpicking and live cafe takes",
+            "supporting_evidence": [
+              {
+                "evidence_id": "EV_M01_AUDIO_1",
+                "file_name": "MA_cafe_demo_take1.wav",
+                "relative_path": "Data set/artist_profiles/musicians/M01_Meera_Arjun/media/MA_cafe_demo_take1.wav",
+                "media_type": "audio",
+                "timestamp_or_frame": "0:00 - 1:45 (Live Cafe Demo)",
+                "observed_features": [
+                  "Format: Acoustic Duo (Guitar & Dual Vocals)",
+                  "Genre/Style: Acoustic Folk / Contemporary Ballads / Upbeat Medleys",
+                  "Clean acoustic guitar fingerpicking and rhythm",
+                  "Harmonized dual male/female lead vocals",
+                  "Demonstrated live cafe environment suitability",
+                  "Demonstrated upbeat tempo acceleration in rehearsal medley"
+                ],
+                "citation_text": "Asset 'MA_cafe_demo_take1.wav' (Acoustic Duo (Guitar & Dual Vocals)): Live acoustic duo performance featuring un-synthesized acoustic guitar and clean two-part vocal harmonies. Observed: Clean acoustic guitar fingerpicking and rhythm, Harmonized dual male/female lead vocals."
+              },
+              {
+                "evidence_id": "EV_M01_AUDIO_2",
+                "file_name": "35860-408654164.mp4",
+                "relative_path": "Data set/artist_profiles/musicians/M01_Meera_Arjun/media/35860-408654164.mp4",
+                "media_type": "video",
+                "timestamp_or_frame": "Full take",
+                "observed_features": [
+                  "Format: Acoustic Duo (Guitar & Dual Vocals)",
+                  "Genre/Style: Acoustic Folk / Contemporary Ballads / Upbeat Medleys",
+                  "Clean acoustic guitar fingerpicking and rhythm",
+                  "Harmonized dual male/female lead vocals",
+                  "Demonstrated live cafe environment suitability",
+                  "Demonstrated upbeat tempo acceleration in rehearsal medley"
+                ],
+                "citation_text": "Asset '35860-408654164.mp4' (Acoustic Duo (Guitar & Dual Vocals)): Live acoustic duo performance featuring un-synthesized acoustic guitar and clean two-part vocal harmonies. Observed: Clean acoustic guitar fingerpicking and rhythm, Harmonized dual male/female lead vocals."
+              }
+            ]
+          },
+          {
+            "requirement_id": "REQ_CAFE_03",
+            "dimension": "vocal_capability_and_repertoire",
+            "artist_capability_id": "CAP_VOCAL_CAPABILITY_AND_REPERTOIRE",
+            "match_status": "STRONG_MATCH",
+            "fit_explanation": "Demonstrated: Two-part male/female vocal harmonies across English and Hindi contemporary songs",
+            "supporting_evidence": [
+              {
+                "evidence_id": "EV_M01_AUDIO_1",
+                "file_name": "MA_cafe_demo_take1.wav",
+                "relative_path": "Data set/artist_profiles/musicians/M01_Meera_Arjun/media/MA_cafe_demo_take1.wav",
+                "media_type": "audio",
+                "timestamp_or_frame": "0:00 - 1:45 (Live Cafe Demo)",
+                "observed_features": [
+                  "Format: Acoustic Duo (Guitar & Dual Vocals)",
+                  "Genre/Style: Acoustic Folk / Contemporary Ballads / Upbeat Medleys",
+                  "Clean acoustic guitar fingerpicking and rhythm",
+                  "Harmonized dual male/female lead vocals",
+                  "Demonstrated live cafe environment suitability",
+                  "Demonstrated upbeat tempo acceleration in rehearsal medley"
+                ],
+                "citation_text": "Asset 'MA_cafe_demo_take1.wav' (Acoustic Duo (Guitar & Dual Vocals)): Live acoustic duo performance featuring un-synthesized acoustic guitar and clean two-part vocal harmonies. Observed: Clean acoustic guitar fingerpicking and rhythm, Harmonized dual male/female lead vocals."
+              },
+              {
+                "evidence_id": "EV_M01_AUDIO_2",
+                "file_name": "35860-408654164.mp4",
+                "relative_path": "Data set/artist_profiles/musicians/M01_Meera_Arjun/media/35860-408654164.mp4",
+                "media_type": "video",
+                "timestamp_or_frame": "Full take",
+                "observed_features": [
+                  "Format: Acoustic Duo (Guitar & Dual Vocals)",
+                  "Genre/Style: Acoustic Folk / Contemporary Ballads / Upbeat Medleys",
+                  "Clean acoustic guitar fingerpicking and rhythm",
+                  "Harmonized dual male/female lead vocals",
+                  "Demonstrated live cafe environment suitability",
+                  "Demonstrated upbeat tempo acceleration in rehearsal medley"
+                ],
+                "citation_text": "Asset '35860-408654164.mp4' (Acoustic Duo (Guitar & Dual Vocals)): Live acoustic duo performance featuring un-synthesized acoustic guitar and clean two-part vocal harmonies. Observed: Clean acoustic guitar fingerpicking and rhythm, Harmonized dual male/female lead vocals."
+              }
+            ]
+          },
+          {
+            "requirement_id": "REQ_UPDATE_01_CAFE_MUSIC_UPDATE_STAGE",
+            "dimension": "headline_stage_dynamism",
+            "artist_capability_id": "CAP_HEADLINE_STAGE_DYNAMISM",
+            "match_status": "STRONG_MATCH",
+            "fit_explanation": "Demonstrated: Demonstrated upbeat medley rehearsal take with rhythmic acceleration suited for launch set",
+            "supporting_evidence": [
+              {
+                "evidence_id": "EV_M01_AUDIO_1",
+                "file_name": "MA_cafe_demo_take1.wav",
+                "relative_path": "Data set/artist_profiles/musicians/M01_Meera_Arjun/media/MA_cafe_demo_take1.wav",
+                "media_type": "audio",
+                "timestamp_or_frame": "0:00 - 1:45 (Live Cafe Demo)",
+                "observed_features": [
+                  "Format: Acoustic Duo (Guitar & Dual Vocals)",
+                  "Genre/Style: Acoustic Folk / Contemporary Ballads / Upbeat Medleys",
+                  "Clean acoustic guitar fingerpicking and rhythm",
+                  "Harmonized dual male/female lead vocals",
+                  "Demonstrated live cafe environment suitability",
+                  "Demonstrated upbeat tempo acceleration in rehearsal medley"
+                ],
+                "citation_text": "Asset 'MA_cafe_demo_take1.wav' (Acoustic Duo (Guitar & Dual Vocals)): Live acoustic duo performance featuring un-synthesized acoustic guitar and clean two-part vocal harmonies. Observed: Clean acoustic guitar fingerpicking and rhythm, Harmonized dual male/female lead vocals."
+              },
+              {
+                "evidence_id": "EV_M01_AUDIO_2",
+                "file_name": "35860-408654164.mp4",
+                "relative_path": "Data set/artist_profiles/musicians/M01_Meera_Arjun/media/35860-408654164.mp4",
+                "media_type": "video",
+                "timestamp_or_frame": "Full take",
+                "observed_features": [
+                  "Format: Acoustic Duo (Guitar & Dual Vocals)",
+                  "Genre/Style: Acoustic Folk / Contemporary Ballads / Upbeat Medleys",
+                  "Clean acoustic guitar fingerpicking and rhythm",
+                  "Harmonized dual male/female lead vocals",
+                  "Demonstrated live cafe environment suitability",
+                  "Demonstrated upbeat tempo acceleration in rehearsal medley"
+                ],
+                "citation_text": "Asset '35860-408654164.mp4' (Acoustic Duo (Guitar & Dual Vocals)): Live acoustic duo performance featuring un-synthesized acoustic guitar and clean two-part vocal harmonies. Observed: Clean acoustic guitar fingerpicking and rhythm, Harmonized dual male/female lead vocals."
+              }
+            ]
+          }
+        ],
+        "supporting_evidence": [
+          {
+            "evidence_id": "EV_M01_AUDIO_1",
+            "file_name": "MA_cafe_demo_take1.wav",
+            "relative_path": "Data set/artist_profiles/musicians/M01_Meera_Arjun/media/MA_cafe_demo_take1.wav",
+            "media_type": "audio",
+            "timestamp_or_frame": "0:00 - 1:45 (Live Cafe Demo)",
+            "observed_features": [
+              "Format: Acoustic Duo (Guitar & Dual Vocals)",
+              "Genre/Style: Acoustic Folk / Contemporary Ballads / Upbeat Medleys",
+              "Clean acoustic guitar fingerpicking and rhythm",
+              "Harmonized dual male/female lead vocals",
+              "Demonstrated live cafe environment suitability",
+              "Demonstrated upbeat tempo acceleration in rehearsal medley"
+            ],
+            "citation_text": "Asset 'MA_cafe_demo_take1.wav' (Acoustic Duo (Guitar & Dual Vocals)): Live acoustic duo performance featuring un-synthesized acoustic guitar and clean two-part vocal harmonies. Observed: Clean acoustic guitar fingerpicking and rhythm, Harmonized dual male/female lead vocals."
+          },
+          {
+            "evidence_id": "EV_M01_AUDIO_2",
+            "file_name": "35860-408654164.mp4",
+            "relative_path": "Data set/artist_profiles/musicians/M01_Meera_Arjun/media/35860-408654164.mp4",
+            "media_type": "video",
+            "timestamp_or_frame": "Full take",
+            "observed_features": [
+              "Format: Acoustic Duo (Guitar & Dual Vocals)",
+              "Genre/Style: Acoustic Folk / Contemporary Ballads / Upbeat Medleys",
+              "Clean acoustic guitar fingerpicking and rhythm",
+              "Harmonized dual male/female lead vocals",
+              "Demonstrated live cafe environment suitability",
+              "Demonstrated upbeat tempo acceleration in rehearsal medley"
+            ],
+            "citation_text": "Asset '35860-408654164.mp4' (Acoustic Duo (Guitar & Dual Vocals)): Live acoustic duo performance featuring un-synthesized acoustic guitar and clean two-part vocal harmonies. Observed: Clean acoustic guitar fingerpicking and rhythm, Harmonized dual male/female lead vocals."
+          }
+        ],
+        "confidence": "HIGH",
+        "trade_offs": [
+          "Evidence confidence: HIGH"
+        ],
+        "uncertainty_and_limitations": []
+      },
+      {
+        "rank": 2,
+        "artist_id": "M03",
+        "artist_name": "Raghav Sen",
+        "category": "musician",
+        "fit_reason": "Raghav Sen ranks #2 — Demonstrated capability in: ambient background suitability, acoustic live performance, vocal capability and repertoire. UNKNOWN evidence on: headline stage dynamism. (Score: 73.0/100, Confidence: HIGH). Match Score 73.0/100 [Req Fit: 35.0/50, Evidence: 18.0/30, Constraints: 20.0/20, Penalty: 0.0]. Demonstrated 3 requirements, 1 dimensions UNKNOWN.",
+        "matched_requirements": [
+          {
+            "requirement_id": "REQ_CAFE_01",
+            "dimension": "ambient_background_suitability",
+            "artist_capability_id": "CAP_AMBIENT_BACKGROUND_SUITABILITY",
+            "match_status": "STRONG_MATCH",
+            "fit_explanation": "Demonstrated: Mellow acoustic tempo and dynamic restraint ideal for unobtrusive cafe conversations",
+            "supporting_evidence": [
+              {
+                "evidence_id": "EV_M03_AUDIO_1",
+                "file_name": "alanajordan-letting-go-342368.mp3",
+                "relative_path": "Data set/artist_profiles/musicians/M03_Raghav_Sen/media/alanajordan-letting-go-342368.mp3",
+                "media_type": "audio",
+                "timestamp_or_frame": "0:00 - 1:30",
+                "observed_features": [
+                  "Format: Solo Singer-Songwriter (Acoustic Guitar & Vocals)",
+                  "Genre/Style: Folk Acoustic / Slow Ballads / Indie",
+                  "Intimate solo acoustic guitar accompaniment",
+                  "Soft, mellow male vocal storytelling with minimal dynamic peaks",
+                  "Talkable low-volume ambient atmosphere suitability"
+                ],
+                "citation_text": "Asset 'alanajordan-letting-go-342368.mp3' (Solo Singer-Songwriter (Acoustic Guitar & Vocals)): Solo acoustic singer-songwriter performance with warm acoustic guitar and gentle vocal phrasing. Observed: Intimate solo acoustic guitar accompaniment, Soft, mellow male vocal storytelling with minimal dynamic peaks."
+              },
+              {
+                "evidence_id": "EV_M03_AUDIO_2",
+                "file_name": "folk_acoustic-summer-walk-152722.mp3",
+                "relative_path": "Data set/artist_profiles/musicians/M03_Raghav_Sen/media/folk_acoustic-summer-walk-152722.mp3",
+                "media_type": "audio",
+                "timestamp_or_frame": "0:00 - 1:30",
+                "observed_features": [
+                  "Format: Solo Singer-Songwriter (Acoustic Guitar & Vocals)",
+                  "Genre/Style: Folk Acoustic / Slow Ballads / Indie",
+                  "Intimate solo acoustic guitar accompaniment",
+                  "Soft, mellow male vocal storytelling with minimal dynamic peaks",
+                  "Talkable low-volume ambient atmosphere suitability"
+                ],
+                "citation_text": "Asset 'folk_acoustic-summer-walk-152722.mp3' (Solo Singer-Songwriter (Acoustic Guitar & Vocals)): Solo acoustic singer-songwriter performance with warm acoustic guitar and gentle vocal phrasing. Observed: Intimate solo acoustic guitar accompaniment, Soft, mellow male vocal storytelling with minimal dynamic peaks."
+              }
+            ]
+          },
+          {
+            "requirement_id": "REQ_CAFE_02",
+            "dimension": "acoustic_live_performance",
+            "artist_capability_id": "CAP_ACOUSTIC_LIVE_PERFORMANCE",
+            "match_status": "STRONG_MATCH",
+            "fit_explanation": "Demonstrated: Warm, intimate solo acoustic guitar fingerpicking",
+            "supporting_evidence": [
+              {
+                "evidence_id": "EV_M03_AUDIO_1",
+                "file_name": "alanajordan-letting-go-342368.mp3",
+                "relative_path": "Data set/artist_profiles/musicians/M03_Raghav_Sen/media/alanajordan-letting-go-342368.mp3",
+                "media_type": "audio",
+                "timestamp_or_frame": "0:00 - 1:30",
+                "observed_features": [
+                  "Format: Solo Singer-Songwriter (Acoustic Guitar & Vocals)",
+                  "Genre/Style: Folk Acoustic / Slow Ballads / Indie",
+                  "Intimate solo acoustic guitar accompaniment",
+                  "Soft, mellow male vocal storytelling with minimal dynamic peaks",
+                  "Talkable low-volume ambient atmosphere suitability"
+                ],
+                "citation_text": "Asset 'alanajordan-letting-go-342368.mp3' (Solo Singer-Songwriter (Acoustic Guitar & Vocals)): Solo acoustic singer-songwriter performance with warm acoustic guitar and gentle vocal phrasing. Observed: Intimate solo acoustic guitar accompaniment, Soft, mellow male vocal storytelling with minimal dynamic peaks."
+              },
+              {
+                "evidence_id": "EV_M03_AUDIO_2",
+                "file_name": "folk_acoustic-summer-walk-152722.mp3",
+                "relative_path": "Data set/artist_profiles/musicians/M03_Raghav_Sen/media/folk_acoustic-summer-walk-152722.mp3",
+                "media_type": "audio",
+                "timestamp_or_frame": "0:00 - 1:30",
+                "observed_features": [
+                  "Format: Solo Singer-Songwriter (Acoustic Guitar & Vocals)",
+                  "Genre/Style: Folk Acoustic / Slow Ballads / Indie",
+                  "Intimate solo acoustic guitar accompaniment",
+                  "Soft, mellow male vocal storytelling with minimal dynamic peaks",
+                  "Talkable low-volume ambient atmosphere suitability"
+                ],
+                "citation_text": "Asset 'folk_acoustic-summer-walk-152722.mp3' (Solo Singer-Songwriter (Acoustic Guitar & Vocals)): Solo acoustic singer-songwriter performance with warm acoustic guitar and gentle vocal phrasing. Observed: Intimate solo acoustic guitar accompaniment, Soft, mellow male vocal storytelling with minimal dynamic peaks."
+              }
+            ]
+          },
+          {
+            "requirement_id": "REQ_CAFE_03",
+            "dimension": "vocal_capability_and_repertoire",
+            "artist_capability_id": "CAP_VOCAL_CAPABILITY_AND_REPERTOIRE",
+            "match_status": "STRONG_MATCH",
+            "fit_explanation": "Demonstrated: Emotive solo acoustic ballad vocal delivery",
+            "supporting_evidence": [
+              {
+                "evidence_id": "EV_M03_AUDIO_1",
+                "file_name": "alanajordan-letting-go-342368.mp3",
+                "relative_path": "Data set/artist_profiles/musicians/M03_Raghav_Sen/media/alanajordan-letting-go-342368.mp3",
+                "media_type": "audio",
+                "timestamp_or_frame": "0:00 - 1:30",
+                "observed_features": [
+                  "Format: Solo Singer-Songwriter (Acoustic Guitar & Vocals)",
+                  "Genre/Style: Folk Acoustic / Slow Ballads / Indie",
+                  "Intimate solo acoustic guitar accompaniment",
+                  "Soft, mellow male vocal storytelling with minimal dynamic peaks",
+                  "Talkable low-volume ambient atmosphere suitability"
+                ],
+                "citation_text": "Asset 'alanajordan-letting-go-342368.mp3' (Solo Singer-Songwriter (Acoustic Guitar & Vocals)): Solo acoustic singer-songwriter performance with warm acoustic guitar and gentle vocal phrasing. Observed: Intimate solo acoustic guitar accompaniment, Soft, mellow male vocal storytelling with minimal dynamic peaks."
+              },
+              {
+                "evidence_id": "EV_M03_AUDIO_2",
+                "file_name": "folk_acoustic-summer-walk-152722.mp3",
+                "relative_path": "Data set/artist_profiles/musicians/M03_Raghav_Sen/media/folk_acoustic-summer-walk-152722.mp3",
+                "media_type": "audio",
+                "timestamp_or_frame": "0:00 - 1:30",
+                "observed_features": [
+                  "Format: Solo Singer-Songwriter (Acoustic Guitar & Vocals)",
+                  "Genre/Style: Folk Acoustic / Slow Ballads / Indie",
+                  "Intimate solo acoustic guitar accompaniment",
+                  "Soft, mellow male vocal storytelling with minimal dynamic peaks",
+                  "Talkable low-volume ambient atmosphere suitability"
+                ],
+                "citation_text": "Asset 'folk_acoustic-summer-walk-152722.mp3' (Solo Singer-Songwriter (Acoustic Guitar & Vocals)): Solo acoustic singer-songwriter performance with warm acoustic guitar and gentle vocal phrasing. Observed: Intimate solo acoustic guitar accompaniment, Soft, mellow male vocal storytelling with minimal dynamic peaks."
+              }
+            ]
+          },
+          {
+            "requirement_id": "REQ_UPDATE_01_CAFE_MUSIC_UPDATE_STAGE",
+            "dimension": "headline_stage_dynamism",
+            "artist_capability_id": null,
+            "match_status": "UNKNOWN_FIT",
+            "fit_explanation": "No direct portfolio evidence provided for 'headline_stage_dynamism' (treated neutrally as UNKNOWN)",
+            "supporting_evidence": []
+          }
+        ],
+        "supporting_evidence": [
+          {
+            "evidence_id": "EV_M03_AUDIO_1",
+            "file_name": "alanajordan-letting-go-342368.mp3",
+            "relative_path": "Data set/artist_profiles/musicians/M03_Raghav_Sen/media/alanajordan-letting-go-342368.mp3",
+            "media_type": "audio",
+            "timestamp_or_frame": "0:00 - 1:30",
+            "observed_features": [
+              "Format: Solo Singer-Songwriter (Acoustic Guitar & Vocals)",
+              "Genre/Style: Folk Acoustic / Slow Ballads / Indie",
+              "Intimate solo acoustic guitar accompaniment",
+              "Soft, mellow male vocal storytelling with minimal dynamic peaks",
+              "Talkable low-volume ambient atmosphere suitability"
+            ],
+            "citation_text": "Asset 'alanajordan-letting-go-342368.mp3' (Solo Singer-Songwriter (Acoustic Guitar & Vocals)): Solo acoustic singer-songwriter performance with warm acoustic guitar and gentle vocal phrasing. Observed: Intimate solo acoustic guitar accompaniment, Soft, mellow male vocal storytelling with minimal dynamic peaks."
+          },
+          {
+            "evidence_id": "EV_M03_AUDIO_2",
+            "file_name": "folk_acoustic-summer-walk-152722.mp3",
+            "relative_path": "Data set/artist_profiles/musicians/M03_Raghav_Sen/media/folk_acoustic-summer-walk-152722.mp3",
+            "media_type": "audio",
+            "timestamp_or_frame": "0:00 - 1:30",
+            "observed_features": [
+              "Format: Solo Singer-Songwriter (Acoustic Guitar & Vocals)",
+              "Genre/Style: Folk Acoustic / Slow Ballads / Indie",
+              "Intimate solo acoustic guitar accompaniment",
+              "Soft, mellow male vocal storytelling with minimal dynamic peaks",
+              "Talkable low-volume ambient atmosphere suitability"
+            ],
+            "citation_text": "Asset 'folk_acoustic-summer-walk-152722.mp3' (Solo Singer-Songwriter (Acoustic Guitar & Vocals)): Solo acoustic singer-songwriter performance with warm acoustic guitar and gentle vocal phrasing. Observed: Intimate solo acoustic guitar accompaniment, Soft, mellow male vocal storytelling with minimal dynamic peaks."
+          }
+        ],
+        "confidence": "HIGH",
+        "trade_offs": [
+          "UNKNOWN evidence on 'Headline Stage Dynamism' required by this brief."
+        ],
+        "uncertainty_and_limitations": [
+          "Portfolio contains only slow downtempo ballads; no upbeat energetic headline set evidence demonstrated"
+        ]
+      }
+    ],
+    "rank_movements": [
+      {
+        "artist_id": "M01",
+        "artist_name": "Meera & Arjun Acoustic duo | Delhi NCR",
+        "previous_rank": 1,
+        "updated_rank": 1,
+        "movement": "STABLE",
+        "reason": "Meera & Arjun Acoustic duo | Delhi NCR maintained Rank 1 under the updated requirements."
+      },
+      {
+        "artist_id": "M03",
+        "artist_name": "Raghav Sen",
+        "previous_rank": 2,
+        "updated_rank": 2,
+        "movement": "STABLE",
+        "reason": "Raghav Sen maintained Rank 2 under the updated requirements."
+      }
+    ],
+    "what_changed": "1. Event Type And Energy: Changed from \"3-hour background music (7 PM - 10 PM), low volume so people can talk\" to \"45-minute showcase headline launch performance for ~80 guests ('needs to feel like a performance/moment')\". (Source: \"management is making it our launch night now around 80 guests... need a proper 45 min headline set, not background for 3 hours\")\n2. Budget: Changed from \"₹7,000 target, ₹9,000 absolute maximum\" to \"Increased up to ₹15,000\". (Source: \"can go up to 15k\")\n3. Stage And Space: Changed from \"No stage, minimal corner space\" to \"Cleared small area for performance\". (Source: \"we can clear a small area for them\")\n   New hard constraint (budget): ₹15,000 maximum budget\n   New hard constraint (format): 45-minute focused headline performance set",
+    "why_ranking_changed": "Follow-up update '01_cafe_music_update' changed the requirement priorities. Scope changed from 3-hour low-volume background music to a 45-minute showcase headline launch set for 80 guests, with budget increased to ₹15,000.\n\n* Meera & Arjun Acoustic duo | Delhi NCR (Rank 1): Score improved from 88.0/100 to 94.0/100 (delta +6.0). Demonstrated 4/4 updated requirements.\n* Raghav Sen (Rank 2): Score decreased from 88.0/100 to 73.0/100 (delta -15.0). Demonstrated 3/4 updated requirements.\n  UNKNOWN on: headline_stage_dynamism."
+  }
+}

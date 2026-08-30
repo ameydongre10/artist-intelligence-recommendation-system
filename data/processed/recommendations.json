@@ -1,0 +1,1557 @@
+{
+  "metadata": {
+    "pipeline_version": "1.0.0",
+    "total_briefs_recommended": 4,
+    "scoring_framework": "Transparent additive scoring (Requirement Fit + Evidence Strength + Constraints - Penalties)",
+    "evidence_principle": "Strict epistemic isolation (DEMONSTRATED_EVIDENCE > CLAIM > UNKNOWN)"
+  },
+  "recommendations": [
+    {
+      "brief_id": "01_cafe_music_whatsapp",
+      "hirer_name": "Rhea",
+      "summary_of_need": "Live evening music for a cafe setting requiring musician for Next Friday, 7:00 PM to 10:00 PM (3 hours).",
+      "top_two": [
+        {
+          "rank": 1,
+          "artist_id": "M01",
+          "artist_name": "Meera & Arjun Acoustic duo | Delhi NCR",
+          "category": "musician",
+          "fit_reason": "Meera & Arjun Acoustic duo | Delhi NCR ranks #1 — Demonstrated capability in: ambient background suitability, acoustic live performance, vocal capability and repertoire. (Score: 88.0/100, Confidence: HIGH). Match Score 88.0/100 [Req Fit: 50.0/50, Evidence: 18.0/30, Constraints: 20.0/20, Penalty: 0.0]. Demonstrated 3 requirements, 0 dimensions UNKNOWN.",
+          "matched_requirements": [
+            {
+              "requirement_id": "REQ_CAFE_01",
+              "dimension": "ambient_background_suitability",
+              "artist_capability_id": "CAP_AMBIENT_BACKGROUND_SUITABILITY",
+              "match_status": "STRONG_MATCH",
+              "fit_explanation": "Demonstrated: Gentle acoustic dynamics allowing conversational cafe atmosphere",
+              "supporting_evidence": [
+                {
+                  "evidence_id": "EV_M01_AUDIO_1",
+                  "file_name": "MA_cafe_demo_take1.wav",
+                  "relative_path": "Data set/artist_profiles/musicians/M01_Meera_Arjun/media/MA_cafe_demo_take1.wav",
+                  "media_type": "audio",
+                  "timestamp_or_frame": "0:00 - 1:45 (Live Cafe Demo)",
+                  "observed_features": [
+                    "Format: Acoustic Duo (Guitar & Dual Vocals)",
+                    "Genre/Style: Acoustic Folk / Contemporary Ballads / Upbeat Medleys",
+                    "Clean acoustic guitar fingerpicking and rhythm",
+                    "Harmonized dual male/female lead vocals",
+                    "Demonstrated live cafe environment suitability",
+                    "Demonstrated upbeat tempo acceleration in rehearsal medley"
+                  ],
+                  "citation_text": "Asset 'MA_cafe_demo_take1.wav' (Acoustic Duo (Guitar & Dual Vocals)): Live acoustic duo performance featuring un-synthesized acoustic guitar and clean two-part vocal harmonies. Observed: Clean acoustic guitar fingerpicking and rhythm, Harmonized dual male/female lead vocals."
+                },
+                {
+                  "evidence_id": "EV_M01_AUDIO_2",
+                  "file_name": "35860-408654164.mp4",
+                  "relative_path": "Data set/artist_profiles/musicians/M01_Meera_Arjun/media/35860-408654164.mp4",
+                  "media_type": "video",
+                  "timestamp_or_frame": "Full take",
+                  "observed_features": [
+                    "Format: Acoustic Duo (Guitar & Dual Vocals)",
+                    "Genre/Style: Acoustic Folk / Contemporary Ballads / Upbeat Medleys",
+                    "Clean acoustic guitar fingerpicking and rhythm",
+                    "Harmonized dual male/female lead vocals",
+                    "Demonstrated live cafe environment suitability",
+                    "Demonstrated upbeat tempo acceleration in rehearsal medley"
+                  ],
+                  "citation_text": "Asset '35860-408654164.mp4' (Acoustic Duo (Guitar & Dual Vocals)): Live acoustic duo performance featuring un-synthesized acoustic guitar and clean two-part vocal harmonies. Observed: Clean acoustic guitar fingerpicking and rhythm, Harmonized dual male/female lead vocals."
+                }
+              ]
+            },
+            {
+              "requirement_id": "REQ_CAFE_02",
+              "dimension": "acoustic_live_performance",
+              "artist_capability_id": "CAP_ACOUSTIC_LIVE_PERFORMANCE",
+              "match_status": "STRONG_MATCH",
+              "fit_explanation": "Demonstrated: Clean live acoustic guitar fingerpicking and live cafe takes",
+              "supporting_evidence": [
+                {
+                  "evidence_id": "EV_M01_AUDIO_1",
+                  "file_name": "MA_cafe_demo_take1.wav",
+                  "relative_path": "Data set/artist_profiles/musicians/M01_Meera_Arjun/media/MA_cafe_demo_take1.wav",
+                  "media_type": "audio",
+                  "timestamp_or_frame": "0:00 - 1:45 (Live Cafe Demo)",
+                  "observed_features": [
+                    "Format: Acoustic Duo (Guitar & Dual Vocals)",
+                    "Genre/Style: Acoustic Folk / Contemporary Ballads / Upbeat Medleys",
+                    "Clean acoustic guitar fingerpicking and rhythm",
+                    "Harmonized dual male/female lead vocals",
+                    "Demonstrated live cafe environment suitability",
+                    "Demonstrated upbeat tempo acceleration in rehearsal medley"
+                  ],
+                  "citation_text": "Asset 'MA_cafe_demo_take1.wav' (Acoustic Duo (Guitar & Dual Vocals)): Live acoustic duo performance featuring un-synthesized acoustic guitar and clean two-part vocal harmonies. Observed: Clean acoustic guitar fingerpicking and rhythm, Harmonized dual male/female lead vocals."
+                },
+                {
+                  "evidence_id": "EV_M01_AUDIO_2",
+                  "file_name": "35860-408654164.mp4",
+                  "relative_path": "Data set/artist_profiles/musicians/M01_Meera_Arjun/media/35860-408654164.mp4",
+                  "media_type": "video",
+                  "timestamp_or_frame": "Full take",
+                  "observed_features": [
+                    "Format: Acoustic Duo (Guitar & Dual Vocals)",
+                    "Genre/Style: Acoustic Folk / Contemporary Ballads / Upbeat Medleys",
+                    "Clean acoustic guitar fingerpicking and rhythm",
+                    "Harmonized dual male/female lead vocals",
+                    "Demonstrated live cafe environment suitability",
+                    "Demonstrated upbeat tempo acceleration in rehearsal medley"
+                  ],
+                  "citation_text": "Asset '35860-408654164.mp4' (Acoustic Duo (Guitar & Dual Vocals)): Live acoustic duo performance featuring un-synthesized acoustic guitar and clean two-part vocal harmonies. Observed: Clean acoustic guitar fingerpicking and rhythm, Harmonized dual male/female lead vocals."
+                }
+              ]
+            },
+            {
+              "requirement_id": "REQ_CAFE_03",
+              "dimension": "vocal_capability_and_repertoire",
+              "artist_capability_id": "CAP_VOCAL_CAPABILITY_AND_REPERTOIRE",
+              "match_status": "STRONG_MATCH",
+              "fit_explanation": "Demonstrated: Two-part male/female vocal harmonies across English and Hindi contemporary songs",
+              "supporting_evidence": [
+                {
+                  "evidence_id": "EV_M01_AUDIO_1",
+                  "file_name": "MA_cafe_demo_take1.wav",
+                  "relative_path": "Data set/artist_profiles/musicians/M01_Meera_Arjun/media/MA_cafe_demo_take1.wav",
+                  "media_type": "audio",
+                  "timestamp_or_frame": "0:00 - 1:45 (Live Cafe Demo)",
+                  "observed_features": [
+                    "Format: Acoustic Duo (Guitar & Dual Vocals)",
+                    "Genre/Style: Acoustic Folk / Contemporary Ballads / Upbeat Medleys",
+                    "Clean acoustic guitar fingerpicking and rhythm",
+                    "Harmonized dual male/female lead vocals",
+                    "Demonstrated live cafe environment suitability",
+                    "Demonstrated upbeat tempo acceleration in rehearsal medley"
+                  ],
+                  "citation_text": "Asset 'MA_cafe_demo_take1.wav' (Acoustic Duo (Guitar & Dual Vocals)): Live acoustic duo performance featuring un-synthesized acoustic guitar and clean two-part vocal harmonies. Observed: Clean acoustic guitar fingerpicking and rhythm, Harmonized dual male/female lead vocals."
+                },
+                {
+                  "evidence_id": "EV_M01_AUDIO_2",
+                  "file_name": "35860-408654164.mp4",
+                  "relative_path": "Data set/artist_profiles/musicians/M01_Meera_Arjun/media/35860-408654164.mp4",
+                  "media_type": "video",
+                  "timestamp_or_frame": "Full take",
+                  "observed_features": [
+                    "Format: Acoustic Duo (Guitar & Dual Vocals)",
+                    "Genre/Style: Acoustic Folk / Contemporary Ballads / Upbeat Medleys",
+                    "Clean acoustic guitar fingerpicking and rhythm",
+                    "Harmonized dual male/female lead vocals",
+                    "Demonstrated live cafe environment suitability",
+                    "Demonstrated upbeat tempo acceleration in rehearsal medley"
+                  ],
+                  "citation_text": "Asset '35860-408654164.mp4' (Acoustic Duo (Guitar & Dual Vocals)): Live acoustic duo performance featuring un-synthesized acoustic guitar and clean two-part vocal harmonies. Observed: Clean acoustic guitar fingerpicking and rhythm, Harmonized dual male/female lead vocals."
+                }
+              ]
+            }
+          ],
+          "supporting_evidence": [
+            {
+              "evidence_id": "EV_M01_AUDIO_1",
+              "file_name": "MA_cafe_demo_take1.wav",
+              "relative_path": "Data set/artist_profiles/musicians/M01_Meera_Arjun/media/MA_cafe_demo_take1.wav",
+              "media_type": "audio",
+              "timestamp_or_frame": "0:00 - 1:45 (Live Cafe Demo)",
+              "observed_features": [
+                "Format: Acoustic Duo (Guitar & Dual Vocals)",
+                "Genre/Style: Acoustic Folk / Contemporary Ballads / Upbeat Medleys",
+                "Clean acoustic guitar fingerpicking and rhythm",
+                "Harmonized dual male/female lead vocals",
+                "Demonstrated live cafe environment suitability",
+                "Demonstrated upbeat tempo acceleration in rehearsal medley"
+              ],
+              "citation_text": "Asset 'MA_cafe_demo_take1.wav' (Acoustic Duo (Guitar & Dual Vocals)): Live acoustic duo performance featuring un-synthesized acoustic guitar and clean two-part vocal harmonies. Observed: Clean acoustic guitar fingerpicking and rhythm, Harmonized dual male/female lead vocals."
+            },
+            {
+              "evidence_id": "EV_M01_AUDIO_2",
+              "file_name": "35860-408654164.mp4",
+              "relative_path": "Data set/artist_profiles/musicians/M01_Meera_Arjun/media/35860-408654164.mp4",
+              "media_type": "video",
+              "timestamp_or_frame": "Full take",
+              "observed_features": [
+                "Format: Acoustic Duo (Guitar & Dual Vocals)",
+                "Genre/Style: Acoustic Folk / Contemporary Ballads / Upbeat Medleys",
+                "Clean acoustic guitar fingerpicking and rhythm",
+                "Harmonized dual male/female lead vocals",
+                "Demonstrated live cafe environment suitability",
+                "Demonstrated upbeat tempo acceleration in rehearsal medley"
+              ],
+              "citation_text": "Asset '35860-408654164.mp4' (Acoustic Duo (Guitar & Dual Vocals)): Live acoustic duo performance featuring un-synthesized acoustic guitar and clean two-part vocal harmonies. Observed: Clean acoustic guitar fingerpicking and rhythm, Harmonized dual male/female lead vocals."
+            }
+          ],
+          "confidence": "HIGH",
+          "trade_offs": [
+            "Evidence confidence: HIGH"
+          ],
+          "uncertainty_and_limitations": []
+        },
+        {
+          "rank": 2,
+          "artist_id": "M03",
+          "artist_name": "Raghav Sen",
+          "category": "musician",
+          "fit_reason": "Raghav Sen ranks #2 — Demonstrated capability in: ambient background suitability, acoustic live performance, vocal capability and repertoire. (Score: 88.0/100, Confidence: HIGH). Match Score 88.0/100 [Req Fit: 50.0/50, Evidence: 18.0/30, Constraints: 20.0/20, Penalty: 0.0]. Demonstrated 3 requirements, 0 dimensions UNKNOWN.",
+          "matched_requirements": [
+            {
+              "requirement_id": "REQ_CAFE_01",
+              "dimension": "ambient_background_suitability",
+              "artist_capability_id": "CAP_AMBIENT_BACKGROUND_SUITABILITY",
+              "match_status": "STRONG_MATCH",
+              "fit_explanation": "Demonstrated: Mellow acoustic tempo and dynamic restraint ideal for unobtrusive cafe conversations",
+              "supporting_evidence": [
+                {
+                  "evidence_id": "EV_M03_AUDIO_1",
+                  "file_name": "alanajordan-letting-go-342368.mp3",
+                  "relative_path": "Data set/artist_profiles/musicians/M03_Raghav_Sen/media/alanajordan-letting-go-342368.mp3",
+                  "media_type": "audio",
+                  "timestamp_or_frame": "0:00 - 1:30",
+                  "observed_features": [
+                    "Format: Solo Singer-Songwriter (Acoustic Guitar & Vocals)",
+                    "Genre/Style: Folk Acoustic / Slow Ballads / Indie",
+                    "Intimate solo acoustic guitar accompaniment",
+                    "Soft, mellow male vocal storytelling with minimal dynamic peaks",
+                    "Talkable low-volume ambient atmosphere suitability"
+                  ],
+                  "citation_text": "Asset 'alanajordan-letting-go-342368.mp3' (Solo Singer-Songwriter (Acoustic Guitar & Vocals)): Solo acoustic singer-songwriter performance with warm acoustic guitar and gentle vocal phrasing. Observed: Intimate solo acoustic guitar accompaniment, Soft, mellow male vocal storytelling with minimal dynamic peaks."
+                },
+                {
+                  "evidence_id": "EV_M03_AUDIO_2",
+                  "file_name": "folk_acoustic-summer-walk-152722.mp3",
+                  "relative_path": "Data set/artist_profiles/musicians/M03_Raghav_Sen/media/folk_acoustic-summer-walk-152722.mp3",
+                  "media_type": "audio",
+                  "timestamp_or_frame": "0:00 - 1:30",
+                  "observed_features": [
+                    "Format: Solo Singer-Songwriter (Acoustic Guitar & Vocals)",
+                    "Genre/Style: Folk Acoustic / Slow Ballads / Indie",
+                    "Intimate solo acoustic guitar accompaniment",
+                    "Soft, mellow male vocal storytelling with minimal dynamic peaks",
+                    "Talkable low-volume ambient atmosphere suitability"
+                  ],
+                  "citation_text": "Asset 'folk_acoustic-summer-walk-152722.mp3' (Solo Singer-Songwriter (Acoustic Guitar & Vocals)): Solo acoustic singer-songwriter performance with warm acoustic guitar and gentle vocal phrasing. Observed: Intimate solo acoustic guitar accompaniment, Soft, mellow male vocal storytelling with minimal dynamic peaks."
+                }
+              ]
+            },
+            {
+              "requirement_id": "REQ_CAFE_02",
+              "dimension": "acoustic_live_performance",
+              "artist_capability_id": "CAP_ACOUSTIC_LIVE_PERFORMANCE",
+              "match_status": "STRONG_MATCH",
+              "fit_explanation": "Demonstrated: Warm, intimate solo acoustic guitar fingerpicking",
+              "supporting_evidence": [
+                {
+                  "evidence_id": "EV_M03_AUDIO_1",
+                  "file_name": "alanajordan-letting-go-342368.mp3",
+                  "relative_path": "Data set/artist_profiles/musicians/M03_Raghav_Sen/media/alanajordan-letting-go-342368.mp3",
+                  "media_type": "audio",
+                  "timestamp_or_frame": "0:00 - 1:30",
+                  "observed_features": [
+                    "Format: Solo Singer-Songwriter (Acoustic Guitar & Vocals)",
+                    "Genre/Style: Folk Acoustic / Slow Ballads / Indie",
+                    "Intimate solo acoustic guitar accompaniment",
+                    "Soft, mellow male vocal storytelling with minimal dynamic peaks",
+                    "Talkable low-volume ambient atmosphere suitability"
+                  ],
+                  "citation_text": "Asset 'alanajordan-letting-go-342368.mp3' (Solo Singer-Songwriter (Acoustic Guitar & Vocals)): Solo acoustic singer-songwriter performance with warm acoustic guitar and gentle vocal phrasing. Observed: Intimate solo acoustic guitar accompaniment, Soft, mellow male vocal storytelling with minimal dynamic peaks."
+                },
+                {
+                  "evidence_id": "EV_M03_AUDIO_2",
+                  "file_name": "folk_acoustic-summer-walk-152722.mp3",
+                  "relative_path": "Data set/artist_profiles/musicians/M03_Raghav_Sen/media/folk_acoustic-summer-walk-152722.mp3",
+                  "media_type": "audio",
+                  "timestamp_or_frame": "0:00 - 1:30",
+                  "observed_features": [
+                    "Format: Solo Singer-Songwriter (Acoustic Guitar & Vocals)",
+                    "Genre/Style: Folk Acoustic / Slow Ballads / Indie",
+                    "Intimate solo acoustic guitar accompaniment",
+                    "Soft, mellow male vocal storytelling with minimal dynamic peaks",
+                    "Talkable low-volume ambient atmosphere suitability"
+                  ],
+                  "citation_text": "Asset 'folk_acoustic-summer-walk-152722.mp3' (Solo Singer-Songwriter (Acoustic Guitar & Vocals)): Solo acoustic singer-songwriter performance with warm acoustic guitar and gentle vocal phrasing. Observed: Intimate solo acoustic guitar accompaniment, Soft, mellow male vocal storytelling with minimal dynamic peaks."
+                }
+              ]
+            },
+            {
+              "requirement_id": "REQ_CAFE_03",
+              "dimension": "vocal_capability_and_repertoire",
+              "artist_capability_id": "CAP_VOCAL_CAPABILITY_AND_REPERTOIRE",
+              "match_status": "STRONG_MATCH",
+              "fit_explanation": "Demonstrated: Emotive solo acoustic ballad vocal delivery",
+              "supporting_evidence": [
+                {
+                  "evidence_id": "EV_M03_AUDIO_1",
+                  "file_name": "alanajordan-letting-go-342368.mp3",
+                  "relative_path": "Data set/artist_profiles/musicians/M03_Raghav_Sen/media/alanajordan-letting-go-342368.mp3",
+                  "media_type": "audio",
+                  "timestamp_or_frame": "0:00 - 1:30",
+                  "observed_features": [
+                    "Format: Solo Singer-Songwriter (Acoustic Guitar & Vocals)",
+                    "Genre/Style: Folk Acoustic / Slow Ballads / Indie",
+                    "Intimate solo acoustic guitar accompaniment",
+                    "Soft, mellow male vocal storytelling with minimal dynamic peaks",
+                    "Talkable low-volume ambient atmosphere suitability"
+                  ],
+                  "citation_text": "Asset 'alanajordan-letting-go-342368.mp3' (Solo Singer-Songwriter (Acoustic Guitar & Vocals)): Solo acoustic singer-songwriter performance with warm acoustic guitar and gentle vocal phrasing. Observed: Intimate solo acoustic guitar accompaniment, Soft, mellow male vocal storytelling with minimal dynamic peaks."
+                },
+                {
+                  "evidence_id": "EV_M03_AUDIO_2",
+                  "file_name": "folk_acoustic-summer-walk-152722.mp3",
+                  "relative_path": "Data set/artist_profiles/musicians/M03_Raghav_Sen/media/folk_acoustic-summer-walk-152722.mp3",
+                  "media_type": "audio",
+                  "timestamp_or_frame": "0:00 - 1:30",
+                  "observed_features": [
+                    "Format: Solo Singer-Songwriter (Acoustic Guitar & Vocals)",
+                    "Genre/Style: Folk Acoustic / Slow Ballads / Indie",
+                    "Intimate solo acoustic guitar accompaniment",
+                    "Soft, mellow male vocal storytelling with minimal dynamic peaks",
+                    "Talkable low-volume ambient atmosphere suitability"
+                  ],
+                  "citation_text": "Asset 'folk_acoustic-summer-walk-152722.mp3' (Solo Singer-Songwriter (Acoustic Guitar & Vocals)): Solo acoustic singer-songwriter performance with warm acoustic guitar and gentle vocal phrasing. Observed: Intimate solo acoustic guitar accompaniment, Soft, mellow male vocal storytelling with minimal dynamic peaks."
+                }
+              ]
+            }
+          ],
+          "supporting_evidence": [
+            {
+              "evidence_id": "EV_M03_AUDIO_1",
+              "file_name": "alanajordan-letting-go-342368.mp3",
+              "relative_path": "Data set/artist_profiles/musicians/M03_Raghav_Sen/media/alanajordan-letting-go-342368.mp3",
+              "media_type": "audio",
+              "timestamp_or_frame": "0:00 - 1:30",
+              "observed_features": [
+                "Format: Solo Singer-Songwriter (Acoustic Guitar & Vocals)",
+                "Genre/Style: Folk Acoustic / Slow Ballads / Indie",
+                "Intimate solo acoustic guitar accompaniment",
+                "Soft, mellow male vocal storytelling with minimal dynamic peaks",
+                "Talkable low-volume ambient atmosphere suitability"
+              ],
+              "citation_text": "Asset 'alanajordan-letting-go-342368.mp3' (Solo Singer-Songwriter (Acoustic Guitar & Vocals)): Solo acoustic singer-songwriter performance with warm acoustic guitar and gentle vocal phrasing. Observed: Intimate solo acoustic guitar accompaniment, Soft, mellow male vocal storytelling with minimal dynamic peaks."
+            },
+            {
+              "evidence_id": "EV_M03_AUDIO_2",
+              "file_name": "folk_acoustic-summer-walk-152722.mp3",
+              "relative_path": "Data set/artist_profiles/musicians/M03_Raghav_Sen/media/folk_acoustic-summer-walk-152722.mp3",
+              "media_type": "audio",
+              "timestamp_or_frame": "0:00 - 1:30",
+              "observed_features": [
+                "Format: Solo Singer-Songwriter (Acoustic Guitar & Vocals)",
+                "Genre/Style: Folk Acoustic / Slow Ballads / Indie",
+                "Intimate solo acoustic guitar accompaniment",
+                "Soft, mellow male vocal storytelling with minimal dynamic peaks",
+                "Talkable low-volume ambient atmosphere suitability"
+              ],
+              "citation_text": "Asset 'folk_acoustic-summer-walk-152722.mp3' (Solo Singer-Songwriter (Acoustic Guitar & Vocals)): Solo acoustic singer-songwriter performance with warm acoustic guitar and gentle vocal phrasing. Observed: Intimate solo acoustic guitar accompaniment, Soft, mellow male vocal storytelling with minimal dynamic peaks."
+            }
+          ],
+          "confidence": "HIGH",
+          "trade_offs": [
+            "Evidence confidence: HIGH"
+          ],
+          "uncertainty_and_limitations": [
+            "Portfolio contains only slow downtempo ballads; no upbeat energetic headline set evidence demonstrated"
+          ]
+        }
+      ],
+      "trade_off_analysis": [
+        {
+          "dimension": "overall_score",
+          "rank_1_status": "Score: 88.0/100 (HIGH confidence)",
+          "rank_2_status": "Score: 88.0/100 (HIGH confidence)",
+          "decision_implication": "Rank 1 scores 0.0 points lower overall. Both candidates have similar evidence profiles on the key dimensions."
+        }
+      ],
+      "assumptions_made": [
+        "Cafe provides basic electrical outlets and minimal floor corner for solo/duo acts"
+      ],
+      "key_uncertainties": [
+        "PA system / speaker availability and live performance capability",
+        "Exact cafe seating capacity and ambient room acoustics"
+      ],
+      "refinement_questions": [
+        {
+          "question_id": "Q1",
+          "question_text": "Regarding 'PA system / speaker availability and live performance capability': If cafe PA is unusable, candidate must bring self-amplified acoustic gear (e.g. portable acoustic amplifier) Can this be clarified before artist selection?",
+          "why_it_matters": "If cafe PA is unusable, candidate must bring self-amplified acoustic gear (e.g. portable acoustic amplifier)",
+          "potential_ranking_impact": "Resolves UKN_CAFE_01 — this unknown is decision-critical and could alter candidate ranking or eliminate a candidate if resolved."
+        },
+        {
+          "question_id": "Q2",
+          "question_text": "Regarding 'Exact cafe seating capacity and ambient room acoustics': Affects whether a solo guitarist or duo harmonic act is better balanced for the room Can this be clarified before artist selection?",
+          "why_it_matters": "Affects whether a solo guitarist or duo harmonic act is better balanced for the room",
+          "potential_ranking_impact": "Resolves UKN_CAFE_02 — this unknown is relevant and could alter candidate ranking or eliminate a candidate if resolved."
+        }
+      ]
+    },
+    {
+      "brief_id": "02_skincare_photography_chat",
+      "hirer_name": "Nidhi",
+      "summary_of_need": "Commercial product shoot for a small skincare product launch requiring photographer for Next week shoot with selects in 2 days.",
+      "top_two": [
+        {
+          "rank": 1,
+          "artist_id": "P02",
+          "artist_name": "Kabir Mehta",
+          "category": "photographer",
+          "fit_reason": "Kabir Mehta ranks #1 — Demonstrated capability in: product commercial photography, product commercial photography, turnaround and digital delivery. (Score: 92.0/100, Confidence: HIGH). Match Score 92.0/100 [Req Fit: 50.0/50, Evidence: 22.0/30, Constraints: 20.0/20, Penalty: 0.0]. Demonstrated 4 requirements, 0 dimensions UNKNOWN.",
+          "matched_requirements": [
+            {
+              "requirement_id": "REQ_SKIN_01",
+              "dimension": "product_commercial_photography",
+              "artist_capability_id": "CAP_PRODUCT_COMMERCIAL_PHOTOGRAPHY",
+              "match_status": "STRONG_MATCH",
+              "fit_explanation": "Demonstrated: Controlled commercial product photography (bottles/jars) with highlight management",
+              "supporting_evidence": [
+                {
+                  "evidence_id": "EV_P02_IMG_1",
+                  "file_name": "581888523_18149152837419095_6510529012749050816_n.jpg",
+                  "relative_path": "Data set/artist_profiles/photographers/P02_Kabir_Mehta/media/581888523_18149152837419095_6510529012749050816_n.jpg",
+                  "media_type": "image",
+                  "timestamp_or_frame": "Frame 1/1 (1440x1800)",
+                  "observed_features": [
+                    "Resolution: 1440x1800 (high_res_digital)",
+                    "Aspect: 4:5_or_3:4_vertical_portrait",
+                    "Controlled studio/lifestyle product framing (bottles/jars)",
+                    "Precise specular highlight control on packaging",
+                    "4:5 aspect ratio framing suited for commercial product launch assets"
+                  ],
+                  "citation_text": "Image '581888523_18149152837419095_6510529012749050816_n.jpg' (1440x1800, 4:5_or_3:4_vertical_portrait): Demonstrated clean product & commercial photography with controlled reflections and high textural clarity. Observed features: Controlled studio/lifestyle product framing (bottles/jars), Precise specular highlight control on packaging."
+                },
+                {
+                  "evidence_id": "EV_P02_IMG_2",
+                  "file_name": "584395302_18193975549332430_7589282168204267782_n.jpg",
+                  "relative_path": "Data set/artist_profiles/photographers/P02_Kabir_Mehta/media/584395302_18193975549332430_7589282168204267782_n.jpg",
+                  "media_type": "image",
+                  "timestamp_or_frame": "Frame 1/1 (720x960)",
+                  "observed_features": [
+                    "Resolution: 720x960 (standard_web_res)",
+                    "Aspect: 4:5_or_3:4_vertical_portrait",
+                    "Controlled studio/lifestyle product framing (bottles/jars)",
+                    "Precise specular highlight control on packaging",
+                    "4:5 aspect ratio framing suited for commercial product launch assets"
+                  ],
+                  "citation_text": "Image '584395302_18193975549332430_7589282168204267782_n.jpg' (720x960, 4:5_or_3:4_vertical_portrait): Demonstrated clean product & commercial photography with controlled reflections and high textural clarity. Observed features: Controlled studio/lifestyle product framing (bottles/jars), Precise specular highlight control on packaging."
+                }
+              ]
+            },
+            {
+              "requirement_id": "REQ_SKIN_02",
+              "dimension": "product_commercial_photography",
+              "artist_capability_id": "CAP_PRODUCT_COMMERCIAL_PHOTOGRAPHY",
+              "match_status": "STRONG_MATCH",
+              "fit_explanation": "Demonstrated: Controlled commercial product photography (bottles/jars) with highlight management",
+              "supporting_evidence": [
+                {
+                  "evidence_id": "EV_P02_IMG_1",
+                  "file_name": "581888523_18149152837419095_6510529012749050816_n.jpg",
+                  "relative_path": "Data set/artist_profiles/photographers/P02_Kabir_Mehta/media/581888523_18149152837419095_6510529012749050816_n.jpg",
+                  "media_type": "image",
+                  "timestamp_or_frame": "Frame 1/1 (1440x1800)",
+                  "observed_features": [
+                    "Resolution: 1440x1800 (high_res_digital)",
+                    "Aspect: 4:5_or_3:4_vertical_portrait",
+                    "Controlled studio/lifestyle product framing (bottles/jars)",
+                    "Precise specular highlight control on packaging",
+                    "4:5 aspect ratio framing suited for commercial product launch assets"
+                  ],
+                  "citation_text": "Image '581888523_18149152837419095_6510529012749050816_n.jpg' (1440x1800, 4:5_or_3:4_vertical_portrait): Demonstrated clean product & commercial photography with controlled reflections and high textural clarity. Observed features: Controlled studio/lifestyle product framing (bottles/jars), Precise specular highlight control on packaging."
+                },
+                {
+                  "evidence_id": "EV_P02_IMG_2",
+                  "file_name": "584395302_18193975549332430_7589282168204267782_n.jpg",
+                  "relative_path": "Data set/artist_profiles/photographers/P02_Kabir_Mehta/media/584395302_18193975549332430_7589282168204267782_n.jpg",
+                  "media_type": "image",
+                  "timestamp_or_frame": "Frame 1/1 (720x960)",
+                  "observed_features": [
+                    "Resolution: 720x960 (standard_web_res)",
+                    "Aspect: 4:5_or_3:4_vertical_portrait",
+                    "Controlled studio/lifestyle product framing (bottles/jars)",
+                    "Precise specular highlight control on packaging",
+                    "4:5 aspect ratio framing suited for commercial product launch assets"
+                  ],
+                  "citation_text": "Image '584395302_18193975549332430_7589282168204267782_n.jpg' (720x960, 4:5_or_3:4_vertical_portrait): Demonstrated clean product & commercial photography with controlled reflections and high textural clarity. Observed features: Controlled studio/lifestyle product framing (bottles/jars), Precise specular highlight control on packaging."
+                }
+              ]
+            },
+            {
+              "requirement_id": "REQ_SKIN_03",
+              "dimension": "turnaround_and_digital_delivery",
+              "artist_capability_id": "CAP_TURNAROUND_AND_DIGITAL_DELIVERY",
+              "match_status": "MODERATE_MATCH",
+              "fit_explanation": "Demonstrated: Digital commercial web crops and clean color grading",
+              "supporting_evidence": [
+                {
+                  "evidence_id": "EV_P02_IMG_1",
+                  "file_name": "581888523_18149152837419095_6510529012749050816_n.jpg",
+                  "relative_path": "Data set/artist_profiles/photographers/P02_Kabir_Mehta/media/581888523_18149152837419095_6510529012749050816_n.jpg",
+                  "media_type": "image",
+                  "timestamp_or_frame": "Frame 1/1 (1440x1800)",
+                  "observed_features": [
+                    "Resolution: 1440x1800 (high_res_digital)",
+                    "Aspect: 4:5_or_3:4_vertical_portrait",
+                    "Controlled studio/lifestyle product framing (bottles/jars)",
+                    "Precise specular highlight control on packaging",
+                    "4:5 aspect ratio framing suited for commercial product launch assets"
+                  ],
+                  "citation_text": "Image '581888523_18149152837419095_6510529012749050816_n.jpg' (1440x1800, 4:5_or_3:4_vertical_portrait): Demonstrated clean product & commercial photography with controlled reflections and high textural clarity. Observed features: Controlled studio/lifestyle product framing (bottles/jars), Precise specular highlight control on packaging."
+                },
+                {
+                  "evidence_id": "EV_P02_IMG_2",
+                  "file_name": "584395302_18193975549332430_7589282168204267782_n.jpg",
+                  "relative_path": "Data set/artist_profiles/photographers/P02_Kabir_Mehta/media/584395302_18193975549332430_7589282168204267782_n.jpg",
+                  "media_type": "image",
+                  "timestamp_or_frame": "Frame 1/1 (720x960)",
+                  "observed_features": [
+                    "Resolution: 720x960 (standard_web_res)",
+                    "Aspect: 4:5_or_3:4_vertical_portrait",
+                    "Controlled studio/lifestyle product framing (bottles/jars)",
+                    "Precise specular highlight control on packaging",
+                    "4:5 aspect ratio framing suited for commercial product launch assets"
+                  ],
+                  "citation_text": "Image '584395302_18193975549332430_7589282168204267782_n.jpg' (720x960, 4:5_or_3:4_vertical_portrait): Demonstrated clean product & commercial photography with controlled reflections and high textural clarity. Observed features: Controlled studio/lifestyle product framing (bottles/jars), Precise specular highlight control on packaging."
+                }
+              ]
+            },
+            {
+              "requirement_id": "REQ_SKIN_04",
+              "dimension": "product_commercial_photography",
+              "artist_capability_id": "CAP_PRODUCT_COMMERCIAL_PHOTOGRAPHY",
+              "match_status": "STRONG_MATCH",
+              "fit_explanation": "Demonstrated: Controlled commercial product photography (bottles/jars) with highlight management",
+              "supporting_evidence": [
+                {
+                  "evidence_id": "EV_P02_IMG_1",
+                  "file_name": "581888523_18149152837419095_6510529012749050816_n.jpg",
+                  "relative_path": "Data set/artist_profiles/photographers/P02_Kabir_Mehta/media/581888523_18149152837419095_6510529012749050816_n.jpg",
+                  "media_type": "image",
+                  "timestamp_or_frame": "Frame 1/1 (1440x1800)",
+                  "observed_features": [
+                    "Resolution: 1440x1800 (high_res_digital)",
+                    "Aspect: 4:5_or_3:4_vertical_portrait",
+                    "Controlled studio/lifestyle product framing (bottles/jars)",
+                    "Precise specular highlight control on packaging",
+                    "4:5 aspect ratio framing suited for commercial product launch assets"
+                  ],
+                  "citation_text": "Image '581888523_18149152837419095_6510529012749050816_n.jpg' (1440x1800, 4:5_or_3:4_vertical_portrait): Demonstrated clean product & commercial photography with controlled reflections and high textural clarity. Observed features: Controlled studio/lifestyle product framing (bottles/jars), Precise specular highlight control on packaging."
+                },
+                {
+                  "evidence_id": "EV_P02_IMG_2",
+                  "file_name": "584395302_18193975549332430_7589282168204267782_n.jpg",
+                  "relative_path": "Data set/artist_profiles/photographers/P02_Kabir_Mehta/media/584395302_18193975549332430_7589282168204267782_n.jpg",
+                  "media_type": "image",
+                  "timestamp_or_frame": "Frame 1/1 (720x960)",
+                  "observed_features": [
+                    "Resolution: 720x960 (standard_web_res)",
+                    "Aspect: 4:5_or_3:4_vertical_portrait",
+                    "Controlled studio/lifestyle product framing (bottles/jars)",
+                    "Precise specular highlight control on packaging",
+                    "4:5 aspect ratio framing suited for commercial product launch assets"
+                  ],
+                  "citation_text": "Image '584395302_18193975549332430_7589282168204267782_n.jpg' (720x960, 4:5_or_3:4_vertical_portrait): Demonstrated clean product & commercial photography with controlled reflections and high textural clarity. Observed features: Controlled studio/lifestyle product framing (bottles/jars), Precise specular highlight control on packaging."
+                }
+              ]
+            }
+          ],
+          "supporting_evidence": [
+            {
+              "evidence_id": "EV_P02_IMG_1",
+              "file_name": "581888523_18149152837419095_6510529012749050816_n.jpg",
+              "relative_path": "Data set/artist_profiles/photographers/P02_Kabir_Mehta/media/581888523_18149152837419095_6510529012749050816_n.jpg",
+              "media_type": "image",
+              "timestamp_or_frame": "Frame 1/1 (1440x1800)",
+              "observed_features": [
+                "Resolution: 1440x1800 (high_res_digital)",
+                "Aspect: 4:5_or_3:4_vertical_portrait",
+                "Controlled studio/lifestyle product framing (bottles/jars)",
+                "Precise specular highlight control on packaging",
+                "4:5 aspect ratio framing suited for commercial product launch assets"
+              ],
+              "citation_text": "Image '581888523_18149152837419095_6510529012749050816_n.jpg' (1440x1800, 4:5_or_3:4_vertical_portrait): Demonstrated clean product & commercial photography with controlled reflections and high textural clarity. Observed features: Controlled studio/lifestyle product framing (bottles/jars), Precise specular highlight control on packaging."
+            },
+            {
+              "evidence_id": "EV_P02_IMG_2",
+              "file_name": "584395302_18193975549332430_7589282168204267782_n.jpg",
+              "relative_path": "Data set/artist_profiles/photographers/P02_Kabir_Mehta/media/584395302_18193975549332430_7589282168204267782_n.jpg",
+              "media_type": "image",
+              "timestamp_or_frame": "Frame 1/1 (720x960)",
+              "observed_features": [
+                "Resolution: 720x960 (standard_web_res)",
+                "Aspect: 4:5_or_3:4_vertical_portrait",
+                "Controlled studio/lifestyle product framing (bottles/jars)",
+                "Precise specular highlight control on packaging",
+                "4:5 aspect ratio framing suited for commercial product launch assets"
+              ],
+              "citation_text": "Image '584395302_18193975549332430_7589282168204267782_n.jpg' (720x960, 4:5_or_3:4_vertical_portrait): Demonstrated clean product & commercial photography with controlled reflections and high textural clarity. Observed features: Controlled studio/lifestyle product framing (bottles/jars), Precise specular highlight control on packaging."
+            }
+          ],
+          "confidence": "HIGH",
+          "trade_offs": [
+            "Evidence confidence: MEDIUM"
+          ],
+          "uncertainty_and_limitations": [
+            "Portfolio focuses on controlled commercial/fashion setups rather than dynamic live event offsites or candid workshop storytelling",
+            "No large corporate team group photos in portfolio"
+          ]
+        },
+        {
+          "rank": 2,
+          "artist_id": "PO5",
+          "artist_name": "Frames",
+          "category": "photographer",
+          "fit_reason": "Frames ranks #2 — Demonstrated capability in: product commercial photography, product commercial photography, product commercial photography. UNKNOWN evidence on: turnaround and digital delivery. (Score: 64.0/100, Confidence: HIGH). Match Score 64.0/100 [Req Fit: 32.0/50, Evidence: 12.0/30, Constraints: 20.0/20, Penalty: 0.0]. Demonstrated 3 requirements, 1 dimensions UNKNOWN.",
+          "matched_requirements": [
+            {
+              "requirement_id": "REQ_SKIN_01",
+              "dimension": "product_commercial_photography",
+              "artist_capability_id": "CAP_PRODUCT_COMMERCIAL_PHOTOGRAPHY",
+              "match_status": "MODERATE_MATCH",
+              "fit_explanation": "Demonstrated: Ultra-high resolution DSLR product and architectural captures",
+              "supporting_evidence": [
+                {
+                  "evidence_id": "EV_PO5_IMG_1",
+                  "file_name": "20250720T201756066ZUTC352c0d6f-7e85-44d6-968c-37c505a1ef4c.jpg",
+                  "relative_path": "Data set/artist_profiles/photographers/PO5_Frames/media/20250720T201756066ZUTC352c0d6f-7e85-44d6-968c-37c505a1ef4c.jpg",
+                  "media_type": "image",
+                  "timestamp_or_frame": "Frame 1/1 (3859x2894)",
+                  "observed_features": [
+                    "Resolution: 3859x2894 (high_res_digital)",
+                    "Aspect: 4:3_standard_landscape",
+                    "Ultra-high resolution DSLR captures (20MP+ sensor)",
+                    "Sharp edge-to-edge detail and balanced exposure",
+                    "Detailed material textures and wide dynamic range"
+                  ],
+                  "citation_text": "Image '20250720T201756066ZUTC352c0d6f-7e85-44d6-968c-37c505a1ef4c.jpg' (3859x2894, 4:3_standard_landscape): Demonstrated high-resolution DSLR photography with crisp detail and versatile commercial range. Observed features: Ultra-high resolution DSLR captures (20MP+ sensor), Sharp edge-to-edge detail and balanced exposure."
+                },
+                {
+                  "evidence_id": "EV_PO5_IMG_2",
+                  "file_name": "20250720T202151397ZUTCa86353ed-8705-4600-b7c0-d16ee62733c2.jpg",
+                  "relative_path": "Data set/artist_profiles/photographers/PO5_Frames/media/20250720T202151397ZUTCa86353ed-8705-4600-b7c0-d16ee62733c2.jpg",
+                  "media_type": "image",
+                  "timestamp_or_frame": "Frame 1/1 (5568x3712)",
+                  "observed_features": [
+                    "Resolution: 5568x3712 (ultra_high_res_dslr)",
+                    "Aspect: 16:9_or_3:2_wide_landscape",
+                    "Ultra-high resolution DSLR captures (20MP+ sensor)",
+                    "Sharp edge-to-edge detail and balanced exposure",
+                    "Detailed material textures and wide dynamic range"
+                  ],
+                  "citation_text": "Image '20250720T202151397ZUTCa86353ed-8705-4600-b7c0-d16ee62733c2.jpg' (5568x3712, 16:9_or_3:2_wide_landscape): Demonstrated high-resolution DSLR photography with crisp detail and versatile commercial range. Observed features: Ultra-high resolution DSLR captures (20MP+ sensor), Sharp edge-to-edge detail and balanced exposure."
+                }
+              ]
+            },
+            {
+              "requirement_id": "REQ_SKIN_02",
+              "dimension": "product_commercial_photography",
+              "artist_capability_id": "CAP_PRODUCT_COMMERCIAL_PHOTOGRAPHY",
+              "match_status": "MODERATE_MATCH",
+              "fit_explanation": "Demonstrated: Ultra-high resolution DSLR product and architectural captures",
+              "supporting_evidence": [
+                {
+                  "evidence_id": "EV_PO5_IMG_1",
+                  "file_name": "20250720T201756066ZUTC352c0d6f-7e85-44d6-968c-37c505a1ef4c.jpg",
+                  "relative_path": "Data set/artist_profiles/photographers/PO5_Frames/media/20250720T201756066ZUTC352c0d6f-7e85-44d6-968c-37c505a1ef4c.jpg",
+                  "media_type": "image",
+                  "timestamp_or_frame": "Frame 1/1 (3859x2894)",
+                  "observed_features": [
+                    "Resolution: 3859x2894 (high_res_digital)",
+                    "Aspect: 4:3_standard_landscape",
+                    "Ultra-high resolution DSLR captures (20MP+ sensor)",
+                    "Sharp edge-to-edge detail and balanced exposure",
+                    "Detailed material textures and wide dynamic range"
+                  ],
+                  "citation_text": "Image '20250720T201756066ZUTC352c0d6f-7e85-44d6-968c-37c505a1ef4c.jpg' (3859x2894, 4:3_standard_landscape): Demonstrated high-resolution DSLR photography with crisp detail and versatile commercial range. Observed features: Ultra-high resolution DSLR captures (20MP+ sensor), Sharp edge-to-edge detail and balanced exposure."
+                },
+                {
+                  "evidence_id": "EV_PO5_IMG_2",
+                  "file_name": "20250720T202151397ZUTCa86353ed-8705-4600-b7c0-d16ee62733c2.jpg",
+                  "relative_path": "Data set/artist_profiles/photographers/PO5_Frames/media/20250720T202151397ZUTCa86353ed-8705-4600-b7c0-d16ee62733c2.jpg",
+                  "media_type": "image",
+                  "timestamp_or_frame": "Frame 1/1 (5568x3712)",
+                  "observed_features": [
+                    "Resolution: 5568x3712 (ultra_high_res_dslr)",
+                    "Aspect: 16:9_or_3:2_wide_landscape",
+                    "Ultra-high resolution DSLR captures (20MP+ sensor)",
+                    "Sharp edge-to-edge detail and balanced exposure",
+                    "Detailed material textures and wide dynamic range"
+                  ],
+                  "citation_text": "Image '20250720T202151397ZUTCa86353ed-8705-4600-b7c0-d16ee62733c2.jpg' (5568x3712, 16:9_or_3:2_wide_landscape): Demonstrated high-resolution DSLR photography with crisp detail and versatile commercial range. Observed features: Ultra-high resolution DSLR captures (20MP+ sensor), Sharp edge-to-edge detail and balanced exposure."
+                }
+              ]
+            },
+            {
+              "requirement_id": "REQ_SKIN_03",
+              "dimension": "turnaround_and_digital_delivery",
+              "artist_capability_id": null,
+              "match_status": "UNKNOWN_FIT",
+              "fit_explanation": "No direct portfolio evidence provided for 'turnaround_and_digital_delivery' (treated neutrally as UNKNOWN)",
+              "supporting_evidence": []
+            },
+            {
+              "requirement_id": "REQ_SKIN_04",
+              "dimension": "product_commercial_photography",
+              "artist_capability_id": "CAP_PRODUCT_COMMERCIAL_PHOTOGRAPHY",
+              "match_status": "MODERATE_MATCH",
+              "fit_explanation": "Demonstrated: Ultra-high resolution DSLR product and architectural captures",
+              "supporting_evidence": [
+                {
+                  "evidence_id": "EV_PO5_IMG_1",
+                  "file_name": "20250720T201756066ZUTC352c0d6f-7e85-44d6-968c-37c505a1ef4c.jpg",
+                  "relative_path": "Data set/artist_profiles/photographers/PO5_Frames/media/20250720T201756066ZUTC352c0d6f-7e85-44d6-968c-37c505a1ef4c.jpg",
+                  "media_type": "image",
+                  "timestamp_or_frame": "Frame 1/1 (3859x2894)",
+                  "observed_features": [
+                    "Resolution: 3859x2894 (high_res_digital)",
+                    "Aspect: 4:3_standard_landscape",
+                    "Ultra-high resolution DSLR captures (20MP+ sensor)",
+                    "Sharp edge-to-edge detail and balanced exposure",
+                    "Detailed material textures and wide dynamic range"
+                  ],
+                  "citation_text": "Image '20250720T201756066ZUTC352c0d6f-7e85-44d6-968c-37c505a1ef4c.jpg' (3859x2894, 4:3_standard_landscape): Demonstrated high-resolution DSLR photography with crisp detail and versatile commercial range. Observed features: Ultra-high resolution DSLR captures (20MP+ sensor), Sharp edge-to-edge detail and balanced exposure."
+                },
+                {
+                  "evidence_id": "EV_PO5_IMG_2",
+                  "file_name": "20250720T202151397ZUTCa86353ed-8705-4600-b7c0-d16ee62733c2.jpg",
+                  "relative_path": "Data set/artist_profiles/photographers/PO5_Frames/media/20250720T202151397ZUTCa86353ed-8705-4600-b7c0-d16ee62733c2.jpg",
+                  "media_type": "image",
+                  "timestamp_or_frame": "Frame 1/1 (5568x3712)",
+                  "observed_features": [
+                    "Resolution: 5568x3712 (ultra_high_res_dslr)",
+                    "Aspect: 16:9_or_3:2_wide_landscape",
+                    "Ultra-high resolution DSLR captures (20MP+ sensor)",
+                    "Sharp edge-to-edge detail and balanced exposure",
+                    "Detailed material textures and wide dynamic range"
+                  ],
+                  "citation_text": "Image '20250720T202151397ZUTCa86353ed-8705-4600-b7c0-d16ee62733c2.jpg' (5568x3712, 16:9_or_3:2_wide_landscape): Demonstrated high-resolution DSLR photography with crisp detail and versatile commercial range. Observed features: Ultra-high resolution DSLR captures (20MP+ sensor), Sharp edge-to-edge detail and balanced exposure."
+                }
+              ]
+            }
+          ],
+          "supporting_evidence": [
+            {
+              "evidence_id": "EV_PO5_IMG_1",
+              "file_name": "20250720T201756066ZUTC352c0d6f-7e85-44d6-968c-37c505a1ef4c.jpg",
+              "relative_path": "Data set/artist_profiles/photographers/PO5_Frames/media/20250720T201756066ZUTC352c0d6f-7e85-44d6-968c-37c505a1ef4c.jpg",
+              "media_type": "image",
+              "timestamp_or_frame": "Frame 1/1 (3859x2894)",
+              "observed_features": [
+                "Resolution: 3859x2894 (high_res_digital)",
+                "Aspect: 4:3_standard_landscape",
+                "Ultra-high resolution DSLR captures (20MP+ sensor)",
+                "Sharp edge-to-edge detail and balanced exposure",
+                "Detailed material textures and wide dynamic range"
+              ],
+              "citation_text": "Image '20250720T201756066ZUTC352c0d6f-7e85-44d6-968c-37c505a1ef4c.jpg' (3859x2894, 4:3_standard_landscape): Demonstrated high-resolution DSLR photography with crisp detail and versatile commercial range. Observed features: Ultra-high resolution DSLR captures (20MP+ sensor), Sharp edge-to-edge detail and balanced exposure."
+            },
+            {
+              "evidence_id": "EV_PO5_IMG_2",
+              "file_name": "20250720T202151397ZUTCa86353ed-8705-4600-b7c0-d16ee62733c2.jpg",
+              "relative_path": "Data set/artist_profiles/photographers/PO5_Frames/media/20250720T202151397ZUTCa86353ed-8705-4600-b7c0-d16ee62733c2.jpg",
+              "media_type": "image",
+              "timestamp_or_frame": "Frame 1/1 (5568x3712)",
+              "observed_features": [
+                "Resolution: 5568x3712 (ultra_high_res_dslr)",
+                "Aspect: 16:9_or_3:2_wide_landscape",
+                "Ultra-high resolution DSLR captures (20MP+ sensor)",
+                "Sharp edge-to-edge detail and balanced exposure",
+                "Detailed material textures and wide dynamic range"
+              ],
+              "citation_text": "Image '20250720T202151397ZUTCa86353ed-8705-4600-b7c0-d16ee62733c2.jpg' (5568x3712, 16:9_or_3:2_wide_landscape): Demonstrated high-resolution DSLR photography with crisp detail and versatile commercial range. Observed features: Ultra-high resolution DSLR captures (20MP+ sensor), Sharp edge-to-edge detail and balanced exposure."
+            }
+          ],
+          "confidence": "HIGH",
+          "trade_offs": [
+            "UNKNOWN evidence on 'Turnaround And Digital Delivery' required by this brief.",
+            "Dataset anomaly noted: Folder uses letter 'O' instead of digit '0' in identifier 'PO5'"
+          ],
+          "uncertainty_and_limitations": [
+            "Artist based in Kolkata; local same-evening digital delivery in Delhi/NCR unverified and dependent on travel confirmation"
+          ]
+        }
+      ],
+      "trade_off_analysis": [
+        {
+          "dimension": "turnaround_and_digital_delivery",
+          "rank_1_status": "DEMONSTRATED (MODERATE): Digital commercial web crops and clean color grading",
+          "rank_2_status": "UNKNOWN - no evidence in portfolio",
+          "decision_implication": "Rank 1 has stronger demonstrated capability on 'Turnaround & Social/Digital Readiness'. Rank 2 is a viable fallback but carries higher uncertainty on this requirement."
+        }
+      ],
+      "assumptions_made": [
+        "Photographer brings portable lighting and surface backdrops to shoot on-location"
+      ],
+      "key_uncertainties": [
+        "Full commercial advertising usage rights vs organic social/web only",
+        "Confirmation whether hand model will participate in shoot"
+      ],
+      "refinement_questions": [
+        {
+          "question_id": "Q1",
+          "question_text": "Regarding 'Full commercial advertising usage rights vs organic social/web only': If extended commercial billboard/print rights are required, licensing fees may exceed ₹18k Can this be clarified before artist selection?",
+          "why_it_matters": "If extended commercial billboard/print rights are required, licensing fees may exceed ₹18k",
+          "potential_ranking_impact": "Resolves UKN_SKIN_01 — this unknown is relevant and could alter candidate ranking or eliminate a candidate if resolved."
+        },
+        {
+          "question_id": "Q2",
+          "question_text": "Regarding 'Confirmation whether hand model will participate in shoot': Hand shots require skin retouching and model coordination Can this be clarified before artist selection?",
+          "why_it_matters": "Hand shots require skin retouching and model coordination",
+          "potential_ranking_impact": "Resolves UKN_SKIN_02 — this unknown is relevant and could alter candidate ranking or eliminate a candidate if resolved."
+        }
+      ]
+    },
+    {
+      "brief_id": "03_vertical_video_email",
+      "hirer_name": "Manu K.",
+      "summary_of_need": "Vertical social reel for a weekend food pop-up event requiring video_editor for First cut by Friday evening.",
+      "top_two": [
+        {
+          "rank": 1,
+          "artist_id": "V01",
+          "artist_name": "Nisha Kapoor",
+          "category": "video_editor",
+          "fit_reason": "Nisha Kapoor ranks #1 — Demonstrated capability in: vertical short form editing, narrative curation from raw clips, pacing and energy control. (Score: 94.0/100, Confidence: HIGH). Match Score 94.0/100 [Req Fit: 50.0/50, Evidence: 24.0/30, Constraints: 20.0/20, Penalty: 0.0]. Demonstrated 4 requirements, 0 dimensions UNKNOWN.",
+          "matched_requirements": [
+            {
+              "requirement_id": "REQ_VID_01",
+              "dimension": "vertical_short_form_editing",
+              "artist_capability_id": "CAP_VERTICAL_SHORT_FORM_EDITING",
+              "match_status": "STRONG_MATCH",
+              "fit_explanation": "Demonstrated: 9:16 vertical short-form reels with snappy 30-second pacing",
+              "supporting_evidence": [
+                {
+                  "evidence_id": "EV_V01_VID_1",
+                  "file_name": "Video-11391.mp4",
+                  "relative_path": "Data set/artist_profiles/video_editors/V01_Nisha_Kapoor/media/Video-11391.mp4",
+                  "media_type": "video",
+                  "timestamp_or_frame": "Full Clip (0:15 - 0:45)",
+                  "observed_features": [
+                    "Format: 9:16 Vertical Video / Short-Form",
+                    "Specialty: Vertical Short-Form Social Reels & Food Content",
+                    "Snappy 30-second pacing cut to musical rhythm",
+                    "Appetizing food prep, plating, and customer reaction sequencing",
+                    "Synchronized on-screen subtitles/captions for dialogue and hooks",
+                    "High-energy transitions without visual clutter"
+                  ],
+                  "citation_text": "Asset 'Video-11391.mp4' (9:16 Vertical Video / Short-Form): Short-form vertical editing demonstrating rhythmic pacing, food/beverage montage sequencing, and synchronized captions. Observed: Snappy 30-second pacing cut to musical rhythm, Appetizing food prep, plating, and customer reaction sequencing."
+                },
+                {
+                  "evidence_id": "EV_V01_VID_2",
+                  "file_name": "Video-1382.mp4",
+                  "relative_path": "Data set/artist_profiles/video_editors/V01_Nisha_Kapoor/media/Video-1382.mp4",
+                  "media_type": "video",
+                  "timestamp_or_frame": "Full Clip (0:15 - 0:45)",
+                  "observed_features": [
+                    "Format: 9:16 Vertical Video / Short-Form",
+                    "Specialty: Vertical Short-Form Social Reels & Food Content",
+                    "Snappy 30-second pacing cut to musical rhythm",
+                    "Appetizing food prep, plating, and customer reaction sequencing",
+                    "Synchronized on-screen subtitles/captions for dialogue and hooks",
+                    "High-energy transitions without visual clutter"
+                  ],
+                  "citation_text": "Asset 'Video-1382.mp4' (9:16 Vertical Video / Short-Form): Short-form vertical editing demonstrating rhythmic pacing, food/beverage montage sequencing, and synchronized captions. Observed: Snappy 30-second pacing cut to musical rhythm, Appetizing food prep, plating, and customer reaction sequencing."
+                }
+              ]
+            },
+            {
+              "requirement_id": "REQ_VID_02",
+              "dimension": "narrative_curation_from_raw_clips",
+              "artist_capability_id": "CAP_NARRATIVE_CURATION_FROM_RAW_CLIPS",
+              "match_status": "STRONG_MATCH",
+              "fit_explanation": "Demonstrated: Curated narrative sequencing from multi-clip phone footage",
+              "supporting_evidence": [
+                {
+                  "evidence_id": "EV_V01_VID_1",
+                  "file_name": "Video-11391.mp4",
+                  "relative_path": "Data set/artist_profiles/video_editors/V01_Nisha_Kapoor/media/Video-11391.mp4",
+                  "media_type": "video",
+                  "timestamp_or_frame": "Full Clip (0:15 - 0:45)",
+                  "observed_features": [
+                    "Format: 9:16 Vertical Video / Short-Form",
+                    "Specialty: Vertical Short-Form Social Reels & Food Content",
+                    "Snappy 30-second pacing cut to musical rhythm",
+                    "Appetizing food prep, plating, and customer reaction sequencing",
+                    "Synchronized on-screen subtitles/captions for dialogue and hooks",
+                    "High-energy transitions without visual clutter"
+                  ],
+                  "citation_text": "Asset 'Video-11391.mp4' (9:16 Vertical Video / Short-Form): Short-form vertical editing demonstrating rhythmic pacing, food/beverage montage sequencing, and synchronized captions. Observed: Snappy 30-second pacing cut to musical rhythm, Appetizing food prep, plating, and customer reaction sequencing."
+                },
+                {
+                  "evidence_id": "EV_V01_VID_2",
+                  "file_name": "Video-1382.mp4",
+                  "relative_path": "Data set/artist_profiles/video_editors/V01_Nisha_Kapoor/media/Video-1382.mp4",
+                  "media_type": "video",
+                  "timestamp_or_frame": "Full Clip (0:15 - 0:45)",
+                  "observed_features": [
+                    "Format: 9:16 Vertical Video / Short-Form",
+                    "Specialty: Vertical Short-Form Social Reels & Food Content",
+                    "Snappy 30-second pacing cut to musical rhythm",
+                    "Appetizing food prep, plating, and customer reaction sequencing",
+                    "Synchronized on-screen subtitles/captions for dialogue and hooks",
+                    "High-energy transitions without visual clutter"
+                  ],
+                  "citation_text": "Asset 'Video-1382.mp4' (9:16 Vertical Video / Short-Form): Short-form vertical editing demonstrating rhythmic pacing, food/beverage montage sequencing, and synchronized captions. Observed: Snappy 30-second pacing cut to musical rhythm, Appetizing food prep, plating, and customer reaction sequencing."
+                }
+              ]
+            },
+            {
+              "requirement_id": "REQ_VID_03",
+              "dimension": "pacing_and_energy_control",
+              "artist_capability_id": "CAP_PACING_AND_ENERGY_CONTROL",
+              "match_status": "STRONG_MATCH",
+              "fit_explanation": "Demonstrated: Rhythm-aligned cuts and energetic flow without visual clutter",
+              "supporting_evidence": [
+                {
+                  "evidence_id": "EV_V01_VID_1",
+                  "file_name": "Video-11391.mp4",
+                  "relative_path": "Data set/artist_profiles/video_editors/V01_Nisha_Kapoor/media/Video-11391.mp4",
+                  "media_type": "video",
+                  "timestamp_or_frame": "Full Clip (0:15 - 0:45)",
+                  "observed_features": [
+                    "Format: 9:16 Vertical Video / Short-Form",
+                    "Specialty: Vertical Short-Form Social Reels & Food Content",
+                    "Snappy 30-second pacing cut to musical rhythm",
+                    "Appetizing food prep, plating, and customer reaction sequencing",
+                    "Synchronized on-screen subtitles/captions for dialogue and hooks",
+                    "High-energy transitions without visual clutter"
+                  ],
+                  "citation_text": "Asset 'Video-11391.mp4' (9:16 Vertical Video / Short-Form): Short-form vertical editing demonstrating rhythmic pacing, food/beverage montage sequencing, and synchronized captions. Observed: Snappy 30-second pacing cut to musical rhythm, Appetizing food prep, plating, and customer reaction sequencing."
+                },
+                {
+                  "evidence_id": "EV_V01_VID_2",
+                  "file_name": "Video-1382.mp4",
+                  "relative_path": "Data set/artist_profiles/video_editors/V01_Nisha_Kapoor/media/Video-1382.mp4",
+                  "media_type": "video",
+                  "timestamp_or_frame": "Full Clip (0:15 - 0:45)",
+                  "observed_features": [
+                    "Format: 9:16 Vertical Video / Short-Form",
+                    "Specialty: Vertical Short-Form Social Reels & Food Content",
+                    "Snappy 30-second pacing cut to musical rhythm",
+                    "Appetizing food prep, plating, and customer reaction sequencing",
+                    "Synchronized on-screen subtitles/captions for dialogue and hooks",
+                    "High-energy transitions without visual clutter"
+                  ],
+                  "citation_text": "Asset 'Video-1382.mp4' (9:16 Vertical Video / Short-Form): Short-form vertical editing demonstrating rhythmic pacing, food/beverage montage sequencing, and synchronized captions. Observed: Snappy 30-second pacing cut to musical rhythm, Appetizing food prep, plating, and customer reaction sequencing."
+                }
+              ]
+            },
+            {
+              "requirement_id": "REQ_VID_04",
+              "dimension": "speech_captioning_and_subtitles",
+              "artist_capability_id": "CAP_SPEECH_CAPTIONING_AND_SUBTITLES",
+              "match_status": "STRONG_MATCH",
+              "fit_explanation": "Demonstrated: Synchronized on-screen kinetic and styled subtitles for spoken dialogue",
+              "supporting_evidence": [
+                {
+                  "evidence_id": "EV_V01_VID_1",
+                  "file_name": "Video-11391.mp4",
+                  "relative_path": "Data set/artist_profiles/video_editors/V01_Nisha_Kapoor/media/Video-11391.mp4",
+                  "media_type": "video",
+                  "timestamp_or_frame": "Full Clip (0:15 - 0:45)",
+                  "observed_features": [
+                    "Format: 9:16 Vertical Video / Short-Form",
+                    "Specialty: Vertical Short-Form Social Reels & Food Content",
+                    "Snappy 30-second pacing cut to musical rhythm",
+                    "Appetizing food prep, plating, and customer reaction sequencing",
+                    "Synchronized on-screen subtitles/captions for dialogue and hooks",
+                    "High-energy transitions without visual clutter"
+                  ],
+                  "citation_text": "Asset 'Video-11391.mp4' (9:16 Vertical Video / Short-Form): Short-form vertical editing demonstrating rhythmic pacing, food/beverage montage sequencing, and synchronized captions. Observed: Snappy 30-second pacing cut to musical rhythm, Appetizing food prep, plating, and customer reaction sequencing."
+                },
+                {
+                  "evidence_id": "EV_V01_VID_2",
+                  "file_name": "Video-1382.mp4",
+                  "relative_path": "Data set/artist_profiles/video_editors/V01_Nisha_Kapoor/media/Video-1382.mp4",
+                  "media_type": "video",
+                  "timestamp_or_frame": "Full Clip (0:15 - 0:45)",
+                  "observed_features": [
+                    "Format: 9:16 Vertical Video / Short-Form",
+                    "Specialty: Vertical Short-Form Social Reels & Food Content",
+                    "Snappy 30-second pacing cut to musical rhythm",
+                    "Appetizing food prep, plating, and customer reaction sequencing",
+                    "Synchronized on-screen subtitles/captions for dialogue and hooks",
+                    "High-energy transitions without visual clutter"
+                  ],
+                  "citation_text": "Asset 'Video-1382.mp4' (9:16 Vertical Video / Short-Form): Short-form vertical editing demonstrating rhythmic pacing, food/beverage montage sequencing, and synchronized captions. Observed: Snappy 30-second pacing cut to musical rhythm, Appetizing food prep, plating, and customer reaction sequencing."
+                }
+              ]
+            }
+          ],
+          "supporting_evidence": [
+            {
+              "evidence_id": "EV_V01_VID_1",
+              "file_name": "Video-11391.mp4",
+              "relative_path": "Data set/artist_profiles/video_editors/V01_Nisha_Kapoor/media/Video-11391.mp4",
+              "media_type": "video",
+              "timestamp_or_frame": "Full Clip (0:15 - 0:45)",
+              "observed_features": [
+                "Format: 9:16 Vertical Video / Short-Form",
+                "Specialty: Vertical Short-Form Social Reels & Food Content",
+                "Snappy 30-second pacing cut to musical rhythm",
+                "Appetizing food prep, plating, and customer reaction sequencing",
+                "Synchronized on-screen subtitles/captions for dialogue and hooks",
+                "High-energy transitions without visual clutter"
+              ],
+              "citation_text": "Asset 'Video-11391.mp4' (9:16 Vertical Video / Short-Form): Short-form vertical editing demonstrating rhythmic pacing, food/beverage montage sequencing, and synchronized captions. Observed: Snappy 30-second pacing cut to musical rhythm, Appetizing food prep, plating, and customer reaction sequencing."
+            },
+            {
+              "evidence_id": "EV_V01_VID_2",
+              "file_name": "Video-1382.mp4",
+              "relative_path": "Data set/artist_profiles/video_editors/V01_Nisha_Kapoor/media/Video-1382.mp4",
+              "media_type": "video",
+              "timestamp_or_frame": "Full Clip (0:15 - 0:45)",
+              "observed_features": [
+                "Format: 9:16 Vertical Video / Short-Form",
+                "Specialty: Vertical Short-Form Social Reels & Food Content",
+                "Snappy 30-second pacing cut to musical rhythm",
+                "Appetizing food prep, plating, and customer reaction sequencing",
+                "Synchronized on-screen subtitles/captions for dialogue and hooks",
+                "High-energy transitions without visual clutter"
+              ],
+              "citation_text": "Asset 'Video-1382.mp4' (9:16 Vertical Video / Short-Form): Short-form vertical editing demonstrating rhythmic pacing, food/beverage montage sequencing, and synchronized captions. Observed: Snappy 30-second pacing cut to musical rhythm, Appetizing food prep, plating, and customer reaction sequencing."
+            }
+          ],
+          "confidence": "HIGH",
+          "trade_offs": [
+            "Evidence confidence: HIGH"
+          ],
+          "uncertainty_and_limitations": []
+        },
+        {
+          "rank": 2,
+          "artist_id": "V03",
+          "artist_name": "Tara D'Souza",
+          "category": "video_editor",
+          "fit_reason": "Tara D'Souza ranks #2 — Demonstrated capability in: vertical short form editing, narrative curation from raw clips, pacing and energy control. UNKNOWN evidence on: speech captioning and subtitles. (Score: 75.5/100, Confidence: HIGH). Match Score 75.5/100 [Req Fit: 39.5/50, Evidence: 16.0/30, Constraints: 20.0/20, Penalty: 0.0]. Demonstrated 3 requirements, 1 dimensions UNKNOWN.",
+          "matched_requirements": [
+            {
+              "requirement_id": "REQ_VID_01",
+              "dimension": "vertical_short_form_editing",
+              "artist_capability_id": "CAP_VERTICAL_SHORT_FORM_EDITING",
+              "match_status": "MODERATE_MATCH",
+              "fit_explanation": "Demonstrated: Mixed aspect ratio clips including mobile travel reels",
+              "supporting_evidence": [
+                {
+                  "evidence_id": "EV_V03_VID_1",
+                  "file_name": "Video-12136.mp4",
+                  "relative_path": "Data set/artist_profiles/video_editors/V03_Rahul_Gupta/media/Video-12136.mp4",
+                  "media_type": "video",
+                  "timestamp_or_frame": "Full Clip (0:15 - 0:45)",
+                  "observed_features": [
+                    "Format: 16:9 & 9:16 Cinematic Montage",
+                    "Specialty: Cinematic Travel & Hospitality Films",
+                    "Music-driven cinematic pacing and atmospheric color grading",
+                    "Visual flow connecting scenic and lifestyle moments",
+                    "High production value b-roll sequencing"
+                  ],
+                  "citation_text": "Asset 'Video-12136.mp4' (16:9 & 9:16 Cinematic Montage): Cinematic montage editing featuring music-driven flow and rich color grading for lifestyle and travel. Observed: Music-driven cinematic pacing and atmospheric color grading, Visual flow connecting scenic and lifestyle moments."
+                },
+                {
+                  "evidence_id": "EV_V03_VID_2",
+                  "file_name": "Video-15915.mp4",
+                  "relative_path": "Data set/artist_profiles/video_editors/V03_Rahul_Gupta/media/Video-15915.mp4",
+                  "media_type": "video",
+                  "timestamp_or_frame": "Full Clip (0:15 - 0:45)",
+                  "observed_features": [
+                    "Format: 16:9 & 9:16 Cinematic Montage",
+                    "Specialty: Cinematic Travel & Hospitality Films",
+                    "Music-driven cinematic pacing and atmospheric color grading",
+                    "Visual flow connecting scenic and lifestyle moments",
+                    "High production value b-roll sequencing"
+                  ],
+                  "citation_text": "Asset 'Video-15915.mp4' (16:9 & 9:16 Cinematic Montage): Cinematic montage editing featuring music-driven flow and rich color grading for lifestyle and travel. Observed: Music-driven cinematic pacing and atmospheric color grading, Visual flow connecting scenic and lifestyle moments."
+                }
+              ]
+            },
+            {
+              "requirement_id": "REQ_VID_02",
+              "dimension": "narrative_curation_from_raw_clips",
+              "artist_capability_id": "CAP_NARRATIVE_CURATION_FROM_RAW_CLIPS",
+              "match_status": "STRONG_MATCH",
+              "fit_explanation": "Demonstrated: Cinematic lifestyle, wedding, and travel montage sequencing",
+              "supporting_evidence": [
+                {
+                  "evidence_id": "EV_V03_VID_1",
+                  "file_name": "Video-12136.mp4",
+                  "relative_path": "Data set/artist_profiles/video_editors/V03_Rahul_Gupta/media/Video-12136.mp4",
+                  "media_type": "video",
+                  "timestamp_or_frame": "Full Clip (0:15 - 0:45)",
+                  "observed_features": [
+                    "Format: 16:9 & 9:16 Cinematic Montage",
+                    "Specialty: Cinematic Travel & Hospitality Films",
+                    "Music-driven cinematic pacing and atmospheric color grading",
+                    "Visual flow connecting scenic and lifestyle moments",
+                    "High production value b-roll sequencing"
+                  ],
+                  "citation_text": "Asset 'Video-12136.mp4' (16:9 & 9:16 Cinematic Montage): Cinematic montage editing featuring music-driven flow and rich color grading for lifestyle and travel. Observed: Music-driven cinematic pacing and atmospheric color grading, Visual flow connecting scenic and lifestyle moments."
+                },
+                {
+                  "evidence_id": "EV_V03_VID_2",
+                  "file_name": "Video-15915.mp4",
+                  "relative_path": "Data set/artist_profiles/video_editors/V03_Rahul_Gupta/media/Video-15915.mp4",
+                  "media_type": "video",
+                  "timestamp_or_frame": "Full Clip (0:15 - 0:45)",
+                  "observed_features": [
+                    "Format: 16:9 & 9:16 Cinematic Montage",
+                    "Specialty: Cinematic Travel & Hospitality Films",
+                    "Music-driven cinematic pacing and atmospheric color grading",
+                    "Visual flow connecting scenic and lifestyle moments",
+                    "High production value b-roll sequencing"
+                  ],
+                  "citation_text": "Asset 'Video-15915.mp4' (16:9 & 9:16 Cinematic Montage): Cinematic montage editing featuring music-driven flow and rich color grading for lifestyle and travel. Observed: Music-driven cinematic pacing and atmospheric color grading, Visual flow connecting scenic and lifestyle moments."
+                }
+              ]
+            },
+            {
+              "requirement_id": "REQ_VID_03",
+              "dimension": "pacing_and_energy_control",
+              "artist_capability_id": "CAP_PACING_AND_ENERGY_CONTROL",
+              "match_status": "STRONG_MATCH",
+              "fit_explanation": "Demonstrated: Music-led cinematic flow with rich color grading",
+              "supporting_evidence": [
+                {
+                  "evidence_id": "EV_V03_VID_1",
+                  "file_name": "Video-12136.mp4",
+                  "relative_path": "Data set/artist_profiles/video_editors/V03_Rahul_Gupta/media/Video-12136.mp4",
+                  "media_type": "video",
+                  "timestamp_or_frame": "Full Clip (0:15 - 0:45)",
+                  "observed_features": [
+                    "Format: 16:9 & 9:16 Cinematic Montage",
+                    "Specialty: Cinematic Travel & Hospitality Films",
+                    "Music-driven cinematic pacing and atmospheric color grading",
+                    "Visual flow connecting scenic and lifestyle moments",
+                    "High production value b-roll sequencing"
+                  ],
+                  "citation_text": "Asset 'Video-12136.mp4' (16:9 & 9:16 Cinematic Montage): Cinematic montage editing featuring music-driven flow and rich color grading for lifestyle and travel. Observed: Music-driven cinematic pacing and atmospheric color grading, Visual flow connecting scenic and lifestyle moments."
+                },
+                {
+                  "evidence_id": "EV_V03_VID_2",
+                  "file_name": "Video-15915.mp4",
+                  "relative_path": "Data set/artist_profiles/video_editors/V03_Rahul_Gupta/media/Video-15915.mp4",
+                  "media_type": "video",
+                  "timestamp_or_frame": "Full Clip (0:15 - 0:45)",
+                  "observed_features": [
+                    "Format: 16:9 & 9:16 Cinematic Montage",
+                    "Specialty: Cinematic Travel & Hospitality Films",
+                    "Music-driven cinematic pacing and atmospheric color grading",
+                    "Visual flow connecting scenic and lifestyle moments",
+                    "High production value b-roll sequencing"
+                  ],
+                  "citation_text": "Asset 'Video-15915.mp4' (16:9 & 9:16 Cinematic Montage): Cinematic montage editing featuring music-driven flow and rich color grading for lifestyle and travel. Observed: Music-driven cinematic pacing and atmospheric color grading, Visual flow connecting scenic and lifestyle moments."
+                }
+              ]
+            },
+            {
+              "requirement_id": "REQ_VID_04",
+              "dimension": "speech_captioning_and_subtitles",
+              "artist_capability_id": null,
+              "match_status": "UNKNOWN_FIT",
+              "fit_explanation": "No direct portfolio evidence provided for 'speech_captioning_and_subtitles' (treated neutrally as UNKNOWN)",
+              "supporting_evidence": []
+            }
+          ],
+          "supporting_evidence": [
+            {
+              "evidence_id": "EV_V03_VID_1",
+              "file_name": "Video-12136.mp4",
+              "relative_path": "Data set/artist_profiles/video_editors/V03_Rahul_Gupta/media/Video-12136.mp4",
+              "media_type": "video",
+              "timestamp_or_frame": "Full Clip (0:15 - 0:45)",
+              "observed_features": [
+                "Format: 16:9 & 9:16 Cinematic Montage",
+                "Specialty: Cinematic Travel & Hospitality Films",
+                "Music-driven cinematic pacing and atmospheric color grading",
+                "Visual flow connecting scenic and lifestyle moments",
+                "High production value b-roll sequencing"
+              ],
+              "citation_text": "Asset 'Video-12136.mp4' (16:9 & 9:16 Cinematic Montage): Cinematic montage editing featuring music-driven flow and rich color grading for lifestyle and travel. Observed: Music-driven cinematic pacing and atmospheric color grading, Visual flow connecting scenic and lifestyle moments."
+            },
+            {
+              "evidence_id": "EV_V03_VID_2",
+              "file_name": "Video-15915.mp4",
+              "relative_path": "Data set/artist_profiles/video_editors/V03_Rahul_Gupta/media/Video-15915.mp4",
+              "media_type": "video",
+              "timestamp_or_frame": "Full Clip (0:15 - 0:45)",
+              "observed_features": [
+                "Format: 16:9 & 9:16 Cinematic Montage",
+                "Specialty: Cinematic Travel & Hospitality Films",
+                "Music-driven cinematic pacing and atmospheric color grading",
+                "Visual flow connecting scenic and lifestyle moments",
+                "High production value b-roll sequencing"
+              ],
+              "citation_text": "Asset 'Video-15915.mp4' (16:9 & 9:16 Cinematic Montage): Cinematic montage editing featuring music-driven flow and rich color grading for lifestyle and travel. Observed: Music-driven cinematic pacing and atmospheric color grading, Visual flow connecting scenic and lifestyle moments."
+            }
+          ],
+          "confidence": "HIGH",
+          "trade_offs": [
+            "UNKNOWN evidence on 'Speech Captioning And Subtitles' required by this brief.",
+            "Dataset anomaly noted: Profile docx declares 'V03 / Tara D'Souza' (Name mismatch with folder 'Rahul_Gupta')"
+          ],
+          "uncertainty_and_limitations": [
+            "Focus is purely on music-led aesthetic b-roll without dialogue subtitle overlays; speech captioning undemonstrated"
+          ]
+        }
+      ],
+      "trade_off_analysis": [
+        {
+          "dimension": "speech_captioning_and_subtitles",
+          "rank_1_status": "DEMONSTRATED (STRONG): Synchronized on-screen kinetic and styled subtitles for spoken dialogue",
+          "rank_2_status": "UNKNOWN - no evidence in portfolio",
+          "decision_implication": "Rank 1 has stronger demonstrated capability on 'Speech Captioning & Subtitling'. Rank 2 is a viable fallback but carries higher uncertainty on this requirement."
+        }
+      ],
+      "assumptions_made": [
+        "Raw phone footage includes usable audio and recognizable moments despite being un-curated"
+      ],
+      "key_uncertainties": [
+        "Legal copyright clearance of the original event song on Instagram",
+        "Exact audio clarity and dialogue audibility in customer reaction clips"
+      ],
+      "refinement_questions": [
+        {
+          "question_id": "Q1",
+          "question_text": "Regarding 'Legal copyright clearance of the original event song on Instagram': If track is copyrighted, editor must source and cut to alternative royalty-free commercial audio Can this be clarified before artist selection?",
+          "why_it_matters": "If track is copyrighted, editor must source and cut to alternative royalty-free commercial audio",
+          "potential_ranking_impact": "Resolves UKN_VID_01 — this unknown is relevant and could alter candidate ranking or eliminate a candidate if resolved."
+        },
+        {
+          "question_id": "Q2",
+          "question_text": "Regarding 'Exact audio clarity and dialogue audibility in customer reaction clips': Affects time required for audio cleanup and caption timing Can this be clarified before artist selection?",
+          "why_it_matters": "Affects time required for audio cleanup and caption timing",
+          "potential_ranking_impact": "Resolves UKN_VID_02 — this unknown is relevant and could alter candidate ranking or eliminate a candidate if resolved."
+        }
+      ]
+    },
+    {
+      "brief_id": "04_leadership_event_photos",
+      "hirer_name": "Shalini",
+      "summary_of_need": "Company leadership off-site event photography requiring photographer for 4 September, likely 10:00 AM – 3:00 PM (5 hours).",
+      "top_two": [
+        {
+          "rank": 1,
+          "artist_id": "P01",
+          "artist_name": "Aanya Rao",
+          "category": "photographer",
+          "fit_reason": "Aanya Rao ranks #1 — Demonstrated capability in: candid event coverage, group and team framing, turnaround and digital delivery. (Score: 83.3/100, Confidence: HIGH). Match Score 83.3/100 [Req Fit: 49.3/50, Evidence: 14.0/30, Constraints: 20.0/20, Penalty: 0.0]. Demonstrated 3 requirements, 0 dimensions UNKNOWN.",
+          "matched_requirements": [
+            {
+              "requirement_id": "REQ_LEAD_01",
+              "dimension": "candid_event_coverage",
+              "artist_capability_id": "CAP_CANDID_EVENT_COVERAGE",
+              "match_status": "STRONG_MATCH",
+              "fit_explanation": "Demonstrated: High-quality candid event and workshop interactions",
+              "supporting_evidence": [
+                {
+                  "evidence_id": "EV_P01_IMG_1",
+                  "file_name": "587772091_18388610977181645_5390859402103325237_n.jpg",
+                  "relative_path": "Data set/artist_profiles/photographers/P01_Aanya_Rao/media/587772091_18388610977181645_5390859402103325237_n.jpg",
+                  "media_type": "image",
+                  "timestamp_or_frame": "Frame 1/1 (1080x1440)",
+                  "observed_features": [
+                    "Resolution: 1080x1440 (standard_web_res)",
+                    "Aspect: 4:5_or_3:4_vertical_portrait",
+                    "Dynamic candid event interaction capture",
+                    "Clean natural room lighting in indoor gathering",
+                    "3:4 vertical digital compositions optimized for mobile/social sharing"
+                  ],
+                  "citation_text": "Image '587772091_18388610977181645_5390859402103325237_n.jpg' (1080x1440, 4:5_or_3:4_vertical_portrait): Demonstrated candid event coverage with dynamic unposed interaction and consistent natural color grading. Observed features: Dynamic candid event interaction capture, Clean natural room lighting in indoor gathering."
+                },
+                {
+                  "evidence_id": "EV_P01_IMG_2",
+                  "file_name": "588248682_18388610974181645_2768095694106311115_n.jpg",
+                  "relative_path": "Data set/artist_profiles/photographers/P01_Aanya_Rao/media/588248682_18388610974181645_2768095694106311115_n.jpg",
+                  "media_type": "image",
+                  "timestamp_or_frame": "Frame 1/1 (1080x1440)",
+                  "observed_features": [
+                    "Resolution: 1080x1440 (standard_web_res)",
+                    "Aspect: 4:5_or_3:4_vertical_portrait",
+                    "Dynamic candid event interaction capture",
+                    "Clean natural room lighting in indoor gathering",
+                    "3:4 vertical digital compositions optimized for mobile/social sharing"
+                  ],
+                  "citation_text": "Image '588248682_18388610974181645_2768095694106311115_n.jpg' (1080x1440, 4:5_or_3:4_vertical_portrait): Demonstrated candid event coverage with dynamic unposed interaction and consistent natural color grading. Observed features: Dynamic candid event interaction capture, Clean natural room lighting in indoor gathering."
+                }
+              ]
+            },
+            {
+              "requirement_id": "REQ_LEAD_02",
+              "dimension": "group_and_team_framing",
+              "artist_capability_id": "CAP_GROUP_AND_TEAM_FRAMING",
+              "match_status": "MODERATE_MATCH",
+              "fit_explanation": "Demonstrated: Team day and workshop group composition",
+              "supporting_evidence": [
+                {
+                  "evidence_id": "EV_P01_IMG_1",
+                  "file_name": "587772091_18388610977181645_5390859402103325237_n.jpg",
+                  "relative_path": "Data set/artist_profiles/photographers/P01_Aanya_Rao/media/587772091_18388610977181645_5390859402103325237_n.jpg",
+                  "media_type": "image",
+                  "timestamp_or_frame": "Frame 1/1 (1080x1440)",
+                  "observed_features": [
+                    "Resolution: 1080x1440 (standard_web_res)",
+                    "Aspect: 4:5_or_3:4_vertical_portrait",
+                    "Dynamic candid event interaction capture",
+                    "Clean natural room lighting in indoor gathering",
+                    "3:4 vertical digital compositions optimized for mobile/social sharing"
+                  ],
+                  "citation_text": "Image '587772091_18388610977181645_5390859402103325237_n.jpg' (1080x1440, 4:5_or_3:4_vertical_portrait): Demonstrated candid event coverage with dynamic unposed interaction and consistent natural color grading. Observed features: Dynamic candid event interaction capture, Clean natural room lighting in indoor gathering."
+                },
+                {
+                  "evidence_id": "EV_P01_IMG_2",
+                  "file_name": "588248682_18388610974181645_2768095694106311115_n.jpg",
+                  "relative_path": "Data set/artist_profiles/photographers/P01_Aanya_Rao/media/588248682_18388610974181645_2768095694106311115_n.jpg",
+                  "media_type": "image",
+                  "timestamp_or_frame": "Frame 1/1 (1080x1440)",
+                  "observed_features": [
+                    "Resolution: 1080x1440 (standard_web_res)",
+                    "Aspect: 4:5_or_3:4_vertical_portrait",
+                    "Dynamic candid event interaction capture",
+                    "Clean natural room lighting in indoor gathering",
+                    "3:4 vertical digital compositions optimized for mobile/social sharing"
+                  ],
+                  "citation_text": "Image '588248682_18388610974181645_2768095694106311115_n.jpg' (1080x1440, 4:5_or_3:4_vertical_portrait): Demonstrated candid event coverage with dynamic unposed interaction and consistent natural color grading. Observed features: Dynamic candid event interaction capture, Clean natural room lighting in indoor gathering."
+                }
+              ]
+            },
+            {
+              "requirement_id": "REQ_LEAD_03",
+              "dimension": "turnaround_and_digital_delivery",
+              "artist_capability_id": "CAP_TURNAROUND_AND_DIGITAL_DELIVERY",
+              "match_status": "MODERATE_MATCH",
+              "fit_explanation": "Demonstrated: Vertical/social format readiness for web and social distribution",
+              "supporting_evidence": [
+                {
+                  "evidence_id": "EV_P01_IMG_1",
+                  "file_name": "587772091_18388610977181645_5390859402103325237_n.jpg",
+                  "relative_path": "Data set/artist_profiles/photographers/P01_Aanya_Rao/media/587772091_18388610977181645_5390859402103325237_n.jpg",
+                  "media_type": "image",
+                  "timestamp_or_frame": "Frame 1/1 (1080x1440)",
+                  "observed_features": [
+                    "Resolution: 1080x1440 (standard_web_res)",
+                    "Aspect: 4:5_or_3:4_vertical_portrait",
+                    "Dynamic candid event interaction capture",
+                    "Clean natural room lighting in indoor gathering",
+                    "3:4 vertical digital compositions optimized for mobile/social sharing"
+                  ],
+                  "citation_text": "Image '587772091_18388610977181645_5390859402103325237_n.jpg' (1080x1440, 4:5_or_3:4_vertical_portrait): Demonstrated candid event coverage with dynamic unposed interaction and consistent natural color grading. Observed features: Dynamic candid event interaction capture, Clean natural room lighting in indoor gathering."
+                },
+                {
+                  "evidence_id": "EV_P01_IMG_2",
+                  "file_name": "588248682_18388610974181645_2768095694106311115_n.jpg",
+                  "relative_path": "Data set/artist_profiles/photographers/P01_Aanya_Rao/media/588248682_18388610974181645_2768095694106311115_n.jpg",
+                  "media_type": "image",
+                  "timestamp_or_frame": "Frame 1/1 (1080x1440)",
+                  "observed_features": [
+                    "Resolution: 1080x1440 (standard_web_res)",
+                    "Aspect: 4:5_or_3:4_vertical_portrait",
+                    "Dynamic candid event interaction capture",
+                    "Clean natural room lighting in indoor gathering",
+                    "3:4 vertical digital compositions optimized for mobile/social sharing"
+                  ],
+                  "citation_text": "Image '588248682_18388610974181645_2768095694106311115_n.jpg' (1080x1440, 4:5_or_3:4_vertical_portrait): Demonstrated candid event coverage with dynamic unposed interaction and consistent natural color grading. Observed features: Dynamic candid event interaction capture, Clean natural room lighting in indoor gathering."
+                }
+              ]
+            }
+          ],
+          "supporting_evidence": [
+            {
+              "evidence_id": "EV_P01_IMG_1",
+              "file_name": "587772091_18388610977181645_5390859402103325237_n.jpg",
+              "relative_path": "Data set/artist_profiles/photographers/P01_Aanya_Rao/media/587772091_18388610977181645_5390859402103325237_n.jpg",
+              "media_type": "image",
+              "timestamp_or_frame": "Frame 1/1 (1080x1440)",
+              "observed_features": [
+                "Resolution: 1080x1440 (standard_web_res)",
+                "Aspect: 4:5_or_3:4_vertical_portrait",
+                "Dynamic candid event interaction capture",
+                "Clean natural room lighting in indoor gathering",
+                "3:4 vertical digital compositions optimized for mobile/social sharing"
+              ],
+              "citation_text": "Image '587772091_18388610977181645_5390859402103325237_n.jpg' (1080x1440, 4:5_or_3:4_vertical_portrait): Demonstrated candid event coverage with dynamic unposed interaction and consistent natural color grading. Observed features: Dynamic candid event interaction capture, Clean natural room lighting in indoor gathering."
+            },
+            {
+              "evidence_id": "EV_P01_IMG_2",
+              "file_name": "588248682_18388610974181645_2768095694106311115_n.jpg",
+              "relative_path": "Data set/artist_profiles/photographers/P01_Aanya_Rao/media/588248682_18388610974181645_2768095694106311115_n.jpg",
+              "media_type": "image",
+              "timestamp_or_frame": "Frame 1/1 (1080x1440)",
+              "observed_features": [
+                "Resolution: 1080x1440 (standard_web_res)",
+                "Aspect: 4:5_or_3:4_vertical_portrait",
+                "Dynamic candid event interaction capture",
+                "Clean natural room lighting in indoor gathering",
+                "3:4 vertical digital compositions optimized for mobile/social sharing"
+              ],
+              "citation_text": "Image '588248682_18388610974181645_2768095694106311115_n.jpg' (1080x1440, 4:5_or_3:4_vertical_portrait): Demonstrated candid event coverage with dynamic unposed interaction and consistent natural color grading. Observed features: Dynamic candid event interaction capture, Clean natural room lighting in indoor gathering."
+            }
+          ],
+          "confidence": "HIGH",
+          "trade_offs": [
+            "Evidence confidence: MEDIUM"
+          ],
+          "uncertainty_and_limitations": [
+            "No dedicated studio cosmetic or commercial product packaging samples in portfolio",
+            "No formal studio executive headshot setups observed in media"
+          ]
+        },
+        {
+          "rank": 2,
+          "artist_id": "PO5",
+          "artist_name": "Frames",
+          "category": "photographer",
+          "fit_reason": "Frames ranks #2 — Demonstrated capability in: candid event coverage, group and team framing. UNKNOWN evidence on: turnaround and digital delivery. (Score: 60.0/100, Confidence: MEDIUM). Match Score 60.0/100 [Req Fit: 32.0/50, Evidence: 8.0/30, Constraints: 20.0/20, Penalty: 0.0]. Demonstrated 2 requirements, 1 dimensions UNKNOWN.",
+          "matched_requirements": [
+            {
+              "requirement_id": "REQ_LEAD_01",
+              "dimension": "candid_event_coverage",
+              "artist_capability_id": "CAP_CANDID_EVENT_COVERAGE",
+              "match_status": "MODERATE_MATCH",
+              "fit_explanation": "Demonstrated: DSLR event and space coverage",
+              "supporting_evidence": [
+                {
+                  "evidence_id": "EV_PO5_IMG_1",
+                  "file_name": "20250720T201756066ZUTC352c0d6f-7e85-44d6-968c-37c505a1ef4c.jpg",
+                  "relative_path": "Data set/artist_profiles/photographers/PO5_Frames/media/20250720T201756066ZUTC352c0d6f-7e85-44d6-968c-37c505a1ef4c.jpg",
+                  "media_type": "image",
+                  "timestamp_or_frame": "Frame 1/1 (3859x2894)",
+                  "observed_features": [
+                    "Resolution: 3859x2894 (high_res_digital)",
+                    "Aspect: 4:3_standard_landscape",
+                    "Ultra-high resolution DSLR captures (20MP+ sensor)",
+                    "Sharp edge-to-edge detail and balanced exposure",
+                    "Detailed material textures and wide dynamic range"
+                  ],
+                  "citation_text": "Image '20250720T201756066ZUTC352c0d6f-7e85-44d6-968c-37c505a1ef4c.jpg' (3859x2894, 4:3_standard_landscape): Demonstrated high-resolution DSLR photography with crisp detail and versatile commercial range. Observed features: Ultra-high resolution DSLR captures (20MP+ sensor), Sharp edge-to-edge detail and balanced exposure."
+                },
+                {
+                  "evidence_id": "EV_PO5_IMG_2",
+                  "file_name": "20250720T202151397ZUTCa86353ed-8705-4600-b7c0-d16ee62733c2.jpg",
+                  "relative_path": "Data set/artist_profiles/photographers/PO5_Frames/media/20250720T202151397ZUTCa86353ed-8705-4600-b7c0-d16ee62733c2.jpg",
+                  "media_type": "image",
+                  "timestamp_or_frame": "Frame 1/1 (5568x3712)",
+                  "observed_features": [
+                    "Resolution: 5568x3712 (ultra_high_res_dslr)",
+                    "Aspect: 16:9_or_3:2_wide_landscape",
+                    "Ultra-high resolution DSLR captures (20MP+ sensor)",
+                    "Sharp edge-to-edge detail and balanced exposure",
+                    "Detailed material textures and wide dynamic range"
+                  ],
+                  "citation_text": "Image '20250720T202151397ZUTCa86353ed-8705-4600-b7c0-d16ee62733c2.jpg' (5568x3712, 16:9_or_3:2_wide_landscape): Demonstrated high-resolution DSLR photography with crisp detail and versatile commercial range. Observed features: Ultra-high resolution DSLR captures (20MP+ sensor), Sharp edge-to-edge detail and balanced exposure."
+                }
+              ]
+            },
+            {
+              "requirement_id": "REQ_LEAD_02",
+              "dimension": "group_and_team_framing",
+              "artist_capability_id": "CAP_GROUP_AND_TEAM_FRAMING",
+              "match_status": "MODERATE_MATCH",
+              "fit_explanation": "Demonstrated: Wide-angle DSLR framing capability",
+              "supporting_evidence": [
+                {
+                  "evidence_id": "EV_PO5_IMG_1",
+                  "file_name": "20250720T201756066ZUTC352c0d6f-7e85-44d6-968c-37c505a1ef4c.jpg",
+                  "relative_path": "Data set/artist_profiles/photographers/PO5_Frames/media/20250720T201756066ZUTC352c0d6f-7e85-44d6-968c-37c505a1ef4c.jpg",
+                  "media_type": "image",
+                  "timestamp_or_frame": "Frame 1/1 (3859x2894)",
+                  "observed_features": [
+                    "Resolution: 3859x2894 (high_res_digital)",
+                    "Aspect: 4:3_standard_landscape",
+                    "Ultra-high resolution DSLR captures (20MP+ sensor)",
+                    "Sharp edge-to-edge detail and balanced exposure",
+                    "Detailed material textures and wide dynamic range"
+                  ],
+                  "citation_text": "Image '20250720T201756066ZUTC352c0d6f-7e85-44d6-968c-37c505a1ef4c.jpg' (3859x2894, 4:3_standard_landscape): Demonstrated high-resolution DSLR photography with crisp detail and versatile commercial range. Observed features: Ultra-high resolution DSLR captures (20MP+ sensor), Sharp edge-to-edge detail and balanced exposure."
+                },
+                {
+                  "evidence_id": "EV_PO5_IMG_2",
+                  "file_name": "20250720T202151397ZUTCa86353ed-8705-4600-b7c0-d16ee62733c2.jpg",
+                  "relative_path": "Data set/artist_profiles/photographers/PO5_Frames/media/20250720T202151397ZUTCa86353ed-8705-4600-b7c0-d16ee62733c2.jpg",
+                  "media_type": "image",
+                  "timestamp_or_frame": "Frame 1/1 (5568x3712)",
+                  "observed_features": [
+                    "Resolution: 5568x3712 (ultra_high_res_dslr)",
+                    "Aspect: 16:9_or_3:2_wide_landscape",
+                    "Ultra-high resolution DSLR captures (20MP+ sensor)",
+                    "Sharp edge-to-edge detail and balanced exposure",
+                    "Detailed material textures and wide dynamic range"
+                  ],
+                  "citation_text": "Image '20250720T202151397ZUTCa86353ed-8705-4600-b7c0-d16ee62733c2.jpg' (5568x3712, 16:9_or_3:2_wide_landscape): Demonstrated high-resolution DSLR photography with crisp detail and versatile commercial range. Observed features: Ultra-high resolution DSLR captures (20MP+ sensor), Sharp edge-to-edge detail and balanced exposure."
+                }
+              ]
+            },
+            {
+              "requirement_id": "REQ_LEAD_03",
+              "dimension": "turnaround_and_digital_delivery",
+              "artist_capability_id": null,
+              "match_status": "UNKNOWN_FIT",
+              "fit_explanation": "No direct portfolio evidence provided for 'turnaround_and_digital_delivery' (treated neutrally as UNKNOWN)",
+              "supporting_evidence": []
+            }
+          ],
+          "supporting_evidence": [
+            {
+              "evidence_id": "EV_PO5_IMG_1",
+              "file_name": "20250720T201756066ZUTC352c0d6f-7e85-44d6-968c-37c505a1ef4c.jpg",
+              "relative_path": "Data set/artist_profiles/photographers/PO5_Frames/media/20250720T201756066ZUTC352c0d6f-7e85-44d6-968c-37c505a1ef4c.jpg",
+              "media_type": "image",
+              "timestamp_or_frame": "Frame 1/1 (3859x2894)",
+              "observed_features": [
+                "Resolution: 3859x2894 (high_res_digital)",
+                "Aspect: 4:3_standard_landscape",
+                "Ultra-high resolution DSLR captures (20MP+ sensor)",
+                "Sharp edge-to-edge detail and balanced exposure",
+                "Detailed material textures and wide dynamic range"
+              ],
+              "citation_text": "Image '20250720T201756066ZUTC352c0d6f-7e85-44d6-968c-37c505a1ef4c.jpg' (3859x2894, 4:3_standard_landscape): Demonstrated high-resolution DSLR photography with crisp detail and versatile commercial range. Observed features: Ultra-high resolution DSLR captures (20MP+ sensor), Sharp edge-to-edge detail and balanced exposure."
+            },
+            {
+              "evidence_id": "EV_PO5_IMG_2",
+              "file_name": "20250720T202151397ZUTCa86353ed-8705-4600-b7c0-d16ee62733c2.jpg",
+              "relative_path": "Data set/artist_profiles/photographers/PO5_Frames/media/20250720T202151397ZUTCa86353ed-8705-4600-b7c0-d16ee62733c2.jpg",
+              "media_type": "image",
+              "timestamp_or_frame": "Frame 1/1 (5568x3712)",
+              "observed_features": [
+                "Resolution: 5568x3712 (ultra_high_res_dslr)",
+                "Aspect: 16:9_or_3:2_wide_landscape",
+                "Ultra-high resolution DSLR captures (20MP+ sensor)",
+                "Sharp edge-to-edge detail and balanced exposure",
+                "Detailed material textures and wide dynamic range"
+              ],
+              "citation_text": "Image '20250720T202151397ZUTCa86353ed-8705-4600-b7c0-d16ee62733c2.jpg' (5568x3712, 16:9_or_3:2_wide_landscape): Demonstrated high-resolution DSLR photography with crisp detail and versatile commercial range. Observed features: Ultra-high resolution DSLR captures (20MP+ sensor), Sharp edge-to-edge detail and balanced exposure."
+            }
+          ],
+          "confidence": "MEDIUM",
+          "trade_offs": [
+            "UNKNOWN evidence on 'Turnaround And Digital Delivery' required by this brief.",
+            "Dataset anomaly noted: Folder uses letter 'O' instead of digit '0' in identifier 'PO5'"
+          ],
+          "uncertainty_and_limitations": [
+            "Artist based in Kolkata; local same-evening digital delivery in Delhi/NCR unverified and dependent on travel confirmation"
+          ]
+        }
+      ],
+      "trade_off_analysis": [
+        {
+          "dimension": "turnaround_and_digital_delivery",
+          "rank_1_status": "DEMONSTRATED (MODERATE): Vertical/social format readiness for web and social distribution",
+          "rank_2_status": "UNKNOWN - no evidence in portfolio",
+          "decision_implication": "Rank 1 has stronger demonstrated capability on 'Turnaround & Social/Digital Readiness'. Rank 2 is a viable fallback but carries higher uncertainty on this requirement."
+        }
+      ],
+      "assumptions_made": [
+        "Photographer operates with high ISO / wide aperture lenses or bounced flash for indoor conference hall lighting"
+      ],
+      "key_uncertainties": [
+        "Budget ceiling and procurement commercial parameters",
+        "Venue room dimensions and flash photography permission",
+        "Finalized venue address and room setup schedule"
+      ],
+      "refinement_questions": [
+        {
+          "question_id": "Q1",
+          "question_text": "Regarding 'Budget ceiling and procurement commercial parameters': No budget was specified ('procurement will ask anyway') Can this be clarified before artist selection?",
+          "why_it_matters": "No budget was specified ('procurement will ask anyway')",
+          "potential_ranking_impact": "Resolves UKN_LEAD_01 — this unknown is decision-critical and could alter candidate ranking or eliminate a candidate if resolved."
+        },
+        {
+          "question_id": "Q2",
+          "question_text": "Regarding 'Venue room dimensions and flash photography permission': Governs lighting gear choices and group photo staging in South Delhi venue Can this be clarified before artist selection?",
+          "why_it_matters": "Governs lighting gear choices and group photo staging in South Delhi venue",
+          "potential_ranking_impact": "Resolves UKN_LEAD_02 — this unknown is decision-critical and could alter candidate ranking or eliminate a candidate if resolved."
+        }
+      ]
+    }
+  ]
+}
