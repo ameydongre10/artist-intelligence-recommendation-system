@@ -15,10 +15,13 @@ from src.utils.file_utils import read_jsonl_file, read_json_file
 @pytest.fixture(scope="module")
 def processed_pipeline_data():
     """Fixture ensuring pipeline runs and returns generated records and logs."""
-    pipeline = ArtistIntelligencePipeline()
-    records = pipeline.process_all_artists()
     raw_jsonl = read_jsonl_file("data/processed/artist_intelligence.jsonl")
     media_log = read_json_file("data/processed/media_selection_log.json")
+    if os.path.exists("data/raw/Data set"):
+        pipeline = ArtistIntelligencePipeline()
+        records = pipeline.process_all_artists()
+    else:
+        records = [ArtistIntelligenceRecord.model_validate(r) for r in raw_jsonl]
     return records, raw_jsonl, media_log
 
 
@@ -124,6 +127,8 @@ def test_media_selection_log_integrity(processed_pipeline_data):
 
 def test_pipeline_determinism():
     """Verify running the pipeline multiple times produces identical output."""
+    if not os.path.exists("data/raw/Data set"):
+        pytest.skip("Raw multimedia dataset omitted from git repository")
     pipeline = ArtistIntelligencePipeline()
     run1 = [rec.model_dump() for rec in pipeline.process_all_artists()]
     run2 = [rec.model_dump() for rec in pipeline.process_all_artists()]

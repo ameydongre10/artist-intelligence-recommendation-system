@@ -4,6 +4,7 @@ Tests domain schemas, epistemic state isolation, dataset loader, capability fram
 media selection policy, artifact contracts, and error handling.
 """
 
+import os
 import pytest
 from pydantic import ValidationError
 
@@ -257,6 +258,8 @@ def test_dataset_loader_safe_operations():
 
 def test_profile_reader_and_conversation_reader():
     """Verify profile_reader and conversation_reader on actual extracted raw files."""
+    if not os.path.exists("data/raw/Data set"):
+        pytest.skip("Raw multimedia files omitted from git repository")
     loader = DatasetLoader()
     m01_info = loader.get_artist_by_identifier("M01")
     docx_rel = m01_info["profile_document"]["relative_path"]

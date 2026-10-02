@@ -15,7 +15,8 @@ from scripts.inventory_dataset import scan_dataset, get_docx_text, parse_profile
 def raw_dir():
     """Returns the path to the extracted raw dataset."""
     path = Path("data/raw/Data set")
-    assert path.exists(), f"Raw dataset directory not found at {path}"
+    if not path.exists():
+        pytest.skip(f"Raw dataset directory not found at {path} (large raw files omitted from git repository)")
     return str(path)
 
 
