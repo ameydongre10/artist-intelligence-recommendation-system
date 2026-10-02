@@ -4,11 +4,15 @@ const basePath = process.env.NEXT_PUBLIC_BASE_PATH !== undefined
   ? process.env.NEXT_PUBLIC_BASE_PATH
   : (isProd ? '/artist-intelligence-recommendation-system' : '');
 
+const defaultApiUrl = isProd
+  ? 'https://artist-intelligence-recommendation-system.onrender.com'
+  : 'http://127.0.0.1:8000';
+
 const apiBaseUrl =
   process.env.NEXT_PUBLIC_API_BASE_URL ||
   process.env.NEXT_PUBLIC_API_URL ||
   process.env.VITE_API_URL ||
-  'http://127.0.0.1:8000';
+  defaultApiUrl;
 
 const nextConfig = {
   reactStrictMode: true,

@@ -1,6 +1,6 @@
 services:
   - type: web
-    name: artist-intelligence-api
+    name: artist-intelligence-recommendation-system
     env: python
     region: oregon
     plan: free
