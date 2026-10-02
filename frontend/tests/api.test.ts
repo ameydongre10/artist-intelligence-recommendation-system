@@ -43,4 +43,25 @@ describe('Frontend API Client', () => {
 
     await expect(api.getArtistDetail('UNKNOWN_ID')).rejects.toThrow(ApiError);
   });
+
+  test('automatically switches to fallback backend when custom primary fails with network error', async () => {
+    const { setActiveApiUrl, FALLBACK_API_URL, getActiveApiUrl } = require('../lib/api');
+    setActiveApiUrl('https://custom-unreachable-backend.onrender.com');
+
+    // First attempt against custom backend fails with NetworkError across retries
+    (global.fetch as jest.Mock)
+      .mockRejectedValueOnce(new TypeError('Failed to fetch'))
+      .mockRejectedValueOnce(new TypeError('Failed to fetch'))
+      .mockRejectedValueOnce(new TypeError('Failed to fetch'))
+      .mockRejectedValueOnce(new TypeError('Failed to fetch'))
+      // Then fallback succeeds
+      .mockResolvedValueOnce({
+        ok: true,
+        json: async () => ({ status: 'healthy', service: 'artist-intelligence-api' }),
+      });
+
+    const res = await api.getHealth();
+    expect(res.status).toBe('healthy');
+    expect(getActiveApiUrl()).toBe(FALLBACK_API_URL);
+  }, 15000);
 });

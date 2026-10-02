@@ -15,16 +15,28 @@ import {
 } from './types';
 
 const isProd = process.env.NODE_ENV === 'production';
+export const DEFAULT_USER_API_URL = 'https://artist-intelligence-recommendation-system-hhdt.onrender.com';
+export const FALLBACK_API_URL = 'https://artist-intelligence-recommendation-system.onrender.com';
 const defaultApiUrl = isProd
-  ? 'https://artist-intelligence-recommendation-system.onrender.com'
+  ? DEFAULT_USER_API_URL
   : 'http://127.0.0.1:8000';
 
-const API_BASE_URL = (
+export const PRIMARY_API_URL = (
   process.env.NEXT_PUBLIC_API_BASE_URL ||
   process.env.NEXT_PUBLIC_API_URL ||
   process.env.VITE_API_URL ||
   defaultApiUrl
 ).replace(/\/+$/, '');
+
+let activeApiUrl = PRIMARY_API_URL;
+
+export function getActiveApiUrl(): string {
+  return activeApiUrl;
+}
+
+export function setActiveApiUrl(url: string): void {
+  activeApiUrl = url.replace(/\/+$/, '');
+}
 
 export class ApiError extends Error {
   status: number;
@@ -38,13 +50,14 @@ export class ApiError extends Error {
   }
 }
 
-async function fetchWithRetry<T>(
+async function executeFetch<T>(
+  baseUrl: string,
   endpoint: string,
   options: RequestInit = {},
   retries: number = 3,
   backoffMs: number = 1000
 ): Promise<T> {
-  const url = `${API_BASE_URL}${endpoint}`;
+  const url = `${baseUrl}${endpoint}`;
 
   for (let attempt = 0; attempt <= retries; attempt++) {
     try {
@@ -77,7 +90,6 @@ async function fetchWithRetry<T>(
         err.message?.includes('Failed to fetch');
 
       if (isNetworkError && !isLastAttempt) {
-        // Sleep with exponential backoff for backend cold start
         await new Promise((resolve) => setTimeout(resolve, backoffMs * Math.pow(2, attempt)));
         continue;
       }
@@ -99,6 +111,25 @@ async function fetchWithRetry<T>(
   }
 
   throw new ApiError('Maximum retry attempts exceeded', 500);
+}
+
+async function fetchWithRetry<T>(
+  endpoint: string,
+  options: RequestInit = {},
+  retries: number = 3,
+  backoffMs: number = 1000
+): Promise<T> {
+  try {
+    return await executeFetch<T>(activeApiUrl, endpoint, options, retries, backoffMs);
+  } catch (err: any) {
+    // If active backend is custom/primary and fails, failover to original backup backend
+    if (activeApiUrl !== FALLBACK_API_URL && (err.isColdStart || err.status >= 500)) {
+      console.warn(`[AIRS] Primary backend (${activeApiUrl}) unreachable. Switching back to original backend: ${FALLBACK_API_URL}`);
+      activeApiUrl = FALLBACK_API_URL;
+      return await executeFetch<T>(FALLBACK_API_URL, endpoint, options, retries, backoffMs);
+    }
+    throw err;
+  }
 }
 
 export const api = {

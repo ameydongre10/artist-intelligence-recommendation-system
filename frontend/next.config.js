@@ -5,7 +5,7 @@ const basePath = process.env.NEXT_PUBLIC_BASE_PATH !== undefined
   : (isProd ? '/artist-intelligence-recommendation-system' : '');
 
 const defaultApiUrl = isProd
-  ? 'https://artist-intelligence-recommendation-system.onrender.com'
+  ? 'https://artist-intelligence-recommendation-system-hhdt.onrender.com'
   : 'http://127.0.0.1:8000';
 
 const apiBaseUrl =
