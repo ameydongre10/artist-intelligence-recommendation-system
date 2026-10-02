@@ -6,6 +6,12 @@ from src.api.data_service import DataService, get_data_service
 router = APIRouter(tags=["Health & System"])
 
 
+@router.get("/health", summary="Minimal health check endpoint")
+def minimal_health() -> Dict[str, str]:
+    """Minimal liveness health endpoint."""
+    return {"status": "ok"}
+
+
 @router.get("/api/health", summary="Health check endpoint")
 def health_check() -> Dict[str, str]:
     """Returns application liveness and health status."""

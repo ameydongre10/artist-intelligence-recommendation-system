@@ -30,6 +30,14 @@ def test_health_endpoint():
     assert data["service"] == "artist-intelligence-api"
 
 
+def test_minimal_health_endpoint():
+    """Verify /health returns minimal ok status for monitoring and deployment probes."""
+    response = client.get("/health")
+    assert response.status_code == 200
+    data = response.json()
+    assert data["status"] == "ok"
+
+
 def test_system_status_endpoint():
     """Verify /api/system/status confirms all processed artifacts are ready."""
     response = client.get("/api/system/status")
