@@ -145,7 +145,8 @@ In strict accordance with the Stage 3 assessment scope boundaries:
 > **Note on Frontend & Deployment:** The original assignment explicitly prioritizes the decision system and evidence pipeline. The web interface and cloud deployment below are **optional inspection layers** provided solely to facilitate interactive exploration of the evidence records, score breakdowns, trade-offs, and re-ranking dynamics.
 
 - **Live Web Console (GitHub Pages):** [https://ameydongre10.github.io/artist-intelligence-recommendation-system/](https://ameydongre10.github.io/artist-intelligence-recommendation-system/)
-- **Production Backend API (Render):** [https://artist-intelligence-api.onrender.com](https://artist-intelligence-api.onrender.com)
+- **Primary Backend API (Render):** [https://artist-intelligence-recommendation-system-hhdt.onrender.com](https://artist-intelligence-recommendation-system-hhdt.onrender.com)
+- **Backup Backend API (Automatic Failover):** [https://artist-intelligence-recommendation-system.onrender.com](https://artist-intelligence-recommendation-system.onrender.com)
 - **Source Code Repository:** [https://github.com/ameydongre10/artist-intelligence-recommendation-system](https://github.com/ameydongre10/artist-intelligence-recommendation-system)
 
 ---
